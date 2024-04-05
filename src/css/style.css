@@ -1,0 +1,285 @@
+/**
+ * Copyright (c) 2024 Vanza Setia
+ *
+ * This file is part of Vanza Setia's Personal Website.
+ *
+ * Vanza Setia's Personal Website is licensed under the MIT License (Expat License).
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+/**
+ * This stylesheet aims to rely on the user-agent stylesheet as much as possible.
+ */
+
+:root {
+  --dark-color: #222;
+  --light-color: #ddd;
+  --font-sans-serif: "Open Sans", "Segoe UI", sans-serif;
+  --font-serif: Merriweather, Georgia, serif;
+  --font-monospace: Consolas, monospace;
+  --text-size-base: clamp(1rem, calc(0.901rem + 0.495vw), 1.3rem);
+  --user-agent-block-space: 1em;
+  --default-block-space: var(--user-agent-block-space);
+  --default-border: 0.06rem solid currentColor;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+body {
+  font-size: var(--text-size-base);
+  font-family: var(--font-serif);
+  line-height: 1.6;
+  margin: 0;
+  letter-spacing: 0.01ch;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+  }
+}
+
+:focus {
+  outline: 0.3rem solid currentColor;
+  outline-offset: 0.2em;
+}
+
+[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-sans-serif);
+  letter-spacing: -0.05ch;
+  margin-block-end: 0;
+  line-height: 1.1;
+  margin-block-start: 2em;
+}
+
+[href] {
+  color: currentColor;
+  text-decoration-thickness: 0.07em;
+  text-underline-offset: 0.3em;
+}
+
+header [href*="/"] {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin-block-start: 0;
+}
+
+li {
+  margin-top: 0.5rem;
+}
+
+kbd,
+code {
+  font-family: var(--font-monospace);
+  overflow-wrap: break-word;
+}
+
+code {
+  opacity: 0.8;
+}
+
+kbd {
+  border: 0.04rem solid currentColor;
+  box-shadow:
+    0.03rem 0.03rem 0 currentColor,
+    0.05rem 0.05rem 0 currentColor;
+  border-radius: 0.1em;
+  padding-block: 0.01em;
+  padding-inline: 0.5em;
+  font-size: 0.85em;
+}
+
+pre {
+  display: block;
+  width: 100%;
+  border: 0.3rem solid currentColor;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+pre code {
+  opacity: 1;
+}
+
+hr {
+  box-sizing: content-box;
+  color: inherit;
+  height: 0;
+}
+
+blockquote:not([class]) {
+  border-inline-start: 0.3em solid currentcolor;
+  margin-inline: 0px;
+  padding-inline-start: 1.5em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  border: var(--default-border);
+  padding: 0.5rem;
+}
+
+th {
+  font-family: var(--font-sans-serif);
+}
+
+table > caption {
+  font-weight: 700;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-block: var(--default-block-space);
+}
+
+main {
+  margin-block: 4em;
+}
+
+header {
+  font-family: var(--font-sans-serif);
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  border-block: var(--default-border);
+}
+
+header ul {
+  text-align: left;
+  border-inline: var(--default-border);
+  margin-block: 0;
+  padding: 2rem 4rem;
+}
+
+footer {
+  font-size: 1rem;
+  padding-block: 1rem;
+  border-block-start: var(--default-border);
+}
+
+footer p {
+  max-width: 70ch;
+}
+
+.wrap {
+  max-width: 55rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.flow > * {
+  margin: 0;
+}
+
+.flow > * + * {
+  margin-block-start: var(--default-block-space);
+}
+
+.note {
+  padding: 1.5rem;
+  border: 0.15rem dashed currentColor;
+  margin-block: var(--default-block-space);
+}
+
+.note__title {
+  padding-block-end: 0.5em;
+  margin-block-end: 0.5em;
+  border-block-end: var(--default-border);
+}
+
+.note__title em {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.box {
+  border-block: 0.2rem solid currentColor;
+  outline: var(--default-border);
+  outline-offset: -0.5rem;
+  margin-inline: 0;
+  padding: 1rem;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+@media print {
+  body {
+    background-color: initial;
+    color: initial;
+  }
+
+  header {
+    display: none;
+  }
+
+  main {
+    margin-block-start: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  .note,
+  pre {
+    break-inside: avoid;
+  }
+
+  pre code {
+    white-space: pre-wrap;
+  }
+}
+
+@page wide {
+  size: a4 portrait;
+}

@@ -1,0 +1,4 @@
+npm run format
+npm run build
+npm run check-links
+npm run validate-html

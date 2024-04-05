@@ -1,0 +1,35 @@
+{# 
+MIT License
+
+Copyright (c) 2024 Vanza Setia
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+#}
+
+<footer>
+  <div class="flow wrap">
+    <p>
+      Subscribe to the <a href="/feed.xml">RSS feed</a>. Please send your comments or report any issues you find to <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
+    </p>
+    <p>The <a href="{{ site.repository }}">source code of this website</a> is licensed under <a href="{{ site.repository }}blob/main/LICENSE">the MIT License (Expat License)</a>.</p>
+    <p>Copyright © {{ copyrightYear }} Vanza Setia.</p>
+    <p class="margin-0">This page is licensed under a <a href="{{ license.url or site.defaultLicense.url }}" rel="license">{{ license.name or site.defaultLicense.name }}</a>. All code samples are licensed under <a href="{{ site.repository }}blob/main/LICENSE-SAMPLECODE">the MIT No Attribution License (MIT-0)</a>.</p>
+    <p><a href="/blog/website-does-not-track-you/">This website does not track you</a>. <a href="/blog/no-javascript/">No JavaScript</a>. <a href="#header">Back to top</a>.</p>
+  </div>
+</footer>

@@ -1,0 +1,14 @@
+{
+  "title": "Vanza Setia's Personal Website",
+  "url": "https://vanzasetia.xyz",
+  "description": "A place on the internet where I can write blog posts.",
+  "author": {
+    "name": "Vanza Setia",
+    "email": "vanzasetia@proton.me"
+  },
+  "defaultLicense": {
+    "name": "Creative Commons Attribution NoDerivatives 4.0 International License",
+    "url": "https://creativecommons.org/licenses/by-nd/4.0/"
+  },
+  "repository": "https://github.com/vanzasetia/personal-website/"
+}

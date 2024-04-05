@@ -1,0 +1,15 @@
+---
+layout: layouts/general.njk
+title: Blog
+description: A list of all blog posts grouped by category, from newest to oldest.
+eleventyNavigation:
+  key: Blog
+  order: 2
+copyrightYear: 2024
+---
+
+{% for tag in collections.all | tagListFilter | filteredTagFilter %}
+	<h2 style="text-transform: capitalize">{{ tag }}</h2>
+	{% set blogList = collections[ tag ] %}
+  {% include "blog/list.njk" %}
+{% endfor %}

@@ -1,0 +1,5 @@
+---
+permalink: /style.css
+eleventyExcludeFromCollections: true
+---
+{% set css %}{% include "./style.css" %}{% endset %}{{ css | cleanCSSFilter | safe }}
