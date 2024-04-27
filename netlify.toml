@@ -3,7 +3,7 @@
 	command = "npm run build"
 
 [[redirects]]
-	from = "/"
+	from = "https://vanzasetia.netlify.app/"
 	to = "https://vanzasetia.xyz/"
 	status = 301
 	force = true
