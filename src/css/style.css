@@ -112,7 +112,16 @@ code {
 }
 
 code {
-  opacity: 0.8;
+  background-color: var(--light-color);
+  padding: 0.1em 0.2em;
+  border-radius: 0.2em;
+  white-space: break-spaces;
+}
+
+@media (prefers-color-scheme: dark) {
+  code {
+    background-color: #333;
+  }
 }
 
 kbd {
@@ -135,7 +144,10 @@ pre {
 }
 
 pre code {
-  opacity: 1;
+  background-color: initial;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
 }
 
 hr {
