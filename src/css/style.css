@@ -29,7 +29,8 @@
  */
 
 :root {
-  --dark-color: #222;
+  --dark-color-20: #222;
+  --dark-color-10: #333;
   --light-color: #ddd;
   --font-sans-serif: "Open Sans", "Segoe UI", sans-serif;
   --font-serif: Merriweather, Georgia, serif;
@@ -60,7 +61,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: var(--dark-color);
+    background-color: var(--dark-color-20);
     color: var(--light-color);
   }
 }
@@ -120,7 +121,7 @@ code {
 
 @media (prefers-color-scheme: dark) {
   code {
-    background-color: #333;
+    background-color: var(--dark-color-10);
   }
 }
 
