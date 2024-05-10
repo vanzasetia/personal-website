@@ -32,9 +32,6 @@
   --dark-color-20: #222;
   --dark-color-10: #333;
   --light-color: #ddd;
-  --font-sans-serif: "Open Sans", "Segoe UI", sans-serif;
-  --font-serif: Merriweather, Georgia, serif;
-  --font-monospace: Consolas, monospace;
   --text-size-base: clamp(1rem, calc(0.901rem + 0.495vw), 1.3rem);
   --user-agent-block-space: 1em;
   --default-block-space: var(--user-agent-block-space);
@@ -53,7 +50,6 @@
 
 body {
   font-size: var(--text-size-base);
-  font-family: var(--font-serif);
   line-height: 1.6;
   margin: 0;
   letter-spacing: 0.01ch;
@@ -78,7 +74,6 @@ body {
 h1,
 h2,
 h3 {
-  font-family: var(--font-sans-serif);
   letter-spacing: -0.05ch;
   margin-block-end: 0;
   line-height: 1.1;
@@ -108,7 +103,6 @@ li {
 
 kbd,
 code {
-  font-family: var(--font-monospace);
   overflow-wrap: break-word;
 }
 
@@ -175,10 +169,6 @@ td {
   padding: 0.5rem;
 }
 
-th {
-  font-family: var(--font-sans-serif);
-}
-
 table > caption {
   font-weight: 700;
 }
@@ -193,7 +183,6 @@ main {
 }
 
 header {
-  font-family: var(--font-sans-serif);
   text-align: center;
 }
 
