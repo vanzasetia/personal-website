@@ -79,6 +79,7 @@ module.exports = (config) => {
     templateFormats: ["md", "njk", "html"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
+    templateEngineOverride: "njk",
     dir: {
       input: "./src",
       includes: "_includes",
