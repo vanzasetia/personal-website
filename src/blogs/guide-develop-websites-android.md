@@ -418,7 +418,7 @@ Next, you can try using it by following these steps:
 
 If you successfully run the bookmarklet, you will see a pop-up that says, "Bookmarklet is working."
 
-Going back to Eruda, you can create a bookmarklet for Eruda to run on this website by following the same steps. The only different thing is the URL or the JavaScript code.
+Going back to Eruda, you can create a bookmarklet for Eruda to run on this website by following the same steps. The only different thing is the JavaScript code.
 
 You can find the JavaScript code for the Eruda bookmarklet on GitHub, [liriliri/eruda](https://github.com/liriliri/eruda).
 
