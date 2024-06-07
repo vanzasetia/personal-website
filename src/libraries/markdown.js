@@ -26,11 +26,49 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItKbd = require("markdown-it-kbd");
 const markdownItContainer = require("markdown-it-container");
+const markdownItFootnote = require("markdown-it-footnote");
 const slugify = require("@sindresorhus/slugify");
 
 const rules = {
   table_close: () => "</table>\n</div>",
-  table_open: () => '<div class="table-wrapper">\n<table>\n'
+  table_open: () => '<div class="table-wrapper">\n<table>\n',
+  footnote_caption: (tokens, idx) => {
+    let n = Number(tokens[idx].meta.id + 1).toString();
+
+    if (tokens[idx].meta.subId > 0) n += `:${tokens[idx].meta.subId}`;
+
+    return `note ${n}`;
+  },
+  footnote_ref: (tokens, idx, options, env, slf) => {
+    const id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
+    const caption = slf.rules.footnote_caption(tokens, idx, options, env, slf);
+    let refid = id;
+
+    if (tokens[idx].meta.subId > 0) refid += `:${tokens[idx].meta.subId}`;
+
+    return `<sup><a href="#fn${id}" id="fnref${refid}" role="doc-noteref">${caption}</a></sup>`;
+  },
+  footnote_block_open: () =>
+    "<hr>\n" +
+    '<section aria-labelledby="footnotes">\n' +
+    /* Prevent the "Footnotes" from appearing in the table of contents. */
+    '<p id ="footnotes" role="heading" aria-level="2">Footnotes</p>\n' +
+    "<ol>\n",
+  footnote_block_close: () => "</section></ol>",
+  footnote_anchor: (tokens, idx, options, env, slf) => {
+    let id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
+
+    if (tokens[idx].meta.subId > 0) refid += `:${tokens[idx].meta.subId}`;
+
+    return ` <a href="#fnref${id}">Back to reference ${id}</a>`;
+  },
+  footnote_open: (tokens, idx, options, env, slf) => {
+    let id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
+
+    if (tokens[idx].meta.subId > 0) refid += `:${tokens[idx].meta.subId}`;
+
+    return `<li id="fn${id}" tabindex="-1">`;
+  }
 };
 
 const noteStructure = {
@@ -72,6 +110,7 @@ const blockquoteBoxStructure = {
 const markdown = markdownIt()
   .use(markdownItAnchor)
   .use(markdownItKbd)
+  .use(markdownItFootnote)
   .use(markdownItContainer, "note", noteStructure)
   .use(markdownItContainer, "blockquote-box", blockquoteBoxStructure);
 

@@ -10,6 +10,12 @@
         "minInitialRank": "h1"
       }
     ],
+    "prefer-native-element": [
+      "error",
+      {
+        "exclude": ["heading"]
+      }
+    ],
     "no-redundant-role": ["warn"],
     "no-trailing-whitespace": ["off"],
     "no-raw-characters": ["off"],
