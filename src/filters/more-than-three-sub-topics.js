@@ -24,7 +24,7 @@
 
 module.exports = (content) => {
   const headingTwoRegEx =
-    /<h2 id="[\S]{0,}" tabindex="-1">[\d\w\s?]{0,}<\/h2>/g;
+    /<h2 id="[\S]{0,}" tabindex="-1">[\d\w\s?&;]{0,}<\/h2>/g;
   const headingTwoElements = content.match(headingTwoRegEx);
 
   if (Array.isArray(headingTwoElements) && headingTwoElements.length >= 3) {
