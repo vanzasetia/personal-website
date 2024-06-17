@@ -103,7 +103,7 @@ Second, update the existing packages that already exist on Termux.
 pkg upgrade
 ```
 
-You will get a question of whether you want to continue. Read the output. I recommend continuing by typing "Y".
+You will get a question of whether you want to continue. Read the output. I recommend continuing by typing `Y`.
 
 Then, you will get some questions like the following:
 
@@ -161,7 +161,7 @@ Now, if you want to know where you are, execute `pwd` command.
 
 That is my output. Yours might be different and that is okay.
 
-Next, let us move to a shared folder. A shared folder is your internal storage. The internal storage may contain folders such as *DCIM* and *Downloads*. Now, to move to a different folder, you need `cd` command.
+Next, let us move to a shared folder. A shared folder is your internal storage. The internal storage may contain folders such as `DCIM` and `Downloads`. Now, to move to a different folder, you need `cd` command.
 
 ```bash
 cd storage/shared
@@ -179,7 +179,7 @@ Create a folder named "test":
 mkdir test
 ```
 
-Now, get inside the "test" folder.
+Now, get inside the `test` folder.
 
 Then, create an `index.html` file:
 
@@ -187,7 +187,7 @@ Then, create an `index.html` file:
 touch index.html
 ```
 
-You can create a folder named "test", get inside it, and create an `index.html` at the same by using an *and* operator (`&&`).
+You can create a folder named "test," get inside it, and create an `index.html` at the same by using an *and* operator (`&&`).
 
 ```bash
 mkdir test && cd test && touch index.html
@@ -249,7 +249,7 @@ These video tutorials can help you to learn more about Git.
 
 I find two issues that those tutorials are not going to cover. I am going to give you the solutions to those issues.
 
-First, after you execute `git init` command without setting up a default branch, you will get a long output. It is going to tell you that your default branch name is "master". I recommend changing your default branch name to "main". The term *master* can be problematic because it refers to a master (the owner of your repository) and slaves (other people who contribute to your repository).
+First, after you execute `git init` command without setting up a default branch, you will get a long output. It is going to tell you that your default branch name is `master`. I recommend changing your default branch name to `main`. The term "master" can be problematic because it refers to a master (the owner of your repository) and slaves (other people who contribute to your repository).
 
 ```bash
 git config --global init.defaultBranch main
@@ -407,7 +407,7 @@ Follow these steps to create a bookmarklet:
 1. Bookmark a new tab.
 1. Edit the new bookmark.
 1. Fill the URL input with `javascript:alert("Bookmarklet is working")`.
-1. (Optional) Change the bookmark name to "Test Bookmarklet".
+1. (Optional) Change the bookmark name to `Test Bookmarklet`.
 
 Next, you can try using it by following these steps:
 
