@@ -93,3 +93,9 @@ Now, some people use the term "piracy" or "bajakan" to demonize sharing. Sharing
 So I do not use those terms in both languages to refer to sharing. I use the term "unauthorized copy," or in the Indonesian language it is "salinan tidak sah."
 
 Why do I call it an unauthorized copy? Because I do not get the authority from the publisher to share the work. If I still share the work without permission, I do not want to be called a pirate. I do not do robbery or criminal violence by ship. I do not kill anybody. I am not even on the sea.
+
+## "Bebas" and "free"
+
+In English, "free" has two meanings: zero price and free as in freedom. The Indonesian language has "gratis" for zero price and "bebas" for free as in freedom. Indonesian has a unique term for each meaning of "free." One more point for the Indonesian language!
+
+I adopt Richard Stallman's idea of using "free" in the sense of freedom and "gratis" when referring to zero price.
