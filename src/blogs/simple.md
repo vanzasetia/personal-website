@@ -28,8 +28,6 @@ Oh, I just realized that KIS is not simple enough. It contains three words: "Kee
 
 S is the simplest thing which stands for Simple—one letter for one word.
 
-To wrap up, we start from KISS, which turned out to be long and not simple. In the end, we know that S is the real principle.
-
 Yup, simple.
 
 Not really.
