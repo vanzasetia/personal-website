@@ -12,7 +12,11 @@ license:
 
 Use text whenever possible. Text is the fastest thing to render.
 
-Avoid images whenever possible. If you need to use images, make sure you optimize them by reducing the size of them. [Squoosh](https://squoosh.app/) can help you to optimize your images.
+Avoid images whenever possible. If you need to use images, make sure you optimize them by reducing the size of them. Squoosh can help you to optimize your images.
+
+::: note Run Squoosh locally
+Download the source code through GitHub: [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh). Then, remove Google Analytics to prevent Google from tracking you. Then, run it locally.
+:::
 
 Avoid third-party code whenever possible. The production code is 100% your code. Third-party may contain a lot of stuff that your website does not use.
 
