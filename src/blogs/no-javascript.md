@@ -23,7 +23,7 @@ You may not experience lag while browsing the website.
 
 ## About the notice
 
-As the author of this notice, I can not guarantee whether the website has no JavaScript at all. I make this notice and related information available on an "as-is" basis. I give no warranties regarding the notice. I disclaim all liability for damages resulting from its use to the fullest extent possible.
+As the author of this notice, I can not guarantee whether the website has no JavaScript at all. I make this notice and related information available on an "as-is" basis. I give no warranties for it. I disclaim all liability for damages resulting from its use to the fullest extent possible.
 
 ## Considerations for the webmaster
 

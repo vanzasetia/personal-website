@@ -10,7 +10,7 @@ Note: This blog post is the extra rules for the "Word choice" in the [style guid
 
 ## "Allah" and "God"
 
-The term "Allah" is used because the Indonesian language follows the standardized forms of the Malay language which uses "Allah" to refer to God. ^[[Allah - Wikipedia, "Malaysian and Indonesian language"](https://en.wikipedia.org/wiki/Allah#Malaysian_and_Indonesian_language).] In the past, the Malay language developed under the Islamic literature. ^[[Malay Language - Wikipedia, "History"](https://en.wikipedia.org/wiki/Malay_language#History).] That is why the Indonesian language uses "Allah" to refer to God.
+The term "Allah" is used because the Indonesian language follows the standardized forms of the Malay language which uses "Allah" to refer to God. ^[[Allah - Wikipedia, "Malaysian and Indonesian language."](https://en.wikipedia.org/wiki/Allah#Malaysian_and_Indonesian_language)] In the past, the Malay language developed under the Islamic literature. ^[[Malay Language - Wikipedia, "History."](https://en.wikipedia.org/wiki/Malay_language#History)] That is why the Indonesian language uses "Allah" to refer to God.
 
 The term "Allah" creates confusion for the Muslims. That term is never used in the English translation of the bible. But, in Indonesian translation, "Allah" is used interchangeably with the words "Tuhan" (God) and "Bapa" (Father). As a result, some Indonesian Muslims think that Christians worship the same God.
 

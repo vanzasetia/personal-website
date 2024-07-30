@@ -19,4 +19,4 @@ A long journey begins with a short step, a single step to be precise. Why do peo
 
 Now, a single step is essential. You need to start, but you need to start by completing a single step. For example, if your goal is to write a thousand blog posts, you need to start with writing a blog post. If you just finished writing a draft, you are still completing your first step toward your goal. Your first step is completed when you publish your first blog post.
 
-So, you need to start small, one step at a time. If you do less than one step, you have not started yet. You actually need to do one step at a time.
+So, you need to start small, one step at a time. If you do less than one step, you have not started yet. You really need to do one step at a time.

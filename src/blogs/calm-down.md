@@ -5,7 +5,7 @@ tags: opinion
 copyrightYear: 2024
 ---
 
-There is no need to be so tense while reading this.
+No need to be so tense while reading this.
 
 You do not have to be happy all the time.
 

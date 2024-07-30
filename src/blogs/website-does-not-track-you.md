@@ -7,7 +7,7 @@ copyrightYear: 2024
 
 I do not want a website to track me. I also want to treat you like that.
 
-I want you to know that I care about your privacy with a simple notice: This website does not track you.
+I want you to know that I care about your privacy with a simple notice: this website does not track you.
 
 I have three reasons to add that notice:
 
