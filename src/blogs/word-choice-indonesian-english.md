@@ -20,7 +20,7 @@ As a result, I avoid using the term "Allah" when referring to my God, Jesus Chri
 
 ## "Kristen" and "Christian"
 
-In Indonesia, when a person says the word "Kristen," some people think that it refers to the Christian Protestant. Some Indonesian people think that "Christian" is Christian Protestant. That is wrong.
+In Indonesia, when a person says the word "Kristen," some people think that it refers to the Protestant Christian. Some Indonesian people think that "Christian" is Protestant Christian. That is wrong.
 
 The fact is that anyone who believes Jesus is God is a Christian—regardless of whether the person is following Catholicism or [Protestantism](https://en.wikipedia.org/wiki/Protestantism).
 
@@ -28,9 +28,9 @@ The fact is that anyone who believes Jesus is God is a Christian—regardless of
 Indonesian government only recognizes two Christianities: Catholicism and Protestantism.
 :::
 
-I heard that some people in the United States also think that "Christian" means a Christian Protestant. Of course, they are wrong.
+I heard that some people in the United States also think that "Christian" means a Protestant Christian. Of course, they are wrong.
 
-So, the word "Kristen" is used to mention both a Christian Catholic and a Christian Protestant in Indonesia. In the US, the term "Christian" refers to all people who believe in Jesus.
+So, the word "Kristen" is used to mention both a Catholic Christian and a Protestant Christian in Indonesia. In the US, the term "Christian" refers to all people who believe in Jesus.
 
 ## "Pemanasan global" and "global warming"
 
