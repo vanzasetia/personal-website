@@ -18,7 +18,7 @@ I have proven that making a responsive website on Android is possible. You can n
 
 ## Note
 
-This blog post focuses on front-end web development. But you can still get some helpful information to get started with other programming journeys.
+This blog post focuses on frontend web development. But you can still get some helpful information to get started with other programming journeys.
 
 This blog post is going to cover the basics of using certain tools. To learn more, I have provided links to help you learn about the specific tool.
 
@@ -50,7 +50,7 @@ I recommend using Acode as your main code editor to get started.
 
 ### My opinions about Spck Code Editor
 
-I used Spck Code Editor (or Spck for short) because I wanted to find a code editor that has a smart completion for JavaScript like Visual Studio Code (VS Code).
+I used Spck Code Editor (or Spck for short) because I wanted to find a code editor with a smart completion for JavaScript like Visual Studio Code (VS Code).
 
 I try Spck version 8.0.8.0 which is the latest version on Google Play Store while I am updating this blog post. I do not have anything to say. It has received updates. But they are not as big as Acode.
 
@@ -292,7 +292,7 @@ A video tutorial to learn a bit about npm: [What is NPM, and why do we need it? 
 Your workflow to make a website with Acode and Termux is the following:
 
 1. Create a project on Acode: Make a folder. Create files. Write some code.
-1. View what you have done on Acode with live-server: Open Termux. Move to the folder of your *working directory* (a folder that contains an `index.html` file). Execute `live-server .` (with a dot at the end).
+1. View what you have done on Acode with live-server: Open Termux. Move to the folder of your *working directory* (a folder with an `index.html` file). Execute `live-server .` (with a dot at the end).
 1. Make your working directory a git repository: Open Termux. Execute `git init`.
 1. Keep writing code until you are done.
 1. Upload your project to a remote repository (online Git repository): Open Termux. Stage all the changes that you have made. Create your first commit. Add a Git remote URL (Uniform Resource Locator). Push all the changes and files to your remote repository.
@@ -398,7 +398,7 @@ Eruda is an embedded developer tool. You can have a developer tool on your mobil
 
 To use it, you need to create a bookmarklet. Now, what is a bookmarklet?
 
-> A bookmarklet is a bookmark stored in a web browser that contains JavaScript commands that add new features to the browser.
+> A bookmarklet is a bookmark stored in a web browser with JavaScript commands that add new features to the browser.
 
 —[Bookmarklet - Wikipedia](https://en.wikipedia.org/wiki/Bookmarklet)
 

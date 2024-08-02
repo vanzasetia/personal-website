@@ -46,7 +46,7 @@ As a side note, in this case, the Indonesian language coins the correct term whe
 
 ## "Perubahan iklim" and "climate change"
 
-The term "perubahan iklim" has the same meaning as the term "climate change." They both refer to the global heating phenomenon. But they do not acknowledge the phenomenon as a bad thing.
+The term "perubahan iklim" has the same meaning as the term "climate change." Both refer to the global heating phenomenon. But they do not recognize the phenomenon as a bad thing.
 
 > The only constant is change.
 
@@ -62,7 +62,7 @@ Copyright law is a set of rules that grants the owner of a work the right to sel
 
 Indonesia is following the [Berne Convention](https://en.wikipedia.org/wiki/Berne_Convention) for its copyright law. This means that copyright law in Indonesia is more or less the same as in many other countries, such as the United States.
 
-Now, the term "copyright" comes from two words: "copy" and "right." "Copy" means to reproduce an original. "Right" means the authority to do something. So copyright means the authority to reproduce an original work.
+Now, the term "copyright" comes from two words: "copy" and "right." "Copy" means to reproduce an original. "Right" means the right to do something. So copyright means the right to reproduce an original work.
 
 In the Indonesian language, the term "hak cipta" is used to refer to copyright law. The word "hak" has the same meaning as "right" in English. But the word "cipta" has a completely different meaning from "copy." The word "cipta" is the same as "create" in English in the following sentence: God creates the world.
 
@@ -92,7 +92,7 @@ Now, some people use the term "piracy" or "bajakan" to demonize sharing. Sharing
 
 So I do not use those terms in both languages to refer to sharing. I use the term "unauthorized copy," or in the Indonesian language it is "salinan tidak sah."
 
-Why do I call it an unauthorized copy? Because I do not get the authority from the publisher to share the work. If I still share the work without permission, I do not want to be called a pirate. I do not do robbery or criminal violence by ship. I do not kill anybody. I am not even on the sea.
+Why do I call it an unauthorized copy? Because I do not have the permission to share the work from the publisher. If I still share the work without permission, I do not want to be called a pirate. I do not do robbery or criminal violence by ship. I do not kill anybody. I am not even on the sea.
 
 ## "Bebas" and "free"
 

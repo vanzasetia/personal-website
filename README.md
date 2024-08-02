@@ -26,7 +26,7 @@ SOFTWARE.
 
 A minimal website that is built with [Eleventy](https://11ty.dev/).
 
-I use Windows Terminal with Command Prompt to develop the website. The source code works well if you have the same environment as I do. If you are in a different environment, you may need to adjust something. (I am neither endorsing Windows Terminal nor Command Prompt.)
+I use Windows Terminal with Command Prompt in Windows 10 to develop the website. The source code works well if you have the same environment as I do. If you are in a different environment, you may need to adjust something. (I am neither endorsing Windows Terminal nor Command Prompt nor Windows 10.)
 
 ## Setup
 

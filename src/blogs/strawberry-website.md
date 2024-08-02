@@ -10,7 +10,7 @@ license:
 
 Strawberry website is only beautiful on specific screen sizes. When the user has a different screen size or resizes the browser window, the website has problems. It is not fully responsive.
 
-Strawberry website contains amazing graphics. But it is slow to load.
+Strawberry website has amazing graphics. But it is slow to load.
 
 Strawberry website depends on JavaScript too much. It has incredible functionality. But, when the JavaScript fails to load, it can not show anything. It becomes a blank page.
 
