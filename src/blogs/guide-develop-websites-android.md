@@ -89,7 +89,7 @@ You can read the official notice from the [installation page from Termux Wiki](h
 
 ### Set up Termux
 
-The first time you open Termux, you will see a notice that it is installing something. Then, you will see a welcome text: Welcome to Termux!
+The first time you open Termux, you will see a notice that it is installing something. Then, you will see a welcome text: "Welcome to Termux!"
 
 To set up Termux, first allow it to access your storage. You only need to do this once. Execute the following command by typing it and enter it:
 

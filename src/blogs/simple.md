@@ -12,7 +12,7 @@ license:
 
 —Confucius
 
-I would say: Website is simple, but developers insist on making it complicated.
+I would say: "Website is simple, but developers insist on making it complicated."
 
 Do you know KISS? KISS stands for Keep It Simple and Short. But, KISS is not short.
 
