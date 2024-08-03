@@ -24,7 +24,7 @@ KIS is better than KISS because
 - KISS can be a valid English word which can lead to misunderstanding; and
 - "short" does not necessarily mean simple.
 
-Oh, I just realized that KIS is not simple enough. It contains three words: "Keep," "It," and "Simple." Those can be hard for people to understand.
+Wait. KIS is not simple enough. It has three words: "Keep," "It," and "Simple." Those can be hard for people to understand.
 
 S is the simplest thing which stands for Simple—one letter for one word.
 
