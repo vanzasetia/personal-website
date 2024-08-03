@@ -34,6 +34,6 @@ Write as little CSS as possible. Keep your design as simple as possible. For a p
 
 Do not use decorative images. They are the reasons why a website can have a heavy page weight. They are also practically useless.
 
-Do not use custom fonts. They can be heavier than a page on your website. You should not use them if you want to have a light website. I recommend visiting the "[Modern Font Stacks](https://modernfontstacks.com/)" to see a list of local fonts. Another option is not to set any `font-family`. Let the users choose the fonts.
+Do not use custom fonts. They can be heavier than a page on your website. You should not use them if you want to have a light website. Visit the "[Modern Font Stacks](https://modernfontstacks.com/)" to see a list of local fonts. Another option is not to set any `font-family`. Let the users choose the fonts.
 
 Do not add animations and transitions. Do not add a hover effect. Transitions and animations can cause lags. They can also create unnecessary delays. When a user needs to wait for the animation before the text appears, it is a waste of time.

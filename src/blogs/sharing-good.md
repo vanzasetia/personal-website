@@ -21,4 +21,4 @@ The copyright law must legalize sharing. All people must be allowed to make copi
 
 Also, do you know the purpose of copyright law? Copyright law exists to promote the progress of art and science. Sharing copies of any works does that well. The purpose is intended for the benefit of the public. If the law starts doing the opposite, which is attacking the public, it becomes wrong.
 
-I recommend refusing the term "piracy" to refer to sharing. That term is used to demonize sharing. Sharing is not morally equal to attacking a ship. Sharing is good and can be fun.
+Refuse the term "piracy" to refer to sharing. That term is used to demonize sharing. Sharing is not morally equal to attacking a ship. Sharing is good and can be fun.

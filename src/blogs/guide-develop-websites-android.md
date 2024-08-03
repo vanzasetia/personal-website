@@ -44,9 +44,9 @@ Here are my experiences when using Acode:
 
 I wish Acode has a smart auto-complete for JavaScript. Until now, Acode still does not have it.
 
-I recommend [installing Acode from F-Droid](https://f-droid.org/en/packages/com.foxdebug.acode/). That way, you get all the features.
+[Install Acode from F-Droid](https://f-droid.org/en/packages/com.foxdebug.acode/). That way, you get all the features.
 
-I recommend using Acode as your main code editor to get started.
+Use Acode as your main code editor to get started.
 
 ### My opinions about Spck Code Editor
 
@@ -69,7 +69,7 @@ Users can not access the following directories:
 
 You can try Spck without installing it by visiting [spck.io/workspace](https://spck.io/workspace). Then, create a new project and choose a template. If you want an empty project, choose the "No Framework" template.
 
-I do not recommend using Spck as your main code editor.
+Do not use Spck as your main code editor.
 
 ## Choose Termux as your terminal
 
@@ -103,7 +103,7 @@ Second, update the existing packages that already exist on Termux.
 pkg upgrade
 ```
 
-You will get a question of whether you want to continue. Read the output. I recommend continuing by typing `Y`.
+You will get a question of whether you want to continue. Continue by typing `Y`.
 
 Then, you will get some questions like the following:
 
@@ -111,7 +111,7 @@ Then, you will get some questions like the following:
 *** motd (Y/I/N/O/D/Z) [default=N] ?
 ```
 
-You can read what each answer means. I recommend going with the default answer for all questions.
+Continue with the default answer for all questions.
 
 Now, your Termux is ready to help you.
 
@@ -217,7 +217,7 @@ touch --help
 
 The last command that I am going to tell you is `clear`. You can use that command to clear all Termux output.
 
-I recommend [learning more commands on the Linux Journey website](https://linuxjourney.com/lesson/the-shell).
+[Learn more commands on the Linux Journey website](https://linuxjourney.com/lesson/the-shell).
 
 ### Install the packages that you need to do web development
 
@@ -249,7 +249,7 @@ These video tutorials can help you to learn more about Git.
 
 I find two issues that those tutorials are not going to cover. I am going to give you the solutions to those issues.
 
-First, after you execute `git init` command without setting up a default branch, you will get a long output. It is going to tell you that your default branch name is `master`. I recommend changing your default branch name to `main`. The term "master" can be problematic because it refers to a master (the owner of your repository) and slaves (other people who contribute to your repository).
+First, after you execute `git init` command without setting up a default branch, you will get a long output. It is going to tell you that your default branch name is `master`. Change your default branch name to `main`. The term "master" can be problematic because it refers to a master (the owner of your repository) and slaves (other people who contribute to your repository).
 
 ```bash
 git config --global init.defaultBranch main
@@ -348,7 +348,7 @@ Follow these tips:
 
 ## Choose one or more browsers
 
-I recommend using both Brave and Firefox.
+Use both Brave and Firefox.
 
 ### The way to use Brave
 
@@ -356,9 +356,9 @@ Brave is an alternative to Google Chrome. Brave helps you disable JavaScript by 
 
 You can find the toggle by tapping the Brave icon. Then, you open the **Advanced Controls** panel. After that, you can toggle the **Block Scripts** menu to disable JavaScript.
 
-Now, I recommend setting up Brave for web development. All you need to do is to set 50% for the **Text Scaling** level. The default text scaling setting is 100% which makes the text bigger than how it should be. That is why you need to reduce it to 50%.
+To set up Brave for web development, you need to set 50% for the **Text Scaling** level. The default text scaling setting is 100% which makes the text bigger than how it should be. That is why you need to reduce it to 50%.
 
-Follow these steps:
+Follow these steps to reduce the **Text Scaling**:
 
 1. Tap three vertical dots (The location is horizontally the same as the address bar).
 1. Tap **Settings** option.
@@ -369,7 +369,7 @@ Your Brave browser is now ready for web development.
 
 ### The way to use Firefox
 
-I recommend using Firefox to help you view your website in different screen sizes. This technique is a hack. That means what you see may not be the same as what other users see. Also, it can be confusing.
+Firefox can help you view your website in different screen sizes. This technique is a hack. That means what you see may not be the same as what other users see. Also, it can be confusing.
 
 Now, whether you are going to use the technique, you need to set up Firefox. By default, Firefox makes the text's size bigger than it should—the same as Brave.
 

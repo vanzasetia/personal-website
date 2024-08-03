@@ -47,7 +47,7 @@ Remove Google Analytics by following these steps:
 
 ## Removing UTM parameters
 
-I also recommend removing all the (Urchin Tracking Module) UTM parameters.
+Remove all the (Urchin Tracking Module) UTM parameters because they are useless. To do that, follow these steps:
 
 1. Open `src/static-build/index.tsx`.
 1. Remove all the UTM parameters. (Do not remove the forward slash. Just remove everything after it.)
