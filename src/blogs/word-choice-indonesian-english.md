@@ -99,3 +99,17 @@ Why do I call it an unauthorized copy? Because I do not have the permission to s
 In English, "free" has two meanings: zero price and free as in freedom. The Indonesian language has "gratis" for zero price and "bebas" for free as in freedom. Indonesian has a unique term for each meaning of "free." One more point for the Indonesian language!
 
 I adopt Richard Stallman's idea of using "free" in the sense of freedom and "gratis" when referring to zero price.
+
+## "Pendapatan pasif" and "passive income"
+
+I disagree that "passive income" means an income that comes passively to a person. The word "passive" is an adjective. It modifies a noun word. In "passive income," the word "passive" modifies "income." It does not change the word "person." Also, the income is the one that actively increases or decreases. The person does not actively do anything in the present moment to get the income.
+
+The definition of the so-called "passive income" focuses on the person's activity. If that is the case, there is no "passive income" and "active income." The reason is that people must work to get any income. Nobody receives an income without doing anything. All income will be called "income," the same as all passengers will be called "passengers"—there are no "active passengers" or "passive passengers"—because they must wait for their transportation and do not work with the traveling agency.
+
+Passive income is an income that must be earned by a person who is doing work. Salary is one example of passive income. If a person does not work, the person will not get any income because the income will not come by itself—it is passive.
+
+Active income is an income that can increase or decrease by itself because a person did some work in the past, and now the person does not need to do the same amount of work as before. For example, real estate investing is one way to get an active income. The person might need to work first to get money to buy real estate. Then, the person can rent or sell the real estate. The value of the real estate, which is the income, can increase or decrease by itself.
+
+I reject the term "passive income" or "pendapatan pasif" to refer to income that can be earned without working. That definition of passive income is misleading as if people can live without doing any work.
+
+I use the term "active income" or "pendapatan aktif" to refer to what most people mistakenly define as "passive income."
