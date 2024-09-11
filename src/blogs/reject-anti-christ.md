@@ -13,4 +13,6 @@ If you are a Christian, do not use the name of our God, Jesus Christ, as a form 
 
 > You shall not take the name of the Lord your God in vain, for the Lord will not hold him guiltless who takes His name in vain. (New King James Version)
 
+If you are a Christian, do not mock other Christians who are not in the same church as you. Do not let the devil divide Christians.
+
 Be aware of the propaganda that people use to hate Jesus. If you are a Christian, reject all the anti-Christ propaganda.
