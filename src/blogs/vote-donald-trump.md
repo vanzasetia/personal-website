@@ -5,7 +5,7 @@ tags: opinion
 copyrightYear: 2024
 ---
 
-If you do not want [to be unburdened by what has been done by Joe Biden and Kamala Harris](https://redirect.invidious.io/watch?v=j6qzYdGwQBY), vote for Donald Trump.
+If you want [to be unburdened by what has been done by Joe Biden and Kamala Harris](https://redirect.invidious.io/watch?v=j6qzYdGwQBY), vote for Donald Trump.
 
 I am not saying that you, the American people, should vote for Trump because he is chosen by God. That is silly. You vote for Donald Trump because he did a great job in the past.
 
