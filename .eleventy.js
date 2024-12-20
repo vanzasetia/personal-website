@@ -25,7 +25,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const tocPlugin = require("eleventy-plugin-toc");
 
 const markdownLibrary = require("./src/libraries/markdown.js");
 
@@ -36,15 +35,9 @@ const htmlDateFilter = require("./src/filters/html-date.js");
 const blogSliceFilter = require("./src/filters/blog-slice.js");
 const tagListFilter = require("./src/filters/tag-list.js");
 const filteredTagFilter = require("./src/filters/filtered-tag.js");
-const moreThanThreeSubTopicsFilter = require("./src/filters/more-than-three-sub-topics.js");
 const markdownItFilter = require("./src/filters/markdown-it.js");
 
 const minifyHTML = require("./src/transformers/minify-html.js");
-
-const tocSettings = {
-  wrapper: false,
-  tags: ["h2", "h3"]
-};
 
 module.exports = (config) => {
   config.addPassthroughCopy("./src/favicons");
@@ -56,7 +49,6 @@ module.exports = (config) => {
   config.addPlugin(pluginRss);
   config.addPlugin(EleventyHtmlBasePlugin);
   config.addPlugin(eleventyNavigationPlugin);
-  config.addPlugin(tocPlugin, tocSettings);
 
   config.setLibrary("md", markdownLibrary);
 
@@ -67,10 +59,6 @@ module.exports = (config) => {
   config.addFilter("blogSliceFilter", blogSliceFilter);
   config.addFilter("tagListFilter", tagListFilter);
   config.addFilter("filteredTagFilter", filteredTagFilter);
-  config.addFilter(
-    "moreThanThreeSubTopicsFilter",
-    moreThanThreeSubTopicsFilter
-  );
   config.addFilter("markdownItFilter", markdownItFilter);
 
   config.addTransform("minifyHTML", minifyHTML);

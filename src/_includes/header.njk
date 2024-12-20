@@ -24,8 +24,7 @@ SOFTWARE.
 
 <header id="header" tabindex="-1">
   <p><a href="#main">Skip to main content</a></p>
-  <nav aria-labelledby="site-navigation">
-    <p id="site-navigation" hidden>Site</p>
+  <nav>
     {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
   </nav>
 </header>

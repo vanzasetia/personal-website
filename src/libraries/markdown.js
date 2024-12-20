@@ -51,8 +51,7 @@ const rules = {
   footnote_block_open: () =>
     "<hr>\n" +
     '<section aria-labelledby="footnotes">\n' +
-    /* Prevent the "Footnotes" from appearing in the table of contents. */
-    '<p id ="footnotes" role="heading" aria-level="2">Footnotes</p>\n' +
+    '<h2 id ="footnotes">Footnotes</h2>\n' +
     "<ol>\n",
   footnote_block_close: () => "</section></ol>",
   footnote_anchor: (tokens, idx, options, env, slf) => {
