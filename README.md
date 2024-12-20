@@ -24,9 +24,9 @@ SOFTWARE.
 
 # Vanza Setia's Personal Website
 
-A minimal website that is built with [Eleventy](https://11ty.dev/).
+A minimal website with [Eleventy](https://11ty.dev/).
 
-I use Windows Terminal with Command Prompt in Windows 10 to develop the website. The source code works well if you have the same environment as I do. If you are in a different environment, you may need to adjust something. (I am neither endorsing Windows Terminal nor Command Prompt nor Windows 10.)
+I use Windows Terminal with Command Prompt in Windows 10 to develop the website. The source code works well on that setup. Different setup means you may need to adjust something. (I am neither endorsing Windows Terminal nor Command Prompt nor Windows 10.)
 
 ## Setup
 
@@ -58,7 +58,7 @@ If you deploy the website to Netlify—assuming that you do not change the [`out
 1. Connect the remote repository with Netlify.
 1. Deploy the website.
 
-You do not need to set a build command because it has been already set in the [.netlify.toml](./netlify.toml) file.
+Do not set a build command because it has been already set in the [.netlify.toml](./netlify.toml) file.
 
 You can use any other services to host the source code and the website.
 
