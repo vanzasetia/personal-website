@@ -30,8 +30,6 @@ import markdownItFootnote from "markdown-it-footnote";
 import slugify from "@sindresorhus/slugify";
 
 const rules = {
-  table_close: () => "</table>\n</div>",
-  table_open: () => '<div class="table-wrapper">\n<table>\n',
   footnote_caption: (tokens, idx) => {
     let n = Number(tokens[idx].meta.id + 1).toString();
 

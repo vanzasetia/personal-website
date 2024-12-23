@@ -178,11 +178,6 @@ table > caption {
   font-weight: 700;
 }
 
-.table-wrapper {
-  overflow-x: auto;
-  margin-block: var(--default-block-space);
-}
-
 main {
   margin-block: 4em;
 }
