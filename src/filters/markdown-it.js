@@ -24,11 +24,11 @@
 
 // This filter is only used in the RSS feed to show the blog's description in it.
 
-const markdownIt = require("markdown-it");
+import markdownIt from "markdown-it";
 
-module.exports = (content) => {
+export default function (content) {
   if (content) {
     return markdownIt().render(content);
   }
   return "";
-};
+}

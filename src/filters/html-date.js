@@ -22,8 +22,8 @@
  * SOFTWARE.
  */
 
-const { DateTime } = require("luxon");
+import { DateTime } from "luxon";
 
-module.exports = (dateObj) => {
+export default function (dateObj) {
   return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
-};
+}

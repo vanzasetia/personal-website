@@ -22,15 +22,15 @@
  * SOFTWARE.
  */
 
-const htmlMinfier = require("html-minifier");
+import htmlMinifier from "html-minifier";
 
-module.exports = (content, filePath) => {
+export default function (content, filePath) {
   if (filePath.endsWith(".html")) {
-    let minified = htmlMinfier.minify(content, {
+    let minified = htmlMinifier.minify(content, {
       removeComments: true,
       collapseWhitespace: true
     });
     return minified;
   }
   return content;
-};
+}

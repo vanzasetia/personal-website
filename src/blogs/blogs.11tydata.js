@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-module.exports = {
+export default {
   tags: ["blog"],
   layout: "layouts/blog.njk",
   blogSchema: true,

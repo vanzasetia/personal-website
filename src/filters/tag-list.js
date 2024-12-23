@@ -24,10 +24,10 @@
  * SOFTWARE.
  */
 
-module.exports = (collection) => {
+export default function (collection) {
   const tagSet = new Set();
   for (let item of collection) {
     (item.data.tags || []).forEach((tag) => tagSet.add(tag));
   }
   return Array.from(tagSet);
-};
+}

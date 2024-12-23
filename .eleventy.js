@@ -22,24 +22,24 @@
  * SOFTWARE.
  */
 
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
-const markdownLibrary = require("./src/libraries/markdown.js");
+import markdownLibrary from "./src/libraries/markdown.js";
 
-const cleanCSSFilter = require("./src/filters/clean-css.js");
-const titleCaseFilter = require("./src/filters/title-case.js");
-const blogDateFilter = require("./src/filters/blog-date.js");
-const htmlDateFilter = require("./src/filters/html-date.js");
-const blogSliceFilter = require("./src/filters/blog-slice.js");
-const tagListFilter = require("./src/filters/tag-list.js");
-const filteredTagFilter = require("./src/filters/filtered-tag.js");
-const markdownItFilter = require("./src/filters/markdown-it.js");
+import cleanCSSFilter from "./src/filters/clean-css.js";
+import titleCaseFilter from "./src/filters/title-case.js";
+import blogDateFilter from "./src/filters/blog-date.js";
+import htmlDateFilter from "./src/filters/html-date.js";
+import blogSliceFilter from "./src/filters/blog-slice.js";
+import tagListFilter from "./src/filters/tag-list.js";
+import filteredTagFilter from "./src/filters/filtered-tag.js";
+import markdownItFilter from "./src/filters/markdown-it.js";
 
-const minifyHTML = require("./src/transformers/minify-html.js");
+import minifyHTML from "./src/transformers/minify-html.js";
 
-module.exports = (config) => {
+export default function (config) {
   config.addPassthroughCopy("./src/favicons");
   config.addPassthroughCopy("./src/manifest.json");
   config.addPassthroughCopy("./src/vanzasetia-public-key.txt");
@@ -62,17 +62,16 @@ module.exports = (config) => {
   config.addFilter("markdownItFilter", markdownItFilter);
 
   config.addTransform("minifyHTML", minifyHTML);
+}
 
-  return {
-    templateFormats: ["md", "njk", "html"],
-    markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-    templateEngineOverride: "njk",
-    dir: {
-      input: "./src",
-      includes: "_includes",
-      data: "_data",
-      output: "_site"
-    }
-  };
+export const config = {
+  templateFormats: ["md", "njk", "html"],
+  markdownTemplateEngine: "njk",
+  htmlTemplateEngine: "njk",
+  dir: {
+    input: "./src",
+    includes: "_includes",
+    data: "_data",
+    output: "_site"
+  }
 };

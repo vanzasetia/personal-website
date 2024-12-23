@@ -24,6 +24,6 @@
  * SOFTWARE.
  */
 
-module.exports = (tags) => {
+export default function (tags) {
   return (tags || []).filter((tag) => ["all", "blog"].indexOf(tag) === -1);
-};
+}

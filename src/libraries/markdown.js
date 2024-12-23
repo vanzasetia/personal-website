@@ -22,12 +22,12 @@
  * SOFTWARE.
  */
 
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const markdownItKbd = require("markdown-it-kbd");
-const markdownItContainer = require("markdown-it-container");
-const markdownItFootnote = require("markdown-it-footnote");
-const slugify = require("@sindresorhus/slugify");
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItKbd from "markdown-it-kbd";
+import markdownItContainer from "markdown-it-container";
+import markdownItFootnote from "markdown-it-footnote";
+import slugify from "@sindresorhus/slugify";
 
 const rules = {
   table_close: () => "</table>\n</div>",
@@ -115,4 +115,4 @@ const markdown = markdownIt()
 
 markdown.renderer.rules = { ...markdown.renderer.rules, ...rules };
 
-module.exports = markdown;
+export default markdown;

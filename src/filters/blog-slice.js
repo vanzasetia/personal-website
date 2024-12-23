@@ -24,7 +24,7 @@
  * SOFTWARE.
  */
 
-module.exports = (array, n) => {
+export default function (array, n) {
   if (!Array.isArray(array) || array.length === 0) {
     return [];
   }
@@ -34,4 +34,4 @@ module.exports = (array, n) => {
   }
 
   return array.slice(0, n);
-};
+}

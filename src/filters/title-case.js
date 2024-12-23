@@ -22,6 +22,8 @@
  * SOFTWARE.
  */
 
-const titleCase = require("title");
+import titleCase from "title";
 
-module.exports = (title) => titleCase(title);
+export default function (title) {
+  return titleCase(title);
+}

@@ -22,8 +22,8 @@
  * SOFTWARE.
  */
 
-const CleanCSS = require("clean-css");
+import CleanCSS from "clean-css";
 
-module.exports = (code) => {
+export default function (code) {
   return new CleanCSS({}).minify(code).styles;
-};
+}
