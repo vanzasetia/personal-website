@@ -39,7 +39,7 @@ import markdownItFilter from "./src/filters/markdown-it.js";
 
 import minifyHTML from "./src/transformers/minify-html.js";
 
-export default function (config) {
+export default async function (config) {
   config.addPassthroughCopy("./src/favicons");
   config.addPassthroughCopy("./src/manifest.json");
   config.addPassthroughCopy("./src/vanzasetia-public-key.txt");
