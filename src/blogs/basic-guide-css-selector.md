@@ -1,8 +1,13 @@
 ---
 title: The basic guide to CSS selector
+description: "\"Which is the right CSS selector to use?\" This article guides you by giving different criteria to choose the right CSS selector."
 date: 2024-07-20
-tags: guide
-copyrightYear: 2024
+tags:
+  - css
+  - guide
+  - best
+copyright:
+  year: 2024
 license:
   name: Creative Commons Attribution-ShareAlike 4.0 International License
   url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -32,7 +37,7 @@ You may have heard the following suggestion:
 
 That suggestion is bad. Do not use an ID selector to style a single element.
 
-Each page must only have one `main` element. So if you want to style it, do you think you need to use an ID selector? Isn't the `main` selector is enough?
+Each page must only have one `main` element. So to style it, do you think you need to use an ID selector? Isn't the `main` selector is enough?
 
 You can use ID selectors temporarily to fix something quickly. Other than that, using ID selectors is a bad decision.
 

@@ -22,9 +22,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-<header id="header" tabindex="-1">
-  <p><a href="#main">Skip to main content</a></p>
-  <nav>
-    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-  </nav>
-</header>
+<nav>
+  <ul class="cluster">
+    {%- for link in collections.all | eleventyNavigation %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {%- endfor %}
+  </ul>
+</nav>

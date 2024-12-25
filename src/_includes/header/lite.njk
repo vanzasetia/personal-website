@@ -22,19 +22,29 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-{% if blogSchema %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "BlogPosting",
-      "headline": "{{ title }}",
-      "datePublished": "{{ page.date | htmlDateFilter }}",
-      "url": "{{ page.url }}",
-      "description": "{{ description }}",
-      "author": {
-        "@type": "Person",
-        "name": " {{ author.name }}"
-      }
-    }
-  </script>
-{% endif %}
+<header>
+  <div class="wrapper">
+    <div class="flex-line">
+      <div>
+        <a href="/">
+          <svg
+            width="442.64"
+            height="65.681"
+            viewBox="0 0 442.64 65.681"
+            role="img"
+            aria-label="VanzaSetia - Home"
+            focusable="false"
+            fill="currentColor"
+          >
+            <g fill="currentColor">
+              <use href="#vanzasetia"></use>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <p><em>Sharing knowledge to fight ignorance.</em></p>
+      {% include "nav.njk" %}
+    </div>
+  </div>
+</header>
+

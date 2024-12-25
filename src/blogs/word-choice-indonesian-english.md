@@ -2,11 +2,12 @@
 title: My word choice in English and Indonesian
 description: English and Indonesian have some unique connections. Some Indonesian terms are the correct terms to use in English. Some English terms are the correct terms to use in Indonesian. Sometimes both are wrong.
 date: 2024-06-16
-tags: opinion
-copyrightYear: 2024
+tags: language
+copyright:
+  year: 2024
 ---
 
-Note: This blog post is the extra rules for the "Word choice" in the [style guide](/style-guide/) for my writings.
+{{ description }}
 
 ## "Allah" and "God"
 
@@ -16,7 +17,7 @@ The term "Allah" creates confusion for the Muslims. That term is never used in t
 
 In Indonesia, Christians and Muslims use "Allah" to pray and worship God. But the name of the Christians' God is not Allah. Allah is the name of the Muslims' God. So, the truth is that Christians are not worshiping the same God as Muslims.
 
-As a result, I avoid using the term "Allah" when referring to my God, Jesus Christ, in the Indonesian language. I always use the word "Tuhan" or "Bapa" when singing or praying. I only use "Allah" when I specifically refer to the Muslim's God.
+So I avoid using the term "Allah" when referring to my God, Jesus Christ, in the Indonesian language. I always use the word "Tuhan" or "Bapa" when singing or praying. I only use "Allah" when I specifically refer to the Muslim's God.
 
 ## "Kristen" and "Christian"
 
@@ -108,7 +109,7 @@ The definition of the so-called "passive income" focuses on the person's activit
 
 Passive income is an income that must be earned by a person who is doing work. Salary is one example of passive income. If a person does not work, the person will not get any income because the income will not come by itself—it is passive.
 
-Active income is an income that can increase or decrease by itself because a person did some work in the past, and now the person does not need to do the same amount of work as before. For example, real estate investing is one way to get an active income. The person might need to work first to get money to buy real estate. Then, the person can rent or sell the real estate. The value of the real estate, which is the income, can increase or decrease by itself.
+Active income is an income that can increase or decrease by itself because a person did some work in the past, and now the person does not need to do the same amount of work as before. For example, real estate investing is one way to get an active income. The person might need to work first to get money to buy real estate. Then, the person can rent or sell the real estate. The value of the real estate, which is the income, can fluctuate by itself.
 
 I reject the term "passive income" or "pendapatan pasif" to refer to income that can be earned without working. That definition of passive income is misleading as if people can live without doing any work.
 

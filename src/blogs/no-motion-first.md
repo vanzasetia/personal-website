@@ -1,8 +1,11 @@
 ---
 title: No-motion-first approach
 date: 2024-07-07
-tags: guide
-copyrightYear: 2024
+tags:
+  - a11y
+  - css
+copyright:
+  year: 2024
 license:
   name: Creative Commons Attribution-ShareAlike 4.0 International License
   url: https://creativecommons.org/licenses/by-sa/4.0/

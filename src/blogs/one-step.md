@@ -1,8 +1,9 @@
 ---
 title: One step
 date: 2024-07-10
-tags: opinion
-copyrightYear: 2024
+tags: motivation
+copyright:
+  year: 2024
 ---
 
 > A journey of a thousand miles begins with a single step.
@@ -11,7 +12,9 @@ The shorter version is
 
 > A thousand-mile journey begins with a step.
 
-But I do not want to talk about the length of the proverb. I want to share my interpretation of it.
+Can you make it shorter?
+
+Anyway, I want to share my interpretation of it.
 
 The message of the proverb is telling people that they need to start doing something to achieve their goals. Now, what do they need to start doing? The answer is not obvious. But I know the answer.
 

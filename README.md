@@ -22,9 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
 
-# Vanza Setia's Personal Website
+# Vanza Setia's Website
 
-A minimal website with [Eleventy](https://11ty.dev/).
+I develop a website to help others fighting ignorance.
 
 I use Windows Terminal with Command Prompt in Windows 10 to develop the website. The source code works well on that setup. Different setup means you may need to adjust something. (I am neither endorsing Windows Terminal nor Command Prompt nor Windows 10.)
 
@@ -66,7 +66,7 @@ You can use any other services to host the source code and the website.
 
 ## Contributing
 
-If you want to contribute, please contact me through **vanzasetia dot proton dot me**.
+If you want to contribute, please contact me through **[write \"Vanza Setia\" in lowercase and without space][at]proton[dot]me**.
 
 ## Acknowledgment
 

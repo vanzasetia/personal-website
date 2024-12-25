@@ -23,8 +23,14 @@
  */
 
 export default {
-  tags: ["blog"],
   layout: "layouts/blog.njk",
+  tags: ["blog"],
   blogSchema: true,
-  permalink: "/blog/{{ page.fileSlug }}/index.html"
+  permalink: "/blog/{{ page.fileSlug }}/index.html",
+  author: {
+    name: "Vanza Setia"
+  },
+  copyright: {
+    holder: "Vanza Setia"
+  }
 };

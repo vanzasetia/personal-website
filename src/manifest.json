@@ -1,7 +1,7 @@
 {
-  "name": "Vanza Setia's Personal Website",
-  "short_name": "Blog",
-  "description": "A place on the internet where I can write blog posts.",
+  "name": "Vanza Setia - Sharing knowledge to combat ignorance",
+  "short_name": "VanzaSetia",
+  "description": "The articles on this website encourage you to think critically. I invite you to judge whether what I write is right or wrong.",
   "start_url": "/",
   "display": "standalone",
   "icons": [

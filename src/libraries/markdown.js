@@ -80,9 +80,9 @@ const noteStructure = {
       const anchor = slugify(titleText);
       // Opening tag
       return `
-      <aside class="note flow" aria-labelledby="${anchor}">
-        <p class="note__title" id="${anchor}" aria-hidden="true">
-          <em>Note:</em> ${titleText}
+      <aside class="blog-aside box" aria-labelledby="${anchor}">
+        <p class="blog-aside__title" id="${anchor}" aria-hidden="true">
+          <em class="blog-aside__label">Note:</em> ${titleText}
         </p>
       <div class="flow">`;
     } else {
@@ -92,14 +92,26 @@ const noteStructure = {
   }
 };
 
-const blockquoteBoxStructure = {
+const asideStructure = {
+  validate: (params) => {
+    return params.trim().match(/^aside\s+(.*)$/);
+  },
   render: (tokens, idx) => {
+    const title = tokens[idx].info.trim().match(/^aside\s+(.*)$/);
+
     if (tokens[idx].nesting === 1) {
+      const titleText = title[1];
+      const anchor = slugify(titleText);
       // Opening tag
-      return `<blockquote class="flow box">`;
+      return `
+      <aside class="blog-aside box" aria-labelledby="${anchor}">
+        <p class="blog-aside__title" id="${anchor}" aria-hidden="true">
+          <em class="blog-aside__label">${titleText}</em>
+        </p>
+      <div class="flow">`;
     } else {
       // Closing tag
-      return `</blockquote>`;
+      return `</div></aside>`;
     }
   }
 };
@@ -109,7 +121,7 @@ const markdown = markdownIt()
   .use(markdownItKbd)
   .use(markdownItFootnote)
   .use(markdownItContainer, "note", noteStructure)
-  .use(markdownItContainer, "blockquote-box", blockquoteBoxStructure);
+  .use(markdownItContainer, "aside", asideStructure);
 
 markdown.renderer.rules = { ...markdown.renderer.rules, ...rules };
 

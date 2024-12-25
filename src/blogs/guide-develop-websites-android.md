@@ -1,9 +1,12 @@
 ---
 title: The beginner guide to develop websites on Android
-description: You can start your web development journey without a computer. I am going to tell you everything you need to know to develop websites on your Android device.
+description: Make your web from scratch without a computer. I tell you everything you need to know to develop websites on your Android device.
 date: 2024-04-27
-tags: guide
-copyrightYear: 2024
+tags:
+  - guide
+  - best
+copyright:
+  year: 2024
 ---
 
 ## Introduction
@@ -54,7 +57,7 @@ I used Spck Code Editor (or Spck for short) because I wanted to find a code edit
 
 I try Spck version 8.0.8.0 which is the latest version on Google Play Store while I am updating this blog post. I do not have anything to say. It has received updates. But they are not as big as Acode.
 
-I want to mention that you can not create a project outside the `Android/data/io.spck` folder. If you want to delete Spck while keeping your projects, you must save them on a remote git repository such as on [GitHub](https://github.com/) or [Codeberg](https://codeberg.org/).
+I want to mention that you can not create a project outside the `Android/data/io.spck` folder. To delete Spck while keeping your projects, you must save them on a remote git repository such as on [GitHub](https://github.com/) or [Codeberg](https://codeberg.org/).
 
 You can access the `io.spck` folder if you are on Android 10 and lower (like me). If you can access it, you can move your projects somewhere safe before uninstalling Spck.
 
@@ -123,7 +126,7 @@ You can install a package with the following command:
 pkg install PACKAGE
 ```
 
-If you want to install Git, you can do:
+To install Git, you can do:
 
 ```bash
 pkg install git
@@ -151,7 +154,7 @@ You may only know that you are seeing the following:
 ~ $
 ```
 
-Now, if you want to know where you are, execute `pwd` command.
+Now, to know where you are, execute `pwd` command.
 
 ```bash
 ~ $ pwd
@@ -306,7 +309,7 @@ Here are all the Git commands to do the above tasks:
 
 You can execute `git branch` to know the branch name of your local repository.
 
-You can get the remote repository URL on the empty repository page. The first time you create an empty remote repository you will be able to see it.
+You can get the remote repository URL on the empty repository page.
 
 ### Install a code editor in your terminal
 
@@ -326,7 +329,7 @@ Visit [Vim Cheat Sheet](https://vim.rtorr.com/) to see all the lists of keys.
 
 I am going to tell you what you need to know to use Vim to add a description for your commit message. After you execute `git commit`, Git will open a Vim window.
 
-You can add your commit message by entering an insert mode. To do that, tap on the [[I]] key (lowercase *i*). Then, you can start typing your Git message and its description. After that, you need to do the following:
+You can add your commit message by entering an insert mode. To do that, tap the [[I]] key (lowercase *i*). Then, you can start typing your Git message and its description. After that, you need to do the following:
 
 1. Enter command line mode: Tap [[ESC]] key that is provided by Termux.
 1. Safe your commit message: Type `:w` and execute it by tapping an enter key.
@@ -394,7 +397,7 @@ For example, you can view your website on a wide screen by doing the following:
 
 ## Choose Eruda as your developer tool
 
-Eruda is an embedded developer tool. You can have a developer tool on your mobile browsers with it. You can use it in your local host.
+Eruda is an embedded developer tool. You can have a developer tool on your mobile browsers with it. You can also use it in your local host.
 
 To use it, you need to create a bookmarklet. Now, what is a bookmarklet?
 
@@ -457,4 +460,4 @@ You may also feel overwhelmed at some point as your willpower keeps decreasing. 
 
 Just do everything you can within your limits right now.
 
-Last, have fun!
+Have fun!

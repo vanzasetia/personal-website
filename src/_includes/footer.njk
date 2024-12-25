@@ -23,13 +23,58 @@ SOFTWARE.
 #}
 
 <footer>
-  <div class="flow wrap">
-    <p>
-      Subscribe to the <a href="/feed.xml">RSS feed</a>. Please send your comments or report any issues you find to {{ site.author.email }}.
-    </p>
-    <p>The <a href="{{ site.repository }}">source code of this website</a> is licensed under <a href="{{ site.repository }}blob/main/LICENSE">the MIT License (Expat License)</a>.</p>
-    <p>Copyright © {{ copyrightYear }} Vanza Setia.</p>
-    <p class="margin-0">This page is licensed under a <a href="{{ license.url or site.defaultLicense.url }}" rel="license">{{ license.name or site.defaultLicense.name }}</a>. All code samples are licensed under <a href="{{ site.repository }}blob/main/LICENSE-SAMPLECODE">the MIT No Attribution License (MIT-0)</a>.</p>
-    <p><a href="/blog/website-does-not-track-you/">This website does not track you</a>. <a href="/blog/no-javascript/">No JavaScript</a>. <a href="#header">Back to top</a>.</p>
+  <div class="wrapper">
+    <div class="box">
+      <div class="flow">
+        <div>
+          <a href="/">
+            <svg
+              role="img"
+              aria-label="VanzaSetia - Home"
+              focusable="false"
+              width="442.64"
+              height="65.681"
+              viewBox="0 0 442.64 65.681"
+            >
+              <g fill="currentColor">
+                <use href="#vanzasetia"></use>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <p><em>Sharing knowledge to defeat ignorance.</em></p>
+      </div>
+      <div class="footer__meta flow">
+        <p>
+          Subscribe to the <a href="/feed.xml">RSS feed</a>. Send your comments
+          or report any issues you find to <strong>{{ site.email }}</strong>.
+        </p>
+        <p>
+          Encrypt your email to me with
+          <a href="/vanzasetia-public-key.txt">my public GPG key</a>. (GPG key
+          fingerprint: AD60 1C7F 24B9 21E5 02E9 E9C1 372F 9239 830C 910A)
+        </p>
+        <p>
+          The <a href="{{ site.repository }}">source code of this website</a> is
+          licensed under the
+          <a href="{{ site.repository }}blob/main/LICENSE"
+            >MIT License (Expat License)</a
+          >.
+        </p>
+        <p>
+          Copyright © {{ copyright.year }} {{ copyright.holder or
+          site.defaultCopyright.holder }}.
+        </p>
+        <p class="margin-block-0">
+          This page is licensed under a
+          <a href="{{ license.url or site.defaultLicense.url }}"
+            >{{ license.name or site.defaultLicense.name }}</a
+          >. All code samples are licensed under the
+          <a href="{{ site.repository }}blob/main/LICENSE-SAMPLECODE"
+            >MIT No Attribution License (MIT-0)</a
+          >.
+        </p>
+      </div>
+    </div>
   </div>
 </footer>

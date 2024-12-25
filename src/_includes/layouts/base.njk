@@ -27,7 +27,7 @@ SOFTWARE.
   {% set pageTitle = site.title %}
 {% else %}
   {% set url = site.url + page.url %}
-  {% set pageTitle = title %}
+  {% set pageTitle = title + " - Vanza Setia" %}
 {% endif %}
 
 <!DOCTYPE html>
@@ -71,27 +71,33 @@ SOFTWARE.
     <meta name="theme-color" content="#222222" />
     <meta
       name="description"
-      content="{{ description or site.description }}"
+      content="{{ description }}"
     />
     <meta name="url" content="{{ url }}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ title or site.title }}" />
-    <meta property="og:site_name" content="{{ site.author.name }}" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:site_name" content="VanzaSetia" />
     <meta
       property="og:description"
-      content="{{ description or site.description }}"
+      content="{{ description }}"
     />
     <meta property="og:url" content="{{ url }}" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="{{ site.url }}/images/social-share.png" />
+    <meta name="twitter:image" content="{{ site.url }}/images/social-share.png" />
+    <meta
+      property="og:image:alt"
+      content="VanzaSetia - Sharing knowledge to fight ignorance - Advance your practical and thinking skills"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="VanzaSetia - Sharing knowledge to fight ignorance - Advance your practical and thinking skills"
+    />
   </head>
   <body>
-    {% include "header.njk" %}
-    <main id="main" tabindex="-1">
-      <div class="wrap">
-        {{ content | safe }}
-      </div>
-    </main>
+    {{ content | safe }}
     {% include "footer.njk" %}
+    {% include "svg.njk" %}
   </body>
 </html>

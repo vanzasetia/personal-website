@@ -1,8 +1,11 @@
 ---
 title: This website does not track you
 date: 2024-04-27
-tags: opinion
-copyrightYear: 2024
+tags:
+  - notice
+  - privacy
+copyright:
+  year: 2024
 ---
 
 I do not want a website to track me. I also want to treat you like that.

@@ -1,8 +1,9 @@
 ---
 title: Sharing is good
 date: 2024-07-06
-tags: opinion
-copyrightYear: 2024
+tags: copyright
+copyright:
+  year: 2024
 ---
 
 If you watch a movie without paying any money, you are not stealing from anyone. You are not doing any harm by listening to music and sharing copies with your friends.

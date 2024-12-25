@@ -1,8 +1,9 @@
 ---
 title: Reject Anti-Christ propaganda
 date: 2024-09-07
-tags: guide
-copyrightYear: 2024
+tags: christianity
+copyright:
+  year: 2024
 ---
 
 If you are a Christian, do not use the term "Xmas." Use "Christmas." There will be no Christmas without Christ.

@@ -33,8 +33,8 @@ import titleCaseFilter from "./src/filters/title-case.js";
 import blogDateFilter from "./src/filters/blog-date.js";
 import htmlDateFilter from "./src/filters/html-date.js";
 import blogSliceFilter from "./src/filters/blog-slice.js";
-import tagListFilter from "./src/filters/tag-list.js";
 import filteredTagFilter from "./src/filters/filtered-tag.js";
+import getKeysFilter from "./src/filters/get-keys.js";
 import markdownItFilter from "./src/filters/markdown-it.js";
 
 import minifyHTML from "./src/transformers/minify-html.js";
@@ -43,6 +43,7 @@ export default async function (config) {
   config.addPassthroughCopy("./src/favicons");
   config.addPassthroughCopy("./src/manifest.json");
   config.addPassthroughCopy("./src/vanzasetia-public-key.txt");
+  config.addPassthroughCopy("./src/images/");
 
   config.addWatchTarget("./src/css/style.css");
 
@@ -57,8 +58,8 @@ export default async function (config) {
   config.addFilter("blogDateFilter", blogDateFilter);
   config.addFilter("htmlDateFilter", htmlDateFilter);
   config.addFilter("blogSliceFilter", blogSliceFilter);
-  config.addFilter("tagListFilter", tagListFilter);
   config.addFilter("filteredTagFilter", filteredTagFilter);
+  config.addFilter("getKeysFilter", getKeysFilter);
   config.addFilter("markdownItFilter", markdownItFilter);
 
   config.addTransform("minifyHTML", minifyHTML);

@@ -1,8 +1,9 @@
 ---
 title: Toilets must be gratis
 date: 2024-07-11
-tags: opinion
-copyrightYear: 2024
+tags: human rights
+copyright:
+  year: 2024
 ---
 
 Toilets are a basic human right. All people deserve gratis toilets. As a side note, ["gratis" means zero price](/blog/word-choice-indonesian-english/#"bebas"-and-"free").

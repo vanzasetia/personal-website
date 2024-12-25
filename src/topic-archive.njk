@@ -1,6 +1,27 @@
+---js
+const layout = "layouts/extension.njk"
+
+const pagination = {
+	data: "collections",
+	size: 1,
+	alias: "topic",
+	filter: ["all", "blog", "best"],
+};
+
+const eleventyExcludeFromCollections = true;
+
+const eleventyComputed = {
+	title: "{{ topic }} - Topic Archive",
+	permalink: function(data) {
+		return `/category/${this.slugify(data.topic)}/`;
+	}
+};
+---
+
 {#
 MIT License
 
+Copyright (c) 2017–2024 Zach Leatherman @zachleat
 Copyright (c) 2024 Vanza Setia
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,19 +43,15 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-{% if blogSchema %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "BlogPosting",
-      "headline": "{{ title }}",
-      "datePublished": "{{ page.date | htmlDateFilter }}",
-      "url": "{{ page.url }}",
-      "description": "{{ description }}",
-      "author": {
-        "@type": "Person",
-        "name": " {{ author.name }}"
-      }
-    }
-  </script>
-{% endif %}
+<div class="articles">
+  <div class="wrapper">
+    <div class="wrapper cluster" data-wrapper-type="inner">
+      <h1>{{ topic | titleCaseFilter }}</h1>
+      <p class="margin-block-0">
+        <span class="badge">Topic archive</span>
+      </p>
+    </div>
+    {% set blogList = collections[ topic ] %}
+    {% include "blog/list.njk" %}
+  </div>
+</div>

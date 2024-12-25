@@ -7,3 +7,21 @@
 	to = "https://vanzasetia.xyz/"
 	status = 301
 	force = true
+
+[[redirects]]
+	from = "/bio/"
+	to = "/author/"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "/help/"
+	to = "/about/"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "/goal/"
+	to = "/about/"
+	status = 301
+	force = true

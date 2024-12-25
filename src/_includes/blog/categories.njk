@@ -22,6 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-{% if description %}
-  <p>{{ description }}</p>
-{% endif %}
+<ul class="cluster" role="list">
+{% for tag in tags | filteredTagFilter %}
+	{% set tagUrl %}/category/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="badge">{{ tag }}</a></li>
+{% endfor %}
+</ul>

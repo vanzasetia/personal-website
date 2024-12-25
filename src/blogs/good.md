@@ -1,8 +1,9 @@
 ---
 title: Good is enough
 date: 2024-07-12
-tags: opinion
-copyrightYear: 2024
+tags: mind
+copyright:
+  year: 2024
 ---
 
 I do not have to be the best to be good. I do not always have to give my best to be good.

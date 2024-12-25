@@ -22,10 +22,39 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-<ul>
-{% for blog in blogList | reverse %}
-	<li>
-		<a href="{{ blog.url }}">{{ blog.data.title | titleCaseFilter }}</a>
-	</li>
-{% endfor %}
+<ul class="articles__list" role="list">
+  {% for blog in blogList | reverse %}
+  <li class="box cluster">
+    <div class="flow">
+      {% if page.url == "/" %}
+      <h3>
+        <a href="{{ blog.url }}"> {{ blog.data.title | titleCaseFilter }} </a>
+      </h3>
+      {% else %}
+      <h2>
+        <a href="{{ blog.url }}"> {{ blog.data.title | titleCaseFilter }} </a>
+      </h2>
+      {% endif %}
+      {% if blog.data.description %}
+      <p>{{ blog.data.description }}</p>
+      {% endif %}
+    </div>
+    <div class="flow">
+      <p><strong>Author:</strong> {{ blog.data.author.name }}</p>
+      {% set publishedDate = blog.date %}
+      <time datetime="{{ publishedDate | htmlDateFilter }}"
+        >{{ publishedDate | blogDateFilter }}</time
+      >
+      {% set firstTag = blog.data.tags[1] %}
+      {% set tagUrl %}/category/{{ firstTag | slugify }}/{% endset %}
+      {% if '/category' in page.url %}
+      {# No tag #}
+      {% else %}
+      <p>
+        <a href="{{ tagUrl }}" class="badge">{{ firstTag }}</a>
+      </p>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
 </ul>

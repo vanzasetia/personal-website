@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/extension.njk
 ---
 
 {#
@@ -26,8 +26,75 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-{% set publishedDate = page.date %}
-<h1>{{ title | titleCaseFilter }}</h1>
-{% include "blog/date.njk" %}
-{% include "description.njk" %}
-{{ content | safe }}
+<div class="hero" data-hero-type="blog">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <h1>{{ title | titleCaseFilter }}</h1>
+      <div class="hero__meta cluster">
+        <p>
+          <strong>Published:</strong>
+          {% set publishedDate = page.date %}
+          <time datetime="{{ publishedDate | htmlDateFilter }}"
+            >{{ publishedDate | blogDateFilter }}</time
+          >
+        </p>
+        <p><strong>Written by:</strong> {{ author.name }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% if acknowledgement.sponsor or acknowledgement.idea %}
+<div class="acknowledgement">
+  <div class="wrapper">
+    <div class="wrapper cluster" data-wrapper-type="inner">
+      {% if acknowledgement.sponsor %}
+      <p class="badge" data-badge-type="acknowledgement">
+        <svg
+          width="28"
+          height="28"
+          viewBox="0 0 28 28"
+          aria-hidden="true"
+          focusable="false"
+          fill="currentColor"
+        >
+          <use href="#heart"></use>
+        </svg>
+        This article is supported by
+        <strong>{{ acknowledgement.sponsor }}</strong>.
+      </p>
+      {% endif %} {% if acknowledgement.idea %}
+      <p class="badge" data-badge-type="acknowledgement">
+        <svg
+          width="26"
+          height="28"
+          viewBox="0 0 26 28"
+          aria-hidden="true"
+          focusable="false"
+          fill="currentColor"
+        >
+          <use href="#star"></use>
+        </svg>
+        The idea is suggested by <strong>{{ acknowledgement.idea }}</strong>.
+      </p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}
+<div class="prose" data-prose-type="blog">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <div class="prose__article flow">{{ content | safe }}</div>
+    </div>
+  </div>
+</div>
+<div class="topics" data-topics-type="blog">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <div class="box flow">
+        <h2>Topics</h2>
+        {% include "blog/categories.njk" %}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,8 +1,3 @@
----
-layout: layouts/base.njk
-copyDescription: true
----
-
 {#
 MIT License
 
@@ -27,6 +22,30 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-<h1>{{ title }}</h1>
-{% include "description.njk" %}
-{{ content | safe }}
+<header>
+  <div class="wrapper">
+    <div class="flex-line">
+      <div>
+        <a href="/">
+          <svg
+            width="442.64"
+            height="65.681"
+            viewBox="0 0 442.64 65.681"
+            role="img"
+            aria-label="VanzaSetia - Home"
+            focusable="false"
+          >
+            <g fill="currentColor">
+              <use href="#vanzasetia"></use>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <p><em>Sharing knowledge to fight ignorance.</em></p>
+      {% include "nav.njk" %}
+      <p><em>Focusing on modern web development.</em></p>
+      <p><em>Advocating free knowledge.</em></p>
+    </div>
+  </div>
+</header>
+

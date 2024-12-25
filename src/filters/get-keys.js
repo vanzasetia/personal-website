@@ -1,9 +1,8 @@
-// Source: https://github.com/11ty/eleventy-base-blog/blob/main/eleventy.config.js
+// Source: https://github.com/11ty/eleventy-base-blog/blob/main/_config/filters.js
 /**
  * MIT License
  *
- * Copyright (c) 2017–2023 Zach Leatherman
- * Copyright (c) 2024 Vanza Setia
+ * Copyright (c) 2017–2024 Zach Leatherman @zachleat
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,10 +23,6 @@
  * SOFTWARE.
  */
 
-export default function (collection) {
-  const tagSet = new Set();
-  for (let item of collection) {
-    (item.data.tags || []).forEach((tag) => tagSet.add(tag));
-  }
-  return Array.from(tagSet);
+export default function (target) {
+  return Object.keys(target);
 }

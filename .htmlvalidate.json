@@ -16,7 +16,7 @@
         "exclude": ["heading"]
       }
     ],
-    "no-redundant-role": ["warn"],
+    "no-redundant-role": ["off"],
     "no-trailing-whitespace": ["off"],
     "no-raw-characters": ["off"],
     "no-inline-style": ["off"],

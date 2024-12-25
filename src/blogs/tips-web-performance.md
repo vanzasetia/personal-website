@@ -1,8 +1,13 @@
 ---
 title: Tips for improving website performance
 date: 2024-07-22
-tags: tips
-copyrightYear: 2024
+tags:
+  - a11y
+  - html
+  - css
+  - javascript
+copyright:
+  year: 2024
 license:
   name: Creative Commons Attribution-ShareAlike 4.0 International License
   url: https://creativecommons.org/licenses/by-sa/4.0/

@@ -1,28 +1,162 @@
 ---
 layout: layouts/base.njk
-numberOfLatestBlogsToShow: 5
-eleventyNavigation:
-  key: Home
-  order: 1
-copyrightYear: 2024
+description: The articles on this website encourage you to think critically. I invite you to judge whether what I write is right or wrong.
+numberOfBestBlogsToShow: 6
+numberOfLatestBlogsToShow: 4
+copyright:
+  year: 2024
 ---
 
-<h1>Hello, I am Vanza</h1>
-<p>
-  In the past, I could not develop a website without a tutorial for about six
-  months. Now, I can develop this website and write blog posts to help people to
-  stop being beginners.
-</p>
-<p>
-  I am available to hire as a junior frontend developer or a writer. I prefer
-  working on a company or with a person that value user's privacy. I do not want
-  to work for a surveillance company or a spy. Also, I do not want to promote
-  unethical products.
-</p>
-<p>
-  This website is at the mercy of three companies: GitHub, Netlify, and
-  Porkbun. (I am neither endorsing those companies nor their services.)
-</p>
-<h2>Latest writings</h2>
-{% set blogList = collections.blog | blogSliceFilter(-1 * numberOfLatestBlogsToShow) %}
-{% include "blog/list.njk" %}
+{% include "header/full.njk" %}
+<main tabindex="-1">
+  <div class="hero">
+    <div class="wrapper">
+      <div class="wrapper flow" data-wrapper-type="inner">
+        <h1>Advance your practical and thinking skills</h1>
+        <p class="hero__lede">
+          Strong and clear articles written by a hobbyist developer to help you
+          gain knowledge.
+        </p>
+        <div class="cluster">
+          <a href="/blog/" class="button">
+            Latest articles
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+              fill="currentColor"
+            >
+              <use href="#arrow-up-right"></use>
+            </svg>
+          </a>
+          <a href="/about/" class="button">
+            Motive
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+              fill="currentColor"
+            >
+              <use href="#arrow-up-right"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="topics">
+    <div class="wrapper">
+      <div class="wrapper flow" data-wrapper-type="inner">
+        <h2>Topics</h2>
+        {% set tags = collections  | getKeysFilter %}
+        {% include "blog/categories.njk" %}
+      </div>
+    </div>
+  </div>
+   <div class="articles">
+    <div class="wrapper">
+      <div class="wrapper" data-wrapper-type="inner">
+        <h2>Best articles</h2>
+      </div>
+      {% set blogList = collections.best | blogSliceFilter(-1 * numberOfBestBlogsToShow) %}
+      {% include "blog/list.njk" %}
+    </div>
+  </div>
+   <div class="articles">
+    <div class="wrapper">
+      <div class="wrapper" data-wrapper-type="inner">
+        <h2>Latest articles</h2>
+      </div>
+      {% set blogList = collections.blog | blogSliceFilter(-1 * numberOfLatestBlogsToShow) %}
+      {% include "blog/list.njk" %}
+      <div class="wrapper" data-wrapper-type="inner">
+        <a href="/blog/" class="button" data-button-size="mega">
+          View all articles
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            focusable="false"
+            fill="currentColor"
+          >
+            <use href="#arrow-up-right"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="wrapper">
+      <div class="wrapper flow border-block-start-0" data-wrapper-type="inner">
+        <h2>Request</h2>
+        <p>
+          Do you want me to write something? I am happy to know that. Tell me
+          exactly your <em>brilliant</em> idea through
+          <strong
+            >{{ site.email }}</strong
+          >—I write it that way to prevent spam emails. Remember,
+          <strong>this offer costs no money</strong>.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="wrapper">
+      <div class="wrapper flow" data-wrapper-type="inner">
+        <h2>Author</h2>
+        <p>
+          I am a Christian Catholic. I develop websites with modern techniques
+          and accessibility in mind. I am a privacy supporter.
+        </p>
+        <p>
+          <a href="/author/" class="button">
+            More about me
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+              fill="currentColor"
+            >
+              <use href="#arrow-up-right"></use>
+            </svg>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="wrapper">
+      <div class="wrapper flow" data-wrapper-type="inner">
+        <h2><span class="badge text-size-normal">Motivation</span></h2>
+        <blockquote>
+          <p>My people are destroyed from lack of knowledge.</p>
+        </blockquote>
+        <p>—Hosea 4:6 New International Version (NIV)</p>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="wrapper">
+      <div class="wrapper flow" data-wrapper-type="inner">
+        <h2><span class="badge text-size-normal">Comment</span></h2>
+        <p class="text-size-large font-family-sans-serif font-weight-700">
+          What do you think about this home page?
+        </p>
+        <p>
+          My email is
+          <strong
+            >{{ site.email }}</strong
+          >. Don't be shy!
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+

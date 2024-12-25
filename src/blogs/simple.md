@@ -2,7 +2,8 @@
 title: Simple
 date: 2024-06-19
 tags: humor
-copyrightYear: 2024
+copyright:
+  year: 2024
 license:
   name: Creative Commons Attribution-ShareAlike 4.0 International License
   url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -38,4 +39,4 @@ The simplest thing is to have nothing.
 
 No KISS, no KIS, no S. Just nothing. Empty. Blank.
 
-By the way, I may not need to write this blog post. I make things complicated.
+By the way, I may not need to write this. I make things complicated.

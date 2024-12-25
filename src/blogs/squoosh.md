@@ -2,8 +2,11 @@
 title: The basic guide to run Squoosh locally
 description: This guide helps you set up Squoosh on Windows 10—a proprietary operating system with lots of malicious functionalities—and remove Google Analytics.
 date: 2024-07-26
-tags: guide
-copyrightYear: 2024
+tags:
+  - guide
+  - privacy
+copyright:
+  year: 2024
 ---
 
 ## Motive

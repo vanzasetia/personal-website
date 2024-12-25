@@ -1,3 +1,7 @@
+---
+layout: layouts/extension.njk
+---
+
 {#
 MIT License
 
@@ -22,7 +26,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-<p>
-  <strong>Published:</strong>
-  <time datetime="{{ publishedDate | htmlDateFilter }}">{{ publishedDate | blogDateFilter }}</time>
-</p>
+<div class="articles">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <h1>{{ title }}</h1>
+    </div>
+    {{ content | safe }}
+  </div>
+</div>

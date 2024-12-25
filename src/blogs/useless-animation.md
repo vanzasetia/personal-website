@@ -1,8 +1,11 @@
 ---
 title: Useless animation
 date: 2024-07-30
-tags: opinion
-copyrightYear: 2024
+tags:
+  - a11y
+  - css
+copyright:
+  year: 2024
 ---
 
 I must wait seven seconds before I can log in to a website because I need to see lots of animations. I hate those.

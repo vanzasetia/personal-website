@@ -25,5 +25,7 @@
  */
 
 export default function (tags) {
-  return (tags || []).filter((tag) => ["all", "blog"].indexOf(tag) === -1);
+  return (tags || []).filter(
+    (tag) => ["all", "blog", "best"].indexOf(tag) === -1
+  );
 }

@@ -1,8 +1,9 @@
 ---
 title: Discount
 date: 2024-08-04
-tags: opinion
-copyrightYear: 2024
+tags: mind
+copyright:
+  year: 2024
 ---
 
 Discount is price that is not counted. Why bother to write something nobody counts?

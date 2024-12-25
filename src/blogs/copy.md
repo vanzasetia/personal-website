@@ -1,11 +1,13 @@
 ---
 title: Copying
+description: Do you think stealing is copying?
 date: 2024-07-25
-tags: opinion
-copyrightYear: 2024
+tags: copyright
+copyright:
+  year: 2024
 ---
 
-A person tells me that sharing a copy of a movie is stealing. The receiver of the gratis copy is a potential customer. As a result, when the receiver watches the movie without paying, the producers lose that potential income.
+A person tells me that sharing a copy of a movie is stealing. The receiver of the gratis copy is a potential customer. This means the producers lose that *potential* income—not their *real* income.
 
 I disagree with that person. I tell that person about an analogy.
 
