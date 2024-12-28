@@ -2,7 +2,9 @@
 title: Golan
 description: Golan was not a genius. But he discovered a special way to go to a hospital. Do you know how he took everybody to the hospital?
 date: 2024-12-27
-tags: humor
+tags:
+  - humor
+  - fiction
 copyright:
   year: 2024
 ---
