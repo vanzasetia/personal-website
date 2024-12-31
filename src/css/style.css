@@ -290,6 +290,16 @@ pre code {
   padding: 0;
 }
 
+pre ::selection {
+  --color-selection-background: var(--color-global-background);
+  --color-selection-text: var(--color-global-text);
+}
+
+pre ::selection {
+  --color-selection-background: var(--color-global-text);
+  --color-selection-text: var(--color-global-background);
+}
+
 sub,
 sup {
   display: inline-block;
