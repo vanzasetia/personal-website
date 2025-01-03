@@ -5,7 +5,7 @@ tags:
  - diary
  - motivation
 copyright:
-  year: 2024
+  year: 2024
 ---
 
 This year is both good and bad.

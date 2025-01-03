@@ -6,7 +6,7 @@ tags:
  - a11y
  - css
 copyright:
-  year: 2024
+  year: 2024
 ---
 
 {{ description }}
