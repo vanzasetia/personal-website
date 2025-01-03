@@ -6,14 +6,14 @@ tags:
  - a11y
  - css
 copyright:
-  year: 2024
+  year: 2024, 2025
 ---
 
 {{ description }}
 
-Consider the following scenario: a user uses a Chromium-based mobile browser—like evil Google Chrome or crypto-bloated Brave. The user finds a link to an article and wants to open it in a new tab. The user holds the link. Then, a popup menu appears, and the underline disappears at the same time. But the user decides to do that later. After the user closes the popup, the user changes the decision, so the user decides to open the link now. But the user can not remember the location or the label of the link. The user can know about it by tapping on the screen once to make the underline reappear. In the end, the user finds the hovered link and opens the link in a new tab.
+Consider the following scenario: a user uses a Chromium-based mobile browser—like evil Google Chrome or crypto-bloated Brave. The user finds a link to an article and wants to open it in a new tab. The user holds the link. Then, a popup menu appears, and the underline disappears at the same time. But the user decides to do that later. After the user closes the popup, the user changes the decision and decides to open the link now. But the user can not remember the location or the label of the link. Even worse, **the hovered link now looks the same as the normal text**. Luckily, the user randomly taps on the screen—which makes the hovered link go back to the initial state—and makes the underline reappear. In the end, the user finds the hovered link and opens the link in a new tab.
 
-No big deal, right? Wrong. The mobile user can get confused when trying to find the link. If the user forgets the link's location or misses the underline's reappearance, the user needs to check all links on the screen. Even if the user is aware of the hover effect, the user still needs to know how to make the underline appear again.
+No big deal, right? Wrong. When the hovered link looks the same as the plain text, a mobile user can get confused when trying to find it. If the user forgets the link's location or misses the underline's reappearance, the user needs to check all links on the screen. Even if the user is aware of the hover effect, the user still needs to know how to make the underline appear again.
 
 To make sure everything is fine, the user must
 
