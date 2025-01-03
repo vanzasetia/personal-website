@@ -1,0 +1,12 @@
+---
+layout: layouts/list.njk
+title: People
+eleventyNavigation:
+  key: People
+  order: 4
+copyright:
+  year: 2025
+---
+
+{% set blogList = collections.people %}
+{% include "blog/list.njk" %}

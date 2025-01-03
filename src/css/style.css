@@ -822,7 +822,7 @@ footer ul {
 
 .hero[data-hero-type="blog"] {
   --cluster-justify-content: space-between;
-  --cluster-align-items: center;
+  --cluster-align-items: flex-end;
   --cluster-row-gap: var(--space-2xs);
   --cluster-column-gap: var(--cluster-row-gap);
   --cluster-flex-wrap: wrap;
@@ -830,6 +830,7 @@ footer ul {
 }
 
 .hero[data-hero-type="blog"] .hero__meta {
+  --flow-space: var(--space-s);
   margin-block-start: var(--space-3xl);
 }
 
