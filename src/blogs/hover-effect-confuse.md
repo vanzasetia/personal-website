@@ -28,3 +28,9 @@ I believe a user experience (UX) designer does not want some users to experience
 This goes to you as well if your link hover effect makes the link's underline disappear.
 
 Use a different hover effect instead.
+
+## Update: 3 January 2025
+
+I emailed the Piccalilli team yesterday. Then, Andy Bell replied that he would fix it.
+
+Now, it has been fixed. The fix is the underline color does not change on the hover effect. Good!
