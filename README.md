@@ -66,7 +66,7 @@ You can use any other services to host the source code and the website.
 
 ## Contributing
 
-If you want to contribute, please contact me through **[write \"Vanza Setia\" in lowercase and without space][at]proton[dot]me**.
+If you want to contribute, please contact me through **[vanzasetia][at]proton[dot]me**.
 
 ## Acknowledgment
 
