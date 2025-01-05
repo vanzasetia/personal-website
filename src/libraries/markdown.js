@@ -1,7 +1,7 @@
 /**
  * MIT License
  *
- * Copyright (c) 2024 Vanza Setia
+ * Copyright (c) 2024, 2025 Vanza Setia
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -27,9 +27,28 @@ import markdownItAnchor from "markdown-it-anchor";
 import markdownItKbd from "markdown-it-kbd";
 import markdownItContainer from "markdown-it-container";
 import markdownItFootnote from "markdown-it-footnote";
+import markdownItAttrs from "markdown-it-attrs";
+import markdownItVideo from "./markdown-it-video.js";
 import slugify from "@sindresorhus/slugify";
 
+const image =
+  markdownIt().renderer.rules.image ||
+  ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options));
+
 const rules = {
+  image: (tokens, idx, options, env, slf) => {
+    const token = tokens[idx];
+    const altText = token.content;
+    const isAltTextEmpty = altText === "";
+
+    if (isAltTextEmpty) {
+      token.attrSet("aria-hidden", "true");
+    }
+
+    token.attrSet("loading", "lazy");
+
+    return image(tokens, idx, options, env, slf);
+  },
   footnote_caption: (tokens, idx) => {
     let n = Number(tokens[idx].meta.id + 1).toString();
 
@@ -116,10 +135,16 @@ const asideStructure = {
   }
 };
 
+const markdownItAttrsOptions = {
+  allowedAttributes: ["width", "height"]
+};
+
 const markdown = markdownIt()
   .use(markdownItAnchor)
   .use(markdownItKbd)
   .use(markdownItFootnote)
+  .use(markdownItVideo, markdownIt)
+  .use(markdownItAttrs, markdownItAttrsOptions)
   .use(markdownItContainer, "note", noteStructure)
   .use(markdownItContainer, "aside", asideStructure);
 
