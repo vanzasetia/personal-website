@@ -7,7 +7,7 @@ tags:
   - guide
   - best
 copyright:
-  year: 2024
+  year: 2024, 2025
 license:
   name: Creative Commons Attribution-ShareAlike 4.0 International License
   url: https://creativecommons.org/licenses/by-sa/4.0/
@@ -27,7 +27,11 @@ Another example is to use the `button[type]` selector to set the default styling
 
 One more example is to use the `img[alt]` selector because each image element must have an `alt` attribute.
 
-By doing those, you make your style sheet your HTML validator.
+By doing those, your style sheet becomes your HTML validator during the development process. The production code does need to include those selectors.
+
+You can use [a11y.css](https://ffoodd.github.io/a11y.css/) or [Heydon's REVENGE.CSS](https://github.com/Heydon/REVENGE.CSS) instead. Both use CSS to check flaws in your HTML code.
+
+But if you already know what you are doing, you may not need to do those.
 
 ## ID selector is questionable
 
