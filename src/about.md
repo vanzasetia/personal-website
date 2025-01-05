@@ -6,7 +6,7 @@ eleventyNavigation:
   key: About
   order: 2
 copyright:
-  year: 2024
+  year: 2024, 2025
 ---
 
 # {{ title }}
@@ -33,6 +33,8 @@ People are bad because they do not know the effects of their actions. They are e
 
 People are also bad because they get the wrong idea. That means they keep doing harmful activities while believing those activities bring positive impacts. For example, making lots of projects by watching tutorial videos makes beginner developers feel satisfied and learn a lot. But, when they want to make something from scratch by themselves, they do not know what to do. In fact, they learn nothing about programming. They only learn the skill to follow tutorials. Instead, they should spend their time reading code from projects, developing projects by themselves, and using tutorials only when they stuck.
 
-Knowledge should not be locked—such as using proprietary formats, using [Digital Restrictions Management](https://drm.info/) (DRM), and using copyright law. Knowledge must have freedom. Otherwise, only people with extraordinary power can be smart.
+When I say "free knowledge," that does not mean every book or anything must have zero price. **I am in favor of people doing business**. Opposing commercial activities is impossible anyway because **we need money**. I mean "free" as in "free speech."
+
+I oppose keeping knowledge to be jailed. **Knowledge should not be locked**—such as using proprietary formats, using [Digital Restrictions Management](https://drm.info/) (DRM), and using copyright law. **Knowledge must have freedom**. Otherwise, only people with extraordinary power or privilege can be smart.
 
 Knowing the truth helps people be free. I want people to have their freedom. They should control their lives. The only way to get that is through knowledge.
