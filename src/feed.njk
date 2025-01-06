@@ -33,7 +33,7 @@ eleventyImport:
     <language>en-us</language>
     <link>{{ site.url }}</link>
     <description>{{ site.description }}</description>
-    <copyright>Copyright © 2024 Vanza Setia.</copyright>
+    <copyright>Copyright © 2024, 2025 Vanza Setia.</copyright>
     <lastBuildDate>{{ collections.blog | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
     <atom:link href="{{ site.url }}/{{ permalink }}" rel="self" type="application/rss+xml" />
     {% for blog in collections.blog | reverse %}
