@@ -16,7 +16,7 @@ I read a book called Advanced Web Design by Fred T. Hofstetter. It was published
 This book gives me a glimpse of how **a person** built an advanced web design around 2003. In a nutshell, it was complicated.
 
 :::note Web design
-Web design is not only about designing the visual of a website. It is also about designing the navigation links, user experience, content, HTML, CSS, and JavaScript. Simply, it is designing all aspects of the website.
+Web design is not only about designing the user interface (UI) of a website. It is also about designing the navigation links, user experience, content, HTML, CSS, and JavaScript. Simply, it is designing all aspects of the website.
 :::
 
 The book uses Microsoft FrontPage Extensions to build a web that can communicate with a database. I never use that. But I know that it is only available on the Windows operating system and is proprietary software. Also, before you can use it—please do not use it—you need to install Internet Information Services (IIS).
