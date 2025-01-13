@@ -3,10 +3,10 @@
   "url": "https://vanzasetia.xyz",
   "description": "The articles on this website encourage you to think critically. I invite you to judge whether what I write is right or wrong.",
   "email": "vanzasetia@proton.me",
-  "defaultCopyright": {
+  "copyright": {
     "holder": "Vanza Setia"
   },
-  "defaultLicense": {
+  "license": {
     "name": "Creative Commons Attribution NoDerivatives 4.0 International License",
     "url": "https://creativecommons.org/licenses/by-nd/4.0/"
   },
