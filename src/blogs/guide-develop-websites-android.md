@@ -59,7 +59,7 @@ I try Spck version 8.0.8.0 which is the latest version on Google Play Store whil
 
 I want to mention that you can not create a project outside the `Android/data/io.spck` folder. To delete Spck while keeping your projects, you must save them on a remote git repository such as on [GitHub](https://github.com/) or [Codeberg](https://codeberg.org/).
 
-You can access the `io.spck` folder if you are on Android 10 and lower (like me). If you can access it, you can move your projects somewhere safe before uninstalling Spck.
+You can access the `io.spck` folder if you are on Android 10 or lower (like me). If you can access it, you can move your projects somewhere safe before uninstalling Spck.
 
 ::: note Storage updates in Android 11
 Users can not access the following directories:
