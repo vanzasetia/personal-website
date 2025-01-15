@@ -33,7 +33,7 @@ In 2023, I published my website and chose [vanzasetia.site](https://web.archive.
 
 But, in early 2024, I did not want to maintain it anymore. I realized that I had made a lot of mistakes. After I learned more about writing in English, copyright, and software licenses, I decided to start over.
 
-Then, in April 2024, I bought a new domain which was vanzasetia.xyz. I redesigned the website by making it rely on the browser’s styling mostly. I started writing new articles again.
+Then, in April 2024, I bought a new domain, vanzasetia.xyz. I redesigned the website by making it rely on the browser’s styling mostly. I started writing new articles again.
 
 In December 2024, I redesigned the website. I wanted it to have a modern look. Although the previous design was simple and good, it looked boring to me.
 
@@ -41,7 +41,7 @@ Here I am now. I am developing this website and writing articles about many exci
 
 ## Volunteer
 
-In December 2023, I became a volunteer to fix accessibility issues on a diocese’s website. I managed to fix minor issues on that website. (By the way, the website uses WordPress, which was something new for me.)
+In December 2023, I became a volunteer to fix accessibility issues on a diocese’s website. I managed to fix minor issues on that website. (By the way, the website uses WordPress, and WordPress was something new to me.)
 
 I could not fix the major issues, such as removing the carousel on that website. I asked the admin of that website to switch to a better alternative. I proposed the idea of using a three-column grid layout. But, the admin replied that if the admin could not inject the data as conveniently as using a carousel, then the admin would not accept it. At last, I could not remove the carousel because I could not convince the admin to care about web accessibility.
 
