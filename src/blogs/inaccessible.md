@@ -7,7 +7,7 @@ tags:
   - mind
   - notice
 copyright:
-  year: 2024
+  year: 2024, 2025
 ---
 
 I always aim to make this website accessible to many people. But, I never want to make a website accessible to all people on the internet. That is impossible.
@@ -15,6 +15,8 @@ I always aim to make this website accessible to many people. But, I never want t
 The text on this website is only accessible to people who understand English. Those who do not understand English may not understand the information on this website. Also, automatic translator tools can cause miscommunication because they can not tell the author's intention. They can only switch phrases from one language to another language. They can not switch the *meaning of phrases* from one language to another language. They are language switchers—not translators.
 
 Some internet providers may block specific top-level domains. As a result, some people may not even be able to access this website in the first place.
+
+This website does not use JavaScript. But lots of websites require users to run proprietary JavaScript. People who do not tolerate those proprietary programs can not access those websites because they block them. Also, [the JavaScript may not even arrive](https://www.kryogenix.org/code/browser/everyonehasjs.html) to the user's browser.
 
 My primary goal is to make this website to be accessible to myself. That means I can maintain and access the website effortlessly. Then, my next goal is to make it accessible to as many people as possible.
 
