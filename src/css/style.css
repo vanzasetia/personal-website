@@ -780,6 +780,9 @@ nav a:hover {
 
 .articles__list li {
   --flow-space: var(--space-xs);
+}
+
+.articles__list p {
   max-width: var(--measure-l);
 }
 
