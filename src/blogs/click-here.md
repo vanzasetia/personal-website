@@ -22,7 +22,7 @@ Some web developers may say, "What if we do both?"
 
 "What do you mean by that?" I reply.
 
-"We ask our users to **click to read this article**. For example, 'click here to read this article.'"
+"We ask our users to **click here to read this article**."
 
 That is redundant. Also, your users are not that stupid to the point you need to tell every detail about the link. They may not even care about your article. **Just tell them the purpose of the link**.
 
