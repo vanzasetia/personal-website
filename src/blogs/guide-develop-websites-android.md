@@ -6,7 +6,7 @@ tags:
   - guide
   - best
 copyright:
-  year: 2024
+  year: 2024, 2025
 ---
 
 ## Introduction
@@ -252,7 +252,7 @@ These video tutorials can help you to learn more about Git.
 
 I find two issues that those tutorials are not going to cover. I am going to give you the solutions to those issues.
 
-First, after you execute `git init` command without setting up a default branch, you will get a long output. It is going to tell you that your default branch name is `master`. Change your default branch name to `main`. The term "master" can be problematic because it refers to a master (the owner of your repository) and slaves (other people who contribute to your repository).
+First, after you execute `git init` command without setting up a default branch, you will get a long output. It is going to tell you that your default branch name is `master`. You can change your default branch name to `main` if you want.
 
 ```bash
 git config --global init.defaultBranch main
