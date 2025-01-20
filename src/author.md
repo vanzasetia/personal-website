@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Author
   order: 3
 copyright:
-  year: 2024
+  year: 2024, 2025
 ---
 
 # {{ title }}
@@ -29,7 +29,7 @@ Next, I knew that I could turn designs into websites. So I decided to apply for 
 
 Anyway, I still did not have a website that I built from scratch. After thinking for quite some time, I decided to develop a personal website.
 
-In 2023, I published my website and chose [vanzasetia.site](https://web.archive.org/web/20230328120141/https://vanzasetia.site/) as the domain name. I wrote around 80 articles in a year. I had fun playing around with my website.
+In 2023, I published my website and chose [vanzasetia.site](https://web.archive.org/web/20230328120141/https://vanzasetia.site/) as the domain name—I do not own it now. I wrote around 80 articles in a year. I had fun playing around with my website.
 
 But, in early 2024, I did not want to maintain it anymore. I realized that I had made a lot of mistakes. After I learned more about writing in English, copyright, and software licenses, I decided to start over.
 
