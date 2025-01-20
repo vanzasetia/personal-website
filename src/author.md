@@ -17,7 +17,7 @@ I am a Christian. I am a web developer, writer, and privacy supporter. I do not 
 
 I started learning web development in 2020 by following dozens of video tutorials. Then, I ended up with lots of learning projects. I was happy that I had created many projects.
 
-Then, I started to make something on my own from scratch. But I did not know where to start. I did not know what to do. Then, I watched more tutorials. But I still ended up not knowing what to do.
+Then, I started to make something on my own from scratch. But I did not know where to start. I did not know what to do. Then, I watched more tutorials. But I still ended up not knowing how.
 
 I felt like web development was not for me. I could not create anything by myself. I could not even make a simple and good website. I thought, “What is wrong with me? I have watched lots of tutorials and followed along. Why could I still not make something on my own?”
 
