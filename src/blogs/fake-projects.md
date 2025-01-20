@@ -17,7 +17,7 @@ I remember when I was still a beginner I said to my relatives that I was a great
 
 Another story, when I was on an interview through a video call, a hiring manager, a guy sitting at his desk with a casual shirt, asked me while looking at my resume on his computer screen, "Are these client projects?" I said, "No, they are not. They are projects from a learning platform called [Frontend Mentor](https://www.frontendmentor.io/profile/vanzasetia)." He replied immediately, "So there are no real projects, right?" I answered, "Yes, that is true."
 
-At that time, I was feeling very proud of myself that I was a great web developer. That feeling was great, but wrong. To think that **fake** projects can make me a great web developer was a mistake. I am not proud to share this with you. But I hope you can learn something from my mistake.
+At that time, I was feeling very proud of myself that I was a great web developer. That feeling was great, but wrong. To think that **fake** projects can make me a great web developer was a mistake.
 
 Now, if you are new to web development and feel stagnant, you need to make a real project. Learn from people who are working in the industry, not just from a person who is only making courses and YouTube videos.
 
