@@ -91,6 +91,6 @@ I used [Utopia](https://utopia.fyi/) to generate the fluid type scale and fluid 
 - Expect this process to be messy.
 - Forget about quality and best practices.
 
-:::aside The next part will be coming very soon
-Stay tuned.
+:::aside Read the second part
+[Redesigning: Improving the Initial Prototype](/blog/redesigning-improving/)
 :::
