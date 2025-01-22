@@ -1,5 +1,5 @@
 ---
-title: "Redesigning: Improving the initial prototype"
+title: "Redesigning: improving the initial prototype"
 description: The second part shows you how to develop prototype components and compose them into web pages.
 date: 2025-01-22
 tags: design

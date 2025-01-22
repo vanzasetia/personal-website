@@ -1,5 +1,5 @@
 ---
-title: "Redesigning: Proving redesign is a good and right decision"
+title: "Redesigning: proving redesign is a good and right decision"
 description: This is the first part of a new article series that gives you a look at the behind-the-scenes of this website redesign process. Be ready. It is a very unusual way to redesign a website.
 date: 2025-01-20
 tags: design
