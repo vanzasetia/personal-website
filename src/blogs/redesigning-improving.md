@@ -81,6 +81,6 @@ I decided to separate the CSS from the HTML. This means all HTML pages would use
 - Make a logo.
 - Get the visualization of the final design.
 
-:::aside The third part is coming very soon
-Stay tuned.
+:::aside Read the third part
+[Redesigning: Making a Design with HTML and CSS](/blog/redesigning-making-design/)
 :::
