@@ -43,7 +43,7 @@ eleventyImport:
       <link>{{ absoluteBlogUrl }}</link>
       <pubDate>{{ blog.date | dateToRfc822 }}</pubDate>
       <guid>{{ absoluteBlogUrl }}</guid>
-      <description>{{ blog.data.description | markdownItFilter | transformWithHtmlBase(absoluteBlogUrl, blog.url) }}{{ blog.templateContent | transformWithHtmlBase(absoluteBlogUrl, blog.url) }}</description>
+      <description>{{ blog.templateContent | transformWithHtmlBase(absoluteBlogUrl, blog.url) }}</description>
     </item>
     {% endfor %}
   </channel>
