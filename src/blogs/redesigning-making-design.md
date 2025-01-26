@@ -90,6 +90,6 @@ I need to highlight that I did not group classes because I worked alone on this 
 - Use the CUBE CSS methodology to guide you in writing decorative HTML elements.
 - Do not group classes if you work alone and your website is simple.
 
-:::aside The final part is coming very soon
-Stay tuned.
+:::aside Read the final part
+[Redesigning: Applying the New Web Design](/blog/redesigning-applying/)
 :::
