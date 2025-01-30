@@ -19,7 +19,7 @@ This book gives me a glimpse of how **a person** built an advanced web design ar
 Web design is not only about designing the user interface (UI) of a website. It is also about designing the navigation links, user experience, content, HTML, CSS, and JavaScript. Simply, it is designing all aspects of the website.
 :::
 
-The book uses Microsoft FrontPage Extensions to build a web that can communicate with a database. I never use that. But I know that it is only available on the Windows operating system and is proprietary software. Also, before you can use it—please do not use it—you need to install Internet Information Services (IIS).
+The book uses Microsoft FrontPage Extensions to build a web that can work with a database. I never use that. But I know that it is only available on the Windows operating system and is proprietary software. Also, before you can use it—please do not use it—you need to install Internet Information Services (IIS).
 
 ## How about HTML?
 
