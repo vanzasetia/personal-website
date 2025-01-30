@@ -397,7 +397,7 @@ For example, you can view your website on a wide screen by doing the following:
 
 ## Choose Eruda as your developer tool
 
-Eruda is an embedded developer tool. You can have a developer tool on your mobile browsers with it. You can also use it in your local host.
+Eruda is an embedded developer tool for your mobile browsers. You can use it in your local host and on any websites that do not block it.
 
 To use it, you need to create a bookmarklet. Now, what is a bookmarklet?
 
