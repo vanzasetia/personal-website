@@ -25,6 +25,7 @@ permalink: feed.xml
 eleventyExcludeFromCollections: true
 eleventyImport:
   collections: ["blog"]
+author: Vanza Setia
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -33,9 +34,13 @@ eleventyImport:
     <language>en-us</language>
     <link>{{ site.url }}</link>
     <description>{{ site.description }}</description>
-    <copyright>Copyright © 2024, 2025 Vanza Setia.</copyright>
+    <copyright>Copyright © 2024, 2025 {{ site.copyright.holder }}.</copyright>
     <lastBuildDate>{{ collections.blog | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
     <atom:link href="{{ site.url }}/{{ permalink }}" rel="self" type="application/rss+xml" />
+    <author>
+      <name>{{ author }}</name>
+      <email>{{ site.email }}</email>
+    </author>
     {% for blog in collections.blog | reverse %}
     {% set absoluteBlogUrl = blog.url | htmlBaseUrl(site.url) %}
     <item>
