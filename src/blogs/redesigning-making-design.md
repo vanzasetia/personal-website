@@ -61,7 +61,7 @@ For the colors, I decided to use a black-and-white color theme. I tried using ac
 
 A black-and-white theme is easy to maintain. I can make a light theme and a dark theme effortlessly.
 
-A black-and-white theme is also easy to comply with the Web Content Accessibility Guidelines (WCAG) 2.2. This website straightly surpasses the [Success Criterion (SC) 1.4.3 Contrast (Minimum) (Level AA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum) and [SC 1.4.6 Contrast (Enhanced) (Level AAA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced).
+A black-and-white theme is also easy to meet the Web Content Accessibility Guidelines (WCAG) 2.2. This website straightly surpasses the [Success Criterion (SC) 1.4.3 Contrast (Minimum) (Level AA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum) and [SC 1.4.6 Contrast (Enhanced) (Level AAA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced).
 
 ## Choosing a CSS reset
 
