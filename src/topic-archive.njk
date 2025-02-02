@@ -1,21 +1,14 @@
----js
-const layout = "layouts/extension.njk"
-
-const pagination = {
-	data: "collections",
-	size: 1,
-	alias: "topic",
-	filter: ["all", "blog", "best"],
-};
-
-const eleventyExcludeFromCollections = true;
-
-const eleventyComputed = {
-	title: "{{ topic }} - Topic Archive",
-	permalink: function(data) {
-		return `/category/${this.slugify(data.topic)}/`;
-	}
-};
+---
+layout: layouts/extension.njk
+pagination:
+  data: collections
+  size: 1
+  alias: topic
+  filter: ["all", "blog", "best"]
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  title: "{{ topic }} - Topic Archive"
+  permalink: /category/{{ topic | slugify }}/index.html
 ---
 
 {#
