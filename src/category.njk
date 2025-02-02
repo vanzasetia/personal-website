@@ -9,7 +9,7 @@ copyright:
   <div class="wrapper">
     <div class="wrapper flow" data-wrapper-type="inner">
       <h1>{{ title }}</h1>
-      {% set tags = collections  | getKeysFilter %}
+      {% set tags = collections.sort %}
       {% include "blog/categories.njk" %}
     </div>
   </div>

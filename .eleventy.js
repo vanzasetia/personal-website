@@ -39,6 +39,8 @@ import markdownItFilter from "./src/filters/markdown-it.js";
 
 import minifyHTML from "./src/transformers/minify-html.js";
 
+import sort from "./src/collections/sort.js";
+
 export default async function (config) {
   config.addPassthroughCopy("./src/favicons");
   config.addPassthroughCopy("./src/manifest.json");
@@ -63,6 +65,8 @@ export default async function (config) {
   config.addFilter("markdownItFilter", markdownItFilter);
 
   config.addTransform("minifyHTML", minifyHTML);
+
+  config.addCollection("sort", sort);
 }
 
 export const config = {

@@ -52,7 +52,7 @@ copyright:
     <div class="wrapper">
       <div class="wrapper flow" data-wrapper-type="inner">
         <h2>Topics</h2>
-        {% set tags = collections  | getKeysFilter %}
+        {% set tags = collections.sort %}
         {% include "blog/categories.njk" %}
       </div>
     </div>
