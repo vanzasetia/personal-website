@@ -599,6 +599,7 @@ hr {
   font-weight: var(--badge-font-weight, 700);
   text-transform: var(--badge-text-transform, uppercase);
   font-family: var(--badge-font-family, var(--font-sans-serif));
+  font-size: var(--badge-font-size, var(--step-0));
   padding-block: var(--badge-padding-block, calc(var(--space-2xs) * 0.5));
   padding-inline: var(--badge-padding-inline, var(--space-2xs));
   text-decoration-color: transparent;
