@@ -373,6 +373,10 @@ ol ::marker {
   font-weight: 700;
 }
 
+[class] {
+  margin-block: 0;
+}
+
 img,
 picture {
   display: block;
@@ -729,13 +733,20 @@ nav a:hover {
 }
 
 .topics[data-topics-type="blog"] {
-  --wrapper-inner-border-block-start-width: 0;
-  --wrapper-inner-border-block-end-width: 0;
+  --wrapper-inner-border-block-end-width: var(--global-line-width);
+  --topics-heading-font-size: var(--step-2);
+  --topics-heading-font-family: var(--font-serif);
+  --cluster-align-items: center;
 }
 
 .topics ul {
   padding: 0;
   margin-inline: 0;
+}
+
+.topics h2 {
+  font-size: var(--topics-heading-font-size, var(--step-4));
+  font-family: var(--topics-heading-font-family, var(--font-sans-serif));
 }
 
 .articles {
@@ -828,6 +839,7 @@ footer ul {
 
 .prose[data-prose-type="blog"] .wrapper[data-wrapper-type="inner"] {
   margin-block-start: var(--gutter);
+  margin-block-end: var(--gutter);
 }
 
 .prose :is(h2, h3, h4) {
@@ -871,8 +883,8 @@ footer {
   --cluster-row-gap: var(--space-2xs);
   --flow-space: var(--space-xs);
 
-  margin-block-start: var(--gutter);
-  padding-block-end: var(--gutter);
+  margin-block-start: var(--space-xl);
+  margin-block-end: var(--gutter);
 }
 
 footer svg {
