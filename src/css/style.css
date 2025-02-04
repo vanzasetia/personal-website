@@ -668,12 +668,6 @@ a.badge:hover {
   margin-block: 0;
 }
 
-.text-size-normal {
-  font-size: var(--step-0);
-  line-height: 1.5;
-  max-width: var(--measure-l);
-}
-
 .text-size-large {
   font-size: var(--step-7);
   line-height: 1.1;
