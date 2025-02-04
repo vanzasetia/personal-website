@@ -556,6 +556,7 @@ hr {
 }
 
 .button {
+  display: var(--button-display, inline-block);
   text-decoration-color: var(--button-text-decoration-color, transparent);
   text-transform: var(--button-text-transform, uppercase);
   font-family: var(--button-font-family, var(--font-sans-serif));
