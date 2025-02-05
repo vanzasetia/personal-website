@@ -1,10 +1,9 @@
 ---
 layout: layouts/extension.njk
 pagination:
-  data: collections
+  data: collections.sort
   size: 1
   alias: topic
-  filter: ["all", "blog", "best", "sort"]
 eleventyExcludeFromCollections: true
 eleventyComputed:
   title: "{{ topic }} - Topic Archive"
