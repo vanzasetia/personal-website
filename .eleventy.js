@@ -40,6 +40,7 @@ import markdownItFilter from "./src/filters/markdown-it.js";
 import minifyHTML from "./src/transformers/minify-html.js";
 
 import sort from "./src/collections/sort.js";
+import people from "./src/collections/people.js";
 
 export default async function (config) {
   config.addPassthroughCopy("./src/favicons");
@@ -67,6 +68,7 @@ export default async function (config) {
   config.addTransform("minifyHTML", minifyHTML);
 
   config.addCollection("sort", sort);
+  config.addCollection("people", people);
 }
 
 export const config = {
