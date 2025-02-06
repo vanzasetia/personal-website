@@ -1,24 +1,27 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
   <channel>
     <title>{{ title }}</title>
     <language>en-us</language>
     <link>{{ site.url }}</link>
     <description>{{ site.description }}</description>
     <copyright>Copyright © {{ copyright.year }} {{ site.copyright.holder }}.</copyright>
+    <docs>https://www.rssboard.org/rss-specification</docs>
     <lastBuildDate>{{ blogs | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
     <atom:link href="{{ site.url }}/{{ permalink }}" rel="self" type="application/rss+xml" />
     <author>
       <name>{{ author }}</name>
-      <email>{{ site.email }}</email>
     </author>
     {% for blog in blogs | reverse %}
     {% set absoluteBlogUrl = blog.url | htmlBaseUrl(site.url) %}
     <item>
       <title>{{ blog.data.title }}</title>
       <link>{{ absoluteBlogUrl }}</link>
+      {% if blog.data.commentary.name %}
+      <dc:creator>{{ blog.data.author.name }}</dc:creator>
+      {% endif %}
       <pubDate>{{ blog.date | dateToRfc822 }}</pubDate>
-      <guid>{{ absoluteBlogUrl }}</guid>
-      <description>{{ blog.templateContent | transformWithHtmlBase(absoluteBlogUrl, blog.url) }}</description>
+      <guid isPermaLink="true">{{ absoluteBlogUrl }}</guid>
+      <content type="html">{{ blog.content | renderTransforms(blog.data.page, blog.url) }}{% if blog.data.author.url %}&lt;p&gt;&lt;a href=&quot;{{ blog.data.author.url }}&quot;&gt;Check it out&lt;/a&gt;.&lt;/p&gt;{% endif %}</content>
     </item>
     {% endfor %}
   </channel>
