@@ -8,9 +8,6 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <lastBuildDate>{{ blogs | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
     <atom:link href="{{ site.url }}/{{ permalink }}" rel="self" type="application/rss+xml" />
-    <author>
-      <name>{{ author }}</name>
-    </author>
     {% for blog in blogs | reverse %}
     {% set absoluteBlogUrl = blog.url | htmlBaseUrl(site.url) %}
     <item>
