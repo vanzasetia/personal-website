@@ -18,7 +18,7 @@
       {% endif %}
       <pubDate>{{ blog.date | dateToRfc822 }}</pubDate>
       <guid isPermaLink="true">{{ absoluteBlogUrl }}</guid>
-      <description>{{ blog.content | renderTransforms(blog.data.page, blog.url) }}{% if blog.data.author.url %}&lt;p&gt;&lt;a href=&quot;{{ blog.data.author.url }}&quot;&gt;Check it out&lt;/a&gt;.&lt;/p&gt;{% endif %}</description>
+      <description>{{ blog.content | renderTransforms(blog.data.page, site.url) }}{% if blog.data.author.url %}&lt;p&gt;&lt;a href=&quot;{{ blog.data.author.url }}&quot;&gt;Check it out&lt;/a&gt;.&lt;/p&gt;{% endif %}</description>
     </item>
     {% endfor %}
   </channel>
