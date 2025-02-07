@@ -84,7 +84,22 @@ SOFTWARE.
 <div class="prose" data-prose-type="blog">
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
-      <div class="prose__article flow">{{ content | safe }}</div>
+      <div class="prose__article flow">
+        {{ content | safe }}
+        <a href="mailto:{{ site.email }}" class="button">
+          Share your thoughts
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            focusable="false"
+            fill="currentColor"
+          >
+            <use href="#arrow-up-right"></use>
+          </svg>
+        </a>
+      </div>
     </div>
   </div>
 </div>
