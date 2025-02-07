@@ -106,6 +106,9 @@
   --pre-background-color: var(--color-dark-10);
   --pre-text-color: var(--color-light-10);
 
+  --mark-background-color: var(--color-global-text);
+  --mark-text-color: var(--color-global-background);
+
   --button-svg-size: 2.5ex;
   --button-svg-vertical-alignment: -0.35em;
   --button-svg-margin-inline-start: 0.1em;
@@ -468,6 +471,11 @@ hr {
   height: 1px;
   margin: var(--space-m) 0;
   padding: 0;
+}
+
+mark {
+  background-color: var(--mark-background-color);
+  color: var(--mark-text-color);
 }
 
 [hidden] {

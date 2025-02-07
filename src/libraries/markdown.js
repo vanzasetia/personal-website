@@ -29,6 +29,7 @@ import markdownItContainer from "markdown-it-container";
 import markdownItFootnote from "markdown-it-footnote";
 import markdownItAttrs from "markdown-it-attrs";
 import markdownItVideo from "./markdown-it-video.js";
+import markdownItMark from "markdown-it-mark";
 import slugify from "@sindresorhus/slugify";
 
 const image =
@@ -143,6 +144,7 @@ const markdown = markdownIt()
   .use(markdownItAnchor)
   .use(markdownItKbd)
   .use(markdownItFootnote)
+  .use(markdownItMark)
   .use(markdownItVideo, markdownIt)
   .use(markdownItAttrs, markdownItAttrsOptions)
   .use(markdownItContainer, "note", noteStructure)
