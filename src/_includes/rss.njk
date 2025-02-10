@@ -11,7 +11,7 @@
     {% for blog in blogs | reverse %}
     {% set absoluteBlogUrl = blog.url | htmlBaseUrl(site.url) %}
     <item>
-      <title>{{ blog.data.title }}</title>
+      <title>{{ blog.data.title | titleCaseFilter }}</title>
       <link>{{ absoluteBlogUrl }}</link>
       {% if blog.data.commentary.name %}
       <dc:creator>{{ blog.data.author.name }}</dc:creator>
