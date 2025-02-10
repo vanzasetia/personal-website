@@ -79,15 +79,18 @@
   --kerning: -0.015em;
   --leading-normal: 1.5;
   --leading-soft: 1.1;
-  --font-serif: Merriweather, "Georgia Pro", Georgia, Superclarendon,
-    "Bookman Old Style", "URW Bookman", "URW Bookman L", serif;
-  --font-sans-serif: "Open Sans", "San Francisco", "Segoe UI", Roboto, Ubuntu,
-    Cantarell, "Noto Sans", sans-serif;
-  --font-monospace: "Cascadia Code", "Source Code Pro", Menlo, Consolas,
-    "DejaVu Sans Mono", monospace;
-  --font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  --font-serif:
+    Merriweather, "Georgia Pro", Georgia, Superclarendon, "Bookman Old Style",
+    "URW Bookman", "URW Bookman L", serif;
+  --font-sans-serif:
+    "Open Sans", "San Francisco", "Segoe UI", Roboto, Ubuntu, Cantarell,
+    "Noto Sans", sans-serif;
+  --font-monospace:
+    "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono",
+    monospace;
+  --font-system:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-base: var(--font-serif);
   --font-display: var(--font-sans-serif);
   --measure-xs: 20ch;
