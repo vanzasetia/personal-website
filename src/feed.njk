@@ -27,8 +27,9 @@ eleventyImport:
   collections: ["blog"]
 copyright:
   year: 2024, 2025
+numberOfLatestBlogsToShow: 5
 ---
 <?xml version="1.0" encoding="utf-8"?>
 {% set title = site.title %}
-{% set blogs = collections.blog %}
+{% set blogs = collections.blog | blogSliceFilter(-1 * numberOfLatestBlogsToShow) %}
 {% include "rss.njk" %}
