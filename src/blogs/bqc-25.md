@@ -6,7 +6,7 @@ copyright:
   year: 2025
 ---
 
-[Light Thoughts](https://framapiaf.org/@299792458ms@social.linux.pizza/113872673777255925) nominated me for a challenge. How dare you challenge me? I accept your challenge. Bring it on!
+[Light Thoughts](https://social.linux.pizza/@299792458ms/113872673708362073) nominated me for a challenge. How dare you challenge me? I accept your challenge. Bring it on!
 
 ## Why did you start blogging in the first place?
 
@@ -62,4 +62,4 @@ I checked people that I know, and they already did the challenge. If you want to
 
 I am happy to know that the questions are not about math. Otherwise, I will regret accepting the challenge.
 
-Thank you, [Light Thoughts](https://299792458ms.codeberg.page/), for telling me about this challenge.
+Thank you, Light Thoughts, for telling me about this challenge.
