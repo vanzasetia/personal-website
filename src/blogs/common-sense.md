@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Common sense
 description: President Trump signs No Men in Women's Sports executive order into law. Is this normal? Here is my opinion.
 date: 2025-02-07

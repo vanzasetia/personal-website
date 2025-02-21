@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Merry Christmas 2024
 description: I write a bit about what I think today.
 tags: diary

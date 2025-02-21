@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Blog Questions Challenge 2025
 date: 2025-01-26
 tags: challenge

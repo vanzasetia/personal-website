@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Discount
 date: 2024-08-04
 tags: mind

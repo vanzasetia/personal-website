@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: A link hover effect that confuses some users
 description: Removing the underline as a hover effect for links can confuse your mobile users.
 date: 2024-12-31

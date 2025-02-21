@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Exploring the Personal Web
 description: If you are new to the world of personal websites, foreverliketh.is has a great collection of links, like web clubs, to help or motivate you to develop your own website.
 date: 2025-01-15

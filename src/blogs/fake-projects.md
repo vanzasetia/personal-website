@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Fake projects
 description: Beginners love making projects from tutorials. But they do not realize that fake projects, in the end, are fake.
 date: 2025-01-19

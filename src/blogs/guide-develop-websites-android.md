@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: The beginner guide to develop websites on Android
 description: Make your web from scratch without a computer. I tell you everything you need to know to develop websites on your Android device.
 date: 2024-04-27

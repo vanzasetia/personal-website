@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: My word choice in English and Indonesian
 description: English and Indonesian have some unique connections. Some Indonesian terms are the correct terms to use in English. Some English terms are the correct terms to use in Indonesian. Sometimes both are wrong.
 date: 2024-06-16

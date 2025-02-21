@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 layout: layouts/sub.njk
 title: Author
 description: I am a Christian. I am a web developer, writer, and privacy supporter. I do not have any social media accounts that you can scroll.

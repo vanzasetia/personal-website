@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: "Redesigning: making a design with HTML and CSS"
 description: This is the third part that shows you how to develop a web design with HTML and CSS without any fancy tools.
 date: 2025-01-24

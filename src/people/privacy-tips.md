@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Effective privacy tips
 description: Don Marti gives us some privacy tips, starting from the simple ones to the complicated ones.
 date: 2025-02-18

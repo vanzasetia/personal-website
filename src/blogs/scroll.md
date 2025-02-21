@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Scroll
 description: Do you know that you can scroll down? Do you think I should tell you to do that?
 date: 2024-08-01

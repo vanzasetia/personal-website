@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-NC-ND-4.0
 title: Washing your body
 description: Can you wash your body today? Can you do it yourself?
 date: 2025-02-04

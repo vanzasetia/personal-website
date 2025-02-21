@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-SA-4.0
 title: Simple
 date: 2024-06-19
 tags: humor

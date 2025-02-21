@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-SA-4.0
 title: No JavaScript
 description: This notice aims to help both the webmaster and the user to understand the meaning of a website without JavaScript.
 date: 2024-04-27

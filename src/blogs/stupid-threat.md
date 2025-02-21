@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Stupid threat
 description: Someone sent me an email claiming has gotten access to my computer. Here is my reply.
 date: 2025-01-14

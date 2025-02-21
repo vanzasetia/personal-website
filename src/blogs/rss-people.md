@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: New Really Simple Syndication feed
 date: 2025-02-05
 tags: notice

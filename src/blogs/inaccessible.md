@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Proudly inaccessible
 description: I announce that this website is not accessible to everyone. I expect that I will never try to make it accessible to all people.
 date: 2024-06-20

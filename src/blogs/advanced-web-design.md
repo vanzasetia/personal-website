@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Advanced web design in 2003
 description: This book gives me a glimpse of how a person built an advanced web design in the year around 2003. In a nutshell, it was complicated.
 date: 2025-01-05

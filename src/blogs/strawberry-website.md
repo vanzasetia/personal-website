@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-SA-4.0
 title: Strawberry website
 date: 2024-07-09
 tags: concept

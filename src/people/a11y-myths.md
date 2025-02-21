@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Accessibility Myths
 description: Do you believe you need to be a genius to fix all accessibility issues?
 date: 2025-01-03

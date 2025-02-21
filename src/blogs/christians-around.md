@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Christians may not be around
 description: Where are Christians? Can I find them?
 date: 2025-02-20

@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: One action
 description: One action is better than two actions. The more actions your users are required to do, the more code you need to write too—think about that.
 date: 2025-02-11

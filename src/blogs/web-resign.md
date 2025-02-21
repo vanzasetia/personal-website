@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Web Resign
 description: Web design is normal. But "Web Resign" is more normal.
 date: 2024-12-28

@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: "Redesigning: improving the initial prototype"
 description: The second part shows you how to develop prototype components and compose them into web pages.
 date: 2025-01-22

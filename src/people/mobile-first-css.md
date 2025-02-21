@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: "Mobile-First CSS: Is It Time for a Rethink?"
 description: Is there a better approach than mobile-first CSS? Let us evaluate an article that tries to answer it.
 date: 2025-01-09

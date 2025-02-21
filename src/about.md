@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 layout: layouts/sub.njk
 title: About this website
 description: The articles are mainly about web development. I give you information that most tutorials do not cover. I also write on many other exciting topics about life in general.

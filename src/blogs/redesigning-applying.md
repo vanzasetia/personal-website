@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: "Redesigning: applying the new web design"
 description: In this final part of this website redesign series, I tell you my process of updating the existing website with my unique web design.
 date: 2025-01-26

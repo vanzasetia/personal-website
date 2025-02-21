@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Eating
 description: If you can eat today, you should be grateful. Do you know that there are lots of people who can not eat today?
 date: 2025-01-31

@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Do not learn everything
 description: Do you need to learn everything? Is it even possible to learn everything in just one subject?
 date: 2025-01-30

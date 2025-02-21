@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Alien
 description: Do aliens exist? Alien is a strange being that flies using a mysterious flying object called an unidentified flying object (UFO). I have some theories about aliens.
 date: 2024-07-31

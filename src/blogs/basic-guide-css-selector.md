@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-SA-4.0
 title: The basic guide to CSS selector
 description: "\"Which is the right CSS selector to use?\" This article guides you by giving different criteria to choose the right CSS selector."
 date: 2024-07-20

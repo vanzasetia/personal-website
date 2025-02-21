@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: The HTML Hell Page
 description: A collection of bad web design decisions is a great resource for learning web design.
 date: 2025-01-03

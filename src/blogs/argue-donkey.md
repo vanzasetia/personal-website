@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Do not argue with a donkey
 description: Do you agree that the grass is blue?
 date: 2024-12-26
