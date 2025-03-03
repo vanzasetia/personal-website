@@ -1,7 +1,7 @@
 ---
 # Copyright (c) Vanza Setia
 # SPDX-License-Identifier: CC-BY-ND-4.0
-title: Trump is disrespectful
+title: Trump shows no respect for his guess
 date: 2025-03-01
 tags: politic
 copyright:
