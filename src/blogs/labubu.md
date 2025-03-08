@@ -33,7 +33,7 @@ Again, I found a video on TikTok—I do not have a TikTok account by the way—s
 
 If you watch that video till the end, you should see hundreds of people were spending money to get those dolls. Even the one who made the video said, "In total, we waited about 11 hours […]." That person wasted 11 hours just to get garbage.
 
-Also, I found some headlines about people getting scammed. I feel sorry for those people who get scammed. They spent lots of money. Yet, they got fake dolls only.
+Also, I found some headlines about people getting scammed. I feel sorry for those people. They spent lots of money. Yet, they got fake dolls only.
 
 Actually, I do not feel sorry. That shows people are so desperate to the point they become so stupid. They are so hopeless.
 
