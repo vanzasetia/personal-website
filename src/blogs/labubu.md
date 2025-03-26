@@ -2,7 +2,7 @@
 # Copyright (c) Vanza Setia
 # SPDX-License-Identifier: CC-BY-ND-4.0
 title: Labubu
-description: Lisa gave an order to millions of stupid people to buy garbage.
+description: Lisa has given an order to millions of stupid people to buy garbage.
 date: 2025-03-08
 tags: stupidity
 copyright:
