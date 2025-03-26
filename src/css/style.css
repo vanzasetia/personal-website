@@ -112,6 +112,9 @@
   --mark-background-color: var(--color-global-text);
   --mark-text-color: var(--color-global-background);
 
+  --aria-current-background-color: var(--code-background-color);
+  --aria-current-text-color: var(--code-text-color);
+
   --button-svg-size: 2.5ex;
   --button-svg-vertical-alignment: -0.35em;
   --button-svg-margin-inline-start: 0.1em;
@@ -381,6 +384,11 @@ ol ::marker {
 
 [class] {
   margin-block: 0;
+}
+
+[aria-current] {
+  background-color: var(--aria-current-background-color);
+  color: var(--aria-current-text-color);
 }
 
 img,

@@ -25,7 +25,14 @@ SOFTWARE.
 <nav>
   <ul class="cluster">
     {%- for link in collections.all | eleventyNavigation %}
-      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      <li>
+        <a
+          href="{{ link.url }}"
+          {% if link.url == page.url %}aria-current="true"{% endif %}
+        >
+          {{ link.title }}
+        </a>
+      </li>
     {%- endfor %}
   </ul>
 </nav>
