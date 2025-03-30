@@ -19,4 +19,4 @@ This way, the users who choose to see them will be able to see them. Then, if th
 
 Using this approach, you are doing a progressive enhancement and making the website accessible at the same time.
 
-As a side note, the idea is not coming from me. It is coming from "[Taking a no-motion-first approach to animations](https://www.tatianamac.com/posts/prefers-reduced-motion)."
+As a side note, the idea is not coming from me. It is coming from [Taking a no-motion-first approach to animations](https://www.tatianamac.com/posts/prefers-reduced-motion).

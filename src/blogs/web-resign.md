@@ -44,7 +44,7 @@ But Web Resigners ensure that a website is fun. People can have an accessibility
 
 Are Web Resigners afraid of getting punished because of making fun (of) websites? Don't worry. Just use an accessibility overlay. No matter how many issues they make, an accessibility overlay will solve all problems. Yes, all the problems are magically gone. Can you believe it?
 
-By the way, Web Resigners ignore "[Overlay Fact Sheet](https://overlayfactsheet.com/)" and "[Overlay False Claims](https://overlayfalseclaims.com/)."
+By the way, Web Resigners ignore [Overlay Fact Sheet](https://overlayfactsheet.com/) and [Overlay False Claims](https://overlayfalseclaims.com/).
 
 Does an accessibility overlay create new accessibility problems? Again, don't worry. Just add another accessibility overlay on top of the existing accessibility overlay. Is an accessibility overlay on an accessibility overlay problematic? Stop thinking about it. Then, the problems will disappear from your mind.
 
