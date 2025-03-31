@@ -63,7 +63,7 @@ I always want to share what I have learned. Writing articles helps me to reinfor
 
 ## Christian
 
-I hate when Christians think that they must tolerate evil acts because of [Luke 6:29](https://www.biblegateway.com/passage/?search=Luke%206%3A29&version=NIV). They should interpret the verse with the other verses, [Luke 6:27–36](https://www.biblegateway.com/passage/?search=Luke%206:27-36&version=NIV). Jesus said that in the context of a society with laws and police. That means fighting back is foolish because both of you will get into trouble. But you are wise when you do not fight back. Let the police do the job. Why do you need to make your hands dirty? Why don’t you just let the police fight for you? Be wise.
+I hate when Christians think that they must tolerate evil acts because of [Luke 6:29](https://www.biblegateway.com/passage/?search=Luke%206%3A29&version=KJV). They should interpret the verse with the other verses, [Luke 6:27–36](https://www.biblegateway.com/passage/?search=Luke%206:27-36&version=KJV). Jesus said that in the context of a society with laws and police. That means fighting back is foolish because both of you will get into trouble. But you are wise when you do not fight back. Let the police do the job. Why do you need to make your hands dirty? Why don’t you just let the police fight for you? Be wise.
 
 A Christian loves their enemies. That means teaching them to be good. Allowing them to keep doing evil to you is not love. It is misguidance.
 
