@@ -65,7 +65,9 @@ I always want to share what I have learned. Writing articles helps me to reinfor
 
 I hate when Christians think that they must tolerate evil acts because of [Luke 6:29](https://www.biblegateway.com/passage/?search=Luke%206%3A29&version=KJV). They should interpret the verse with the other verses, [Luke 6:27–36](https://www.biblegateway.com/passage/?search=Luke%206:27-36&version=KJV). Jesus said that in the context of a society with laws and police. That means fighting back is foolish because both of you will get into trouble. But you are wise when you do not fight back. Let the police do the job. Why do you need to make your hands dirty? Why don’t you just let the police fight for you? Be wise.
 
-A Christian loves their enemies. That means teaching them to be good. Allowing them to keep doing evil to you is not love. It is misguidance.
+If you think allowing others to do evil actions means an act of loving enemies, you are stupid. Hypocrites! You lock your doors when you leave your house. Why don't you let others steal from your house? If you teach your children to be careful with strangers, why don't you teach your children to trust any strangers they meet? Are you saying that Christians must be friendly to wicked people? Stupid! Terrorists do not understand "excuse me." They only understand "kill or be killed!"
+
+A Christian loves their enemies. This means teaching them to be good. The ways of teaching enemies to be good are different based on their type. Allowing them to keep doing evil to you is not love. It is misguidance.
 
 I only follow Jesus Christ. I do not worship the pope. The pope is a human like me. The pope can not save himself from death like me. The pope is a sinner like me. I do not worship priests. I only worship God.
 
