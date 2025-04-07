@@ -39,6 +39,7 @@ import getKeysFilter from "./src/filters/get-keys.js";
 import minifyHTML from "./src/transformers/minify-html.js";
 
 import sort from "./src/collections/sort.js";
+import latest from "./src/collections/latest.js";
 
 export default async function (config) {
   config.addPassthroughCopy("./src/favicons");
@@ -65,6 +66,7 @@ export default async function (config) {
   config.addTransform("minifyHTML", minifyHTML);
 
   config.addCollection("sort", sort);
+  config.addCollection("latest", latest);
 }
 
 export const config = {

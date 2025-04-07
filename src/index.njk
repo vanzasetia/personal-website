@@ -69,9 +69,9 @@ copyright:
    <div class="articles">
     <div class="wrapper">
       <div class="wrapper" data-wrapper-type="inner">
-        <h2>Latest articles</h2>
+        <h2>Latest</h2>
       </div>
-      {% set blogList = collections.blog | blogSliceFilter(-1 * numberOfLatestBlogsToShow) %}
+      {% set blogList = collections.latest | blogSliceFilter(-1 * numberOfLatestBlogsToShow) %}
       {% include "blog/list.njk" %}
       <div class="wrapper" data-wrapper-type="inner">
         <a href="/blog/" class="button" data-button-size="mega">

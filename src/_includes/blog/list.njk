@@ -50,14 +50,16 @@ SOFTWARE.
       <time datetime="{{ publishedDate | htmlDateFilter }}"
         >{{ publishedDate | blogDateFilter }}</time
       >
-      {% set firstTag = blog.data.tags[1] %}
-      {% set tagUrl %}/category/{{ firstTag | slugify }}/{% endset %}
-      {% if '/category' in page.url or '/people' in page.url %}
-      {# No tag #}
-      {% else %}
-      <p>
-        <a href="{{ tagUrl }}" class="badge">{{ firstTag }}</a>
-      </p>
+      {% set category = blog.data.tags[1] %}
+      {% if category %}
+        {% set tagUrl %}/category/{{ category | slugify }}/{% endset %}
+        {% if '/category' in page.url or '/people' in page.url %}
+        {# No tag #}
+        {% else %}
+        <p>
+          <a href="{{ tagUrl }}" class="badge">{{ category }}</a>
+        </p>
+        {% endif %}
       {% endif %}
     </div>
   </li>
