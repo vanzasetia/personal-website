@@ -23,16 +23,9 @@ SOFTWARE.
 #}
 
 <nav>
-  <ul class="cluster">
-    {%- for link in collections.all | eleventyNavigation %}
-      <li>
-        <a
-          href="{{ link.url }}"
-          {% if link.url == page.url %}aria-current="true"{% endif %}
-        >
-          {{ link.title }}
-        </a>
-      </li>
-    {%- endfor %}
-  </ul>
+  {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
+  activeKey: eleventyNavigation.key,
+  useAriaCurrentAttr: true,
+  listClass: "cluster"
+  }) | safe }}
 </nav>
