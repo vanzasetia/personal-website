@@ -632,13 +632,6 @@ mark {
   );
 }
 
-.badge[data-badge-type="acknowledgement"] {
-  --badge-border-width: 3px;
-  --badge-border-style: ridge;
-  --badge-text-transform: none;
-  --badge-font-weight: 400;
-}
-
 a.badge:hover {
   background-color: var(--color-global-text);
   color: var(--color-global-background);
@@ -881,16 +874,6 @@ footer ul {
 .hero[data-hero-type="blog"] .hero__meta {
   --flow-space: var(--space-s);
   margin-block-start: var(--space-3xl);
-}
-
-.acknowledgement {
-  --cluster-justify-content: space-between;
-  --cluster-align-items: center;
-  --cluster-row-gap: var(--space-m);
-  --cluster-column-gap: var(--space-2xs);
-  --cluster-flex-wrap: wrap;
-  --wrapper-inner-border-block-start-width: 0;
-  --wrapper-inner-border-block-end-width: var(--global-line-width);
 }
 
 footer {

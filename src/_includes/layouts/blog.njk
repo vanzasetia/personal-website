@@ -43,44 +43,6 @@ SOFTWARE.
     </div>
   </div>
 </div>
-{% if acknowledgement.sponsor or acknowledgement.idea %}
-<div class="acknowledgement">
-  <div class="wrapper">
-    <div class="wrapper cluster" data-wrapper-type="inner">
-      {% if acknowledgement.sponsor %}
-      <p class="badge" data-badge-type="acknowledgement">
-        <svg
-          width="28"
-          height="28"
-          viewBox="0 0 28 28"
-          aria-hidden="true"
-          focusable="false"
-          fill="currentColor"
-        >
-          <use href="#heart"></use>
-        </svg>
-        This article is supported by
-        <strong>{{ acknowledgement.sponsor }}</strong>.
-      </p>
-      {% endif %} {% if acknowledgement.idea %}
-      <p class="badge" data-badge-type="acknowledgement">
-        <svg
-          width="26"
-          height="28"
-          viewBox="0 0 26 28"
-          aria-hidden="true"
-          focusable="false"
-          fill="currentColor"
-        >
-          <use href="#star"></use>
-        </svg>
-        The idea is suggested by <strong>{{ acknowledgement.idea }}</strong>.
-      </p>
-      {% endif %}
-    </div>
-  </div>
-</div>
-{% endif %}
 <div class="prose" data-prose-type="blog">
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
