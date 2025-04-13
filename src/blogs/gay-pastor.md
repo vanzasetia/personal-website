@@ -12,16 +12,16 @@ copyright:
 Shalom, everyone. Peace for those who love Christ and no peace for the wicked ones as the Lord said:
 
 > There is no peace, saith my God, to the wicked.
-
-—[Isaiah 57:21, King James Version](https://www.biblegateway.com/passage/?search=Isaiah%2057%3A21&version=KJV)
+>
+> —[Isaiah 57:21, King James Version](https://www.biblegateway.com/passage/?search=Isaiah%2057%3A21&version=KJV)
 
 ## Appearing as a pastor
 
 I know that not all Christians who say that "I am a Christian" are Christians. Some are even doing the work of the devil by becoming a priest. I can not believe how stupid and evil this pastor is: [An LGBTQ Pastor’s Journey, David Norse](https://yewtu.be/watch?v=zWvLJNaVgrI).
 
 > Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves.
-
-—[Matthew 7:15, King James Version](https://www.biblegateway.com/passage/?search=Matthew%207&version=KJV)
+>
+> —[Matthew 7:15, King James Version](https://www.biblegateway.com/passage/?search=Matthew%207&version=KJV)
 
 David Norse is a fake Christian, and I prove to you that God never supports the LGBTQIA+ people.
 
@@ -40,8 +40,8 @@ Then this satanic guy continued saying that he learned the bible. I do not think
 Let us rebuke his justifications.
 
 > Them that sin rebuke before all, that others also may fear.
-
-—[1 Timothy 5:20, King James Version](https://www.biblegateway.com/passage/?search=1%20Timothy%205%3A20&version=KJV)
+>
+> —[1 Timothy 5:20, King James Version](https://www.biblegateway.com/passage/?search=1%20Timothy%205%3A20&version=KJV)
 
 ## Bringing false teachings with the bible
 
@@ -76,8 +76,8 @@ Then he mentioned hospitality. What the heck? Was he trying to say that God dest
 He continued by mentioning Paul. He praised Paul for unknown reasons. But Paul was against homosexuality. We could know that by reading [Romans 1](https://www.biblegateway.com/passage/?search=Romans%201&version=KJV). I highlight the following verse:
 
 > And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet.
-
-—Romans 1:27, King James Version
+>
+> —Romans 1:27, King James Version
 
 Paul would be the one who describes him as a wicked man.
 
@@ -98,8 +98,8 @@ Being gay means a man finds sexual pleasure with another man. The same goes for 
 By the way, a man who acts like a woman is doing an abomination. The same goes for a woman who acts like a man. The following verse destroys all those gender liars (LGBTQIA+):
 
 > If a man also lie with mankind, as he lieth with a woman, both of them have committed an abomination: they shall surely be put to death; their blood shall be upon them.
-
-—[Leviticus 20:13, King James Version](https://www.biblegateway.com/passage/?search=Leviticus%2020%3A13&version=KJV)
+>
+> —[Leviticus 20:13, King James Version](https://www.biblegateway.com/passage/?search=Leviticus%2020%3A13&version=KJV)
 
 ## Getting married
 
@@ -112,7 +112,7 @@ Christians, we must be vigilant and smart. We should not allow people to fool us
 I leave you with this verse.
 
 > Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven.
-
-—Matthew 7:21, King James Version
+>
+> —Matthew 7:21, King James Version
 
 I hope you learn something. Please tell me what you think.

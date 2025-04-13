@@ -31,5 +31,5 @@ Based on that scenario, if you support your best friend who is a thief, you must
 Can you now differentiate between lie and self-denial? Liars are liars. They are evil. But people who do self-denial are not lying to themselves. They ignore evil thoughts and do good actions. They keep doing the right things.
 
 > Then said Jesus unto his disciples, If any man will come after me, let him deny himself, and take up his cross, and follow me.
-
-—[Matthew 16:24, King James Version](https://www.biblegateway.com/passage/?search=MATTHEW%2016:24&version=KJV)
+>
+> —[Matthew 16:24, King James Version](https://www.biblegateway.com/passage/?search=MATTHEW%2016:24&version=KJV)

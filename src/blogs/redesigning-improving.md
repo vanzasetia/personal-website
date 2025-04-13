@@ -46,8 +46,8 @@ Enough writing code. Time to write content.
 I planned my content by making a priority guide. What is a priority guide?
 
 > Simply put, a priority guide contains content and elements for a mobile screen, sorted by hierarchy from top to bottom and without layout specifications.
-
-—[Priority Guides: A Content-First Alternative to Wireframes](https://alistapart.com/article/priority-guides-a-content-first-alternative-to-wireframes/)
+>
+> —[Priority Guides: A Content-First Alternative to Wireframes](https://alistapart.com/article/priority-guides-a-content-first-alternative-to-wireframes/)
 
 That means you only focus on the content. You do not need to care about the placements and the look of it.
 

@@ -404,8 +404,8 @@ Eruda is an embedded developer tool for your mobile browsers. You can use it in 
 To use it, you need to create a bookmarklet. Now, what is a bookmarklet?
 
 > A bookmarklet is a bookmark stored in a web browser with JavaScript commands that add new features to the browser.
-
-—[Bookmarklet - Wikipedia](https://en.wikipedia.org/wiki/Bookmarklet)
+>
+> —[Bookmarklet - Wikipedia](https://en.wikipedia.org/wiki/Bookmarklet)
 
 Follow these steps to create a bookmarklet:
 

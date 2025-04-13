@@ -12,8 +12,8 @@ license:
 ---
 
 > Life is really simple, but we insist on making it complicated
-
-—Confucius
+>
+> —Confucius
 
 I would say: "Website is simple, but developers insist on making it complicated."
 

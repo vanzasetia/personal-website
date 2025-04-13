@@ -15,8 +15,8 @@ Before he even got elected, he made many ridiculous claims. He claimed that [he 
 Even more ridiculous statement from him:
 
 > I will get it [Russia-Ukraine war] settled before I even become president if I win.
-
-—Donald Trump at a [presidential debate](https://redirect.invidious.io/watch?v=wFW8_8YIpYE), a video link
+>
+> —[Donald Trump at a presidential debate](https://redirect.invidious.io/watch?v=wFW8_8YIpYE), a video link
 
 The war is still happening. He was making jokes.
 

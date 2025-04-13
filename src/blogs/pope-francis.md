@@ -12,14 +12,14 @@ copyright:
 Shalom. Peace for those who love Christ and no peace for the wicked ones as the Lord said:
 
 > There is no peace, saith my God, to the wicked.
-
-—[Isaiah 57:21, King James Version](https://www.biblegateway.com/passage/?search=Isaiah%2057%3A21&version=KJV)
+>
+> —[Isaiah 57:21, King James Version](https://www.biblegateway.com/passage/?search=Isaiah%2057%3A21&version=KJV)
 
 I want to share with you that false teachers are everywhere. If you think a church has true Christians only, you are wrong. You have to test every person—including me.
 
 > Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world.
-
-—[1 John 4:1, King James Version](https://www.biblegateway.com/passage/?search=1%20John%204%3A1&version=KJV)
+>
+> —[1 John 4:1, King James Version](https://www.biblegateway.com/passage/?search=1%20John%204%3A1&version=KJV)
 
 If a priest says that being gay or lesbian is not against God, [the priest is satanic](/blog/gay-pastor/). Be aware of people who use God. I even know that there is a box for donations with a bible verse inside it. Whoever puts the verse to gain money is evil.
 
@@ -38,8 +38,8 @@ The pope is so stupid and evil. He is stupid because he knows the truth, but he 
 We know that God in the Ten Commandments says very clearly that we should not worship statues or make any images of God.
 
 > Thou shalt not bow down thyself to them, nor serve them: for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;
-
-—[Exodus 20:5, King James Version](https://www.biblegateway.com/passage/?search=Exodus%2020%3A5&version=KJV)
+>
+> —[Exodus 20:5, King James Version](https://www.biblegateway.com/passage/?search=Exodus%2020%3A5&version=KJV)
 
 If someone argues that the pope was just respecting a culture, that person is stupid. I would say to that person, "Are you saying that a culture is much more important than your belief? Isn't God has told us to worship only Him?" As a Christian, we can not be both evil and good at the same time.
 
@@ -48,8 +48,8 @@ If someone argues that the pope was just respecting a culture, that person is st
 Pope Francis rejected the idea of building a wall during the American election in 2016. The pope was a hypocrite. If he was supporting illegal immigration, could people enter the Vatican illegally? Why didn't he invite those illegal people to go to the Vatican?
 
 > A person who thinks only about building walls, wherever they may be, and not building bridges, is not Christian.
-
-—[Pope Francis, 2016](https://www.ncronline.org/pope-francis-questions-donald-trumps-christianity-says-border-wall-not-gospel)
+>
+> —[Pope Francis, 2016](https://www.ncronline.org/pope-francis-questions-donald-trumps-christianity-says-border-wall-not-gospel)
 
 A president who allows anybody to enter the country is the evil one. Now Joe Biden—the sleepy president—had proven that.
 
@@ -66,8 +66,8 @@ Why do we need to be a Christian then? Being a Christian is extremely hard. But 
 As a Christian, we know that Jesus is the only way. There are no alternatives.
 
 > Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.
-
-—[John 14:6, King James Version](https://www.biblegateway.com/passage/?search=John%2014%3A6&version=KJV)
+>
+> —[John 14:6, King James Version](https://www.biblegateway.com/passage/?search=John%2014%3A6&version=KJV)
 
 If someone supports Pope Francis' claim, we should know that this person is not a Christian. Being politically correct is not how Christians should act. A Christian must tell the truth.
 
@@ -78,14 +78,14 @@ What is a blessing? It means a gift from God. Do you think God gives a gift to w
 Read the following verse:
 
 > Thou shalt not lie with mankind, as with womankind: it is abomination.
-
-—[Leviticus 18:22, King James Version](https://www.biblegateway.com/passage/?search=Leviticus%2018%3A22&version=KJV)
+>
+> —[Leviticus 18:22, King James Version](https://www.biblegateway.com/passage/?search=Leviticus%2018%3A22&version=KJV)
 
 This one too:
 
 > And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet.
-
-—[Romans 1:27, King James Version](https://www.biblegateway.com/passage/?search=romans%201%3A27&version=KJV)
+>
+> —[Romans 1:27, King James Version](https://www.biblegateway.com/passage/?search=romans%201%3A27&version=KJV)
 
 Can someone receive a blessing by doing an abomination? Nobody will receive a blessing from God for abomination.
 

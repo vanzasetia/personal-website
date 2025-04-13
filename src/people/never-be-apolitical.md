@@ -37,8 +37,8 @@ But Dane, why do you state that being non-partisan is right to a certain degree?
 John The Baptist died because he criticized Herod. Jesus got crucified because He spoke against the Pharisees. Jesus never went neutral.
 
 > He that loveth not knoweth not God; for God is love.
-
-—[1 John 4:8 (King James Version)](https://www.biblegateway.com/passage/?search=1%20John%204:8&version=KJV)
+>
+> —[1 John 4:8 (King James Version)](https://www.biblegateway.com/passage/?search=1%20John%204:8&version=KJV)
 
 God is not neutral. God is love. If you believe in God, you must love God and reject all anti-Christ teachings. You are either a Christian or a non-Christian. You can not be either of them at the same time.
 
