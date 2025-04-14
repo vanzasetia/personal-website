@@ -1,5 +1,6 @@
 ---
 layout: layouts/extension.njk
+numberOfRecommendation: 2
 ---
 
 {#
@@ -80,7 +81,7 @@ SOFTWARE.
     <div class="wrapper" data-wrapper-type="inner">
       <h2 id="aside-for-you">For you</h2>
     </div>
-    {% set blogList = collections.blog | shuffleFilter(2) %}
+    {% set blogList = collections.blog | shuffleFilter(numberOfRecommendation) %}
     {% set useHeadingThree = true %}
     {% include "blog/list.njk" %}
   </div>
