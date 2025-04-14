@@ -35,6 +35,7 @@ import htmlDateFilter from "./src/filters/html-date.js";
 import blogSliceFilter from "./src/filters/blog-slice.js";
 import filteredTagFilter from "./src/filters/filtered-tag.js";
 import getKeysFilter from "./src/filters/get-keys.js";
+import shuffleFilter from "./src/filters/shuffle.js";
 
 import minifyHTML from "./src/transformers/minify-html.js";
 
@@ -62,6 +63,7 @@ export default async function (config) {
   config.addFilter("blogSliceFilter", blogSliceFilter);
   config.addFilter("filteredTagFilter", filteredTagFilter);
   config.addFilter("getKeysFilter", getKeysFilter);
+  config.addFilter("shuffleFilter", shuffleFilter);
 
   config.addTransform("minifyHTML", minifyHTML);
 

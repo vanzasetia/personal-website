@@ -741,7 +741,6 @@ nav a:hover {
 }
 
 .topics[data-topics-type="blog"] {
-  --wrapper-inner-border-block-end-width: var(--global-line-width);
   --topics-heading-font-size: var(--step-2);
   --topics-heading-font-family: var(--font-serif);
   --cluster-align-items: center;
@@ -762,6 +761,10 @@ nav a:hover {
   --cluster-column-gap: var(--space-3xs-2xs);
   --cluster-row-gap: var(--space-3xs-2xs);
   --wrapper-inner-border-block-end-width: var(--global-line-width);
+}
+
+.articles[data-articles-type="blog"] {
+  --wrapper-inner-border-block-start-width: var(--global-line-width);
 }
 
 .articles__list {

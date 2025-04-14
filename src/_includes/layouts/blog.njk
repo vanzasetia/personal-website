@@ -75,3 +75,13 @@ SOFTWARE.
     </div>
   </div>
 </div>
+<div class="articles" data-articles-type="blog">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <h2>For you</h2>
+    </div>
+    {% set blogList = collections.blog | shuffleFilter(2) %}
+    {% set useHeadingThree = true %}
+    {% include "blog/list.njk" %}
+  </div>
+</div>
