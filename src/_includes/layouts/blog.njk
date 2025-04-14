@@ -75,13 +75,13 @@ SOFTWARE.
     </div>
   </div>
 </div>
-<div class="articles" data-articles-type="blog">
+<aside class="articles" data-articles-type="blog" aria-labelledby="aside-for-you">
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
-      <h2>For you</h2>
+      <h2 id="aside-for-you">For you</h2>
     </div>
     {% set blogList = collections.blog | shuffleFilter(2) %}
     {% set useHeadingThree = true %}
     {% include "blog/list.njk" %}
   </div>
-</div>
+</aside>
