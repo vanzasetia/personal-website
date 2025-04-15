@@ -512,7 +512,7 @@ mark {
 }
 
 .wrapper[data-wrapper-type="inner"] {
-  padding-block: var(--wrapper-inner-padding-block, var(--gutter));
+  padding-block: var(--wrapper-inner-padding-block, var(--space-l));
   padding-inline: var(--wrapper-inner-padding-inline, var(--gutter));
   border-block-start-color: var(
     --wrapper-inner-border-block-start-color,
@@ -744,6 +744,7 @@ nav a:hover {
   --topics-heading-font-size: var(--step-2);
   --topics-heading-font-family: var(--font-serif);
   --cluster-align-items: center;
+  --wrapper-inner-padding-block: var(--gutter);
 }
 
 .topics ul {
@@ -810,6 +811,7 @@ nav a:hover {
 
 .section {
   --flow-space: var(--space-m-l);
+  --wrapper-inner-padding-block: var(--space-xl);
 }
 
 .section:nth-child(odd) .wrapper[data-wrapper-type="inner"] {
