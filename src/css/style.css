@@ -772,16 +772,22 @@ nav a:hover {
   --cluster-justify-content: space-between;
   --cluster-flex-direction: column;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(28rem, 100%), 1fr));
-  gap: var(--space-s-m);
-  padding-inline: 0;
-  margin-block-start: 0;
-  padding-block: var(--gutter);
+  grid-template-columns: var(
+    --articles-list-grid-template-columns,
+    repeat(auto-fit, minmax(min(28rem, 100%), 1fr))
+  );
+  row-gap: var(--articles-list-row-gap, var(--space-s-m));
+  column-gap: var(--articles-list-column-gap, var(--space-s-m));
+  padding-inline-start: var(--articles-list-padding-inline-start, 0);
+  padding-inline-end: var(--articles-list-padding-inline-end, 0);
+  margin-block-start: var(--articles-list-margin-block-start, 0);
+  padding-block-start: var(--articles-list-padding-block-start, var(--gutter));
+  padding-block-end: var(--articles-list-padding-block-end, var(--gutter));
 }
 
 .articles__list :is(h2, h3) {
-  font-size: var(--step-2);
-  font-family: var(--font-base);
+  font-size: var(--articles-list-headings-font-size, var(--step-2));
+  font-family: var(--articles-list-headings-font-family, var(--font-base));
 }
 
 .articles__list :is(h2, h3) + p {
@@ -798,7 +804,7 @@ nav a:hover {
 }
 
 .articles__list li > * + * {
-  margin-block-start: var(--space-l);
+  margin-block-start: var(--articles-list-list-item-flow-space, var(--space-l));
 }
 
 .articles__list li {
@@ -806,7 +812,7 @@ nav a:hover {
 }
 
 .articles__list p {
-  max-width: var(--measure-l);
+  max-width: var(--articles-list-summary-max-width, 60ch);
 }
 
 .section {
