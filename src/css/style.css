@@ -479,7 +479,7 @@ hr {
   border-block-start: 1px solid;
   color: currentColor;
   height: 1px;
-  margin: var(--space-m) 0;
+  margin: var(--hr-block-space, --space-m-l) 0;
   padding: 0;
 }
 
