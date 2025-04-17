@@ -293,7 +293,7 @@ pre {
 }
 
 pre code {
-  background-color: initial;
+  background: none;
   color: inherit;
   padding: 0;
 }
