@@ -483,6 +483,15 @@ hr {
   padding: 0;
 }
 
+input:disabled,
+label input:disabled + * {
+  cursor: not-allowed;
+}
+
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
 mark {
   background-color: var(--mark-background-color);
   color: var(--mark-text-color);
