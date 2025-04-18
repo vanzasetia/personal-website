@@ -36,7 +36,7 @@ SOFTWARE.
       </h2>
       {% endif %}
       {% if blog.data.description %}
-      <p>{{ blog.data.description }}</p>
+      {% markdown %}{{ blog.data.description }}{% endmarkdown %}
       {% endif %}
     </div>
     <div class="flow">

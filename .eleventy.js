@@ -37,6 +37,8 @@ import filteredTagFilter from "./src/filters/filtered-tag.js";
 import getKeysFilter from "./src/filters/get-keys.js";
 import shuffleFilter from "./src/filters/shuffle.js";
 
+import markdown from "./src/shortcodes/markdown.js";
+
 import minifyHTML from "./src/transformers/minify-html.js";
 
 import sort from "./src/collections/sort.js";
@@ -64,6 +66,8 @@ export default async function (config) {
   config.addFilter("filteredTagFilter", filteredTagFilter);
   config.addFilter("getKeysFilter", getKeysFilter);
   config.addFilter("shuffleFilter", shuffleFilter);
+
+  config.addPairedShortcode("markdown", markdown);
 
   config.addTransform("minifyHTML", minifyHTML);
 
