@@ -2,7 +2,7 @@
 # Copyright (c) Vanza Setia
 # SPDX-License-Identifier: CC-BY-ND-4.0
 title: The ultimate guide to HTML image elements
-description: Many people do not know that writing an image element is more than just using an `alt` attribute and a `src` attribute. There are other attributes to enhance the images progressively.
+description: Many people do not know that writing an image element is more than just using an `alt` attribute and a `src` attribute. There are other attributes that enhance the images progressively.
 date: 2025-04-18
 tags:
   - guide
@@ -62,7 +62,7 @@ You can use third-party services—such as [Cloudinary](https://cloudinary.com/)
 
 ## Using the `width` and `height` attribute
 
-These two attributes tell the size of the loading image. This prevents your users from experiencing [a jumping screen](https://web.dev/static/articles/cls/video/web-dev-assets/layout-instability-api/layout-instability2.webm)—a *schadenfreude*—when the image is loaded. That phenomenon is called [layout shifts](https://web.dev/articles/optimize-cls). If you use Lighthouse, you can see a number for [Cumulative Layout Shift (CLS)](https://web.dev/articles/cls). The bigger the number means the worse your website is.
+These two attributes tell the size of the loading image. This prevents your users from experiencing [a jumping screen](https://web.dev/static/articles/cls/video/web-dev-assets/layout-instability-api/layout-instability2.webm)—a *schadenfreude*—when the image is loaded. That phenomenon is called [layout shifts](https://web.dev/articles/optimize-cls). If you use Lighthouse, you can see a number for [Cumulative Layout Shift (CLS)](https://web.dev/articles/cls). The bigger the number means the worse your website's Lighthouse score is.
 
 To use these two attributes, you need to know the size of your image in pixel values. Then, you write the values without any unit (unitless). If the image's width is `1600px` and its height is `1200px`, you can write `width="1600"` and `height="1200"`. But if your image renders on your webpage only in the size of `800px` times `600px` (rendered size), you can use those two values for the width and height respectively.
 
@@ -76,9 +76,9 @@ If you have an image at the top of your page, you should not make it lazy-loaded
 
 ## Using the `decoding` attribute
 
-This attribute is often used together with `loading="lazy"`. The attribute accepts two values: `async` and `sync`. I believe `decoding="sync"` is the default behavior of most browsers. We should only use `decoding="async"` to tell the browser to show the image in the loading process. This means the users will see a waterfall effect—the image loads from top to bottom.
+This attribute with `async` value is often used together with `loading="lazy"`. The attribute accepts two values: `async` and `sync`. I believe `decoding="sync"` is the default behavior of most browsers. We should only use `decoding="async"` to tell the browser to show the image in the loading process. This means the users will see a waterfall effect—the image loads from top to bottom.
 
-I think `decoding="async"` works well on comic websites or galleries because the users will at least start seeing something as the image gets loaded progressively. This is a better experience than not showing anything until the image is fully loaded.
+I think `decoding="async"` works well on comic websites or galleries because the users will at least start seeing something as the image gets loaded progressively. This is a better experience than showing nothing until the image is fully loaded.
 
 ## Adding the `fetchpriority` attribute
 
@@ -91,6 +91,6 @@ I have read [an article from web.dev](https://web.dev/articles/fetch-priority). 
 - Decorative images do not need alternative text.
 - Informative images must have alternative text.
 - An `alt` attribute and a `src` attribute must always exist in every HTML image element.
-- Always add a `width` and a `height` attribute to all `<img>`.
+- Always add a `width` and a `height` attribute to each `<img>`.
 - Use `loading="lazy"` with `decoding="async"` for images at the bottom of your webpage.
 - Use `fetchpriority="high"` with `<link rel="preload">` to make the largest image at the top of your webpage to be loaded as fast as possible and to reduce LCP.
