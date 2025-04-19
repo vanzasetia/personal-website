@@ -29,7 +29,7 @@ SOFTWARE.
 
 <div class="hero" data-hero-type="blog">
   <div class="wrapper">
-    <div class="wrapper" data-wrapper-type="inner">
+    <div class="wrapper flow" data-wrapper-type="inner">
       <h1>{{ title | titleCaseFilter }}</h1>
       <div class="hero__meta cluster">
         <p>
@@ -41,6 +41,7 @@ SOFTWARE.
         </p>
         <p><strong>Written by:</strong> {{ author.name }}</p>
       </div>
+      <p>Estimated reading time: <strong>{{ content | timeToRead("200 words a minute") }}</strong></p>
     </div>
   </div>
 </div>

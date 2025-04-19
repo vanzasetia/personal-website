@@ -25,6 +25,7 @@
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import timeToRead from "eleventy-plugin-time-to-read";
 
 import markdownLibrary from "./src/libraries/markdown.js";
 
@@ -55,6 +56,7 @@ export default async function (config) {
   config.addPlugin(pluginRss);
   config.addPlugin(EleventyHtmlBasePlugin);
   config.addPlugin(eleventyNavigationPlugin);
+  config.addPlugin(timeToRead);
 
   config.setLibrary("md", markdownLibrary);
 
