@@ -35,7 +35,7 @@ Additionally, we as a Christian learn the Bible with our brains. We can question
 
 Moreover, he continued by saying that the Bible has some seriously sketchy advice. He is an atheist. I do not blame him if he thinks some verses are sketchy. Heydon himself is a questionable person to talk about the Bible. He seriously knows nothing about the Bible. Yet he tried to tell people about Christianity. Do you see the hypocrisy?
 
-He quoted 1 Peter 2:18 as one of the Bible's sketchy advice according to him:
+He quoted only one verse and ignored the rest. Then, he made a stupid claim. He quoted 1 Peter 2:18 as one of the Bible's sketchy advice according to him:
 
 > Servants, be subject to your masters with all fear; not only to the good and gentle, but also to the froward.
 >
