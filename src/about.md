@@ -21,7 +21,7 @@ The articles are mainly about web development. I give you information that most 
 
 All the articles use plain English and plain HTML. I do not like using jargon. If I must use it, I explain it clearly. I use [Eleventy](https://www.11ty.dev/), a static site generator, that generates plain HTML for all pages on this website.
 
-You can export any articles to PDF—or print them on physical paper. Share them freely with Creative Commons licenses.
+You can share my articles with Creative Commons licenses.
 
 By the way, this website has some invisible features that you can not find on your favorite news websites.
 

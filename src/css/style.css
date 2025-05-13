@@ -599,7 +599,6 @@ mark {
 .button[data-button-size="mega"] {
   --button-padding-block: var(--space-s);
   --button-padding-inline: var(--space-xl);
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -899,7 +898,6 @@ footer {
   --cluster-flex-direction: column;
   --cluster-row-gap: var(--space-2xs);
   --flow-space: var(--space-xs);
-
   margin-block-start: var(--space-xl);
   margin-block-end: var(--gutter);
 }
@@ -910,51 +908,4 @@ footer svg {
 
 .footer__meta {
   margin-top: var(--space-xl);
-}
-
-@media print {
-  * {
-    background-color: inherit !important;
-    color: inherit !important;
-    border-color: currentColor !important;
-  }
-
-  body {
-    background-color: #fff;
-    color: #000;
-  }
-
-  header {
-    display: none;
-  }
-
-  h1,
-  h2,
-  h3 {
-    break-after: avoid;
-  }
-
-  footer,
-  .blog-aside,
-  pre {
-    break-inside: avoid;
-  }
-
-  pre {
-    border-width: var(--global-line-width);
-    border-style: var(--global-line-style);
-  }
-
-  pre code {
-    white-space: pre-wrap;
-  }
-
-  td,
-  th {
-    border-color: currentColor;
-  }
-}
-
-@page wide {
-  size: a3 portrait;
 }
