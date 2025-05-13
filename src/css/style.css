@@ -621,6 +621,7 @@ mark {
 }
 
 .badge {
+  display: var(--badge-display, inline-flex);
   border-color: var(--badge-border-color, var(--global-line-color));
   border-width: var(--badge-border-width, var(--global-line-width));
   border-style: var(--badge-border-style, var(--global-line-style));
@@ -779,8 +780,8 @@ nav a:hover {
 
 .topics {
   --flow-space: var(--space-m);
-  --cluster-column-gap: var(--space-s);
-  --cluster-row-gap: var(--space-s);
+  --cluster-column-gap: var(--space-xs);
+  --cluster-row-gap: var(--space-xs);
 }
 
 .topics[data-topics-type="blog"] {
