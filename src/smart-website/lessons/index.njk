@@ -1,0 +1,74 @@
+---
+layout: layouts/base.njk
+title: Smart Website - course overview
+name: Smart Website
+description: This page is the table of content of Smart Website course.
+author:
+  name: Vanza Setia
+copyright:
+  year: 2025
+---
+
+{% include "header/course.njk" %}
+<main tabindex="-1">
+  <div class="hero" data-hero-type="blog">
+    <div class="wrapper">
+      <div class="wrapper flow" data-wrapper-type="inner">
+        <h1>{{ name | titleCaseFilter }}</h1>
+        <div class="hero__meta cluster">
+          <p><strong>Written by:</strong> {{ author.name }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div class="wrapper">
+      <div class="wrapper flow" data-wrapper-type="inner">
+        <div class="headline cluster" data-headline-size="smaller">
+          <h2>Getting the course ready</h2>
+          <p class="badge">Coming soon</p>
+        </div>
+        <div class="prose">
+          <div class="prose__article flow">
+            <p class="promo__lede">
+              This course is going to be available in August 2025.
+            </p>
+            <p>
+              Currently, you can read my articles. I am going to write an
+              article to announce this course. You can contact me if you have
+              any questions, comments, or feedback.
+            </p>
+            <div class="cluster">
+              <a href="/blog/" class="button">
+                View all articles
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                  fill="currentColor"
+                >
+                  <use href="#arrow-up-right"></use>
+                </svg>
+              </a>
+              <a href="mailto:{{ site.email }}" class="button">
+                Share your thoughts
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                  fill="currentColor"
+                >
+                  <use href="#arrow-up-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
