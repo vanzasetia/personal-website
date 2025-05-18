@@ -95,9 +95,9 @@ Killing innocent people for the sake of God is an act of terrorism. But we, Chri
 
 > They shall put you out of the synagogues: yea, the time cometh, that whosoever killeth you will think that he doeth God service.
 >
-> [John 16:2, King James Version](https://www.biblegateway.com/passage/?search=John%2016%3A2&version=KJV)
+> —[John 16:2, King James Version](https://www.biblegateway.com/passage/?search=John%2016%3A2&version=KJV)
 
-[Tens of thousands of Christians in Nigeria has been killed](https://aleteia.org/2025/04/22/200-christians-killed-in-a-week-nigerian-bishop-laments-ocean-of-blood). Those [Christians have been killed by those Islamic terrorists](https://www.persecution.org/2025/04/16/54-christians-killed-following-palm-sunday-service/). Those terrorists are not humans. They are the devils.
+[Tens of thousands of Christians in Nigeria has been killed](https://aleteia.org/2025/04/22/200-christians-killed-in-a-week-nigerian-bishop-laments-ocean-of-blood). Those [Christians have been killed by the Islamic terrorists](https://www.persecution.org/2025/04/16/54-christians-killed-following-palm-sunday-service/). Those terrorists are not humans. They are the devils.
 
 I feel sad. I wish I could do something.
 
@@ -105,7 +105,7 @@ By the way, does [Black Lives Matter](https://blacklivesmatter.com/) care about 
 
 ## Religions
 
-Religions are bussiness. Those religious leaders use the teachings of God to ask for donations. "If you donate to me, I will pray to God so that your sin will be forgiven," said a religious leader. Not to mention YouTube's super chat or selling merchandise. Those fake religious leaders become rich by fooling people.
+Religions are business. Those fake religious leaders—businesspeople—use the teachings of God to ask for donations. "If you donate to me, I will pray to God so that your sin will be forgiven," said a religious leader. Not to mention YouTube's super chat or selling merchandise. Those false leaders become rich by fooling people.
 
 More importantly, evil people use religions to fool others. Ignorant people will get fooled by their leaders because those people do not read their books. In a church, [a priest](/blog/gay-pastor/) can say that LGBTQIA+ is biblical, and millions of Christians will believe in that. A pope can say that [all religions are paths to God](/blog/pope-francis/). Ignorant people will follow the pope or anybody blindly.
 
@@ -119,7 +119,7 @@ Jesus said to us:
 
 > Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves.
 >
-> [Matthew 7:15, King James Version](https://www.biblegateway.com/passage/?search=Matthew%207:15&version=KJV)
+> —[Matthew 7:15, King James Version](https://www.biblegateway.com/passage/?search=Matthew%207:15&version=KJV)
 
 Christians should **test everyone**, including the priests.
 
@@ -131,7 +131,7 @@ If someone claims to be a religious person, see the fruits. If the person promot
 
 > Wherefore by their fruits ye shall know them.
 >
-> [Matthew 7:20, King James Version](https://www.biblegateway.com/passage/?search=1%20Matthew%74%3A20&version=KJV)
+> —[Matthew 7:20, King James Version](https://www.biblegateway.com/passage/?search=1%20Matthew%74%3A20&version=KJV)
 
 ## Hippies
 
