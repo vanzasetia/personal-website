@@ -197,7 +197,6 @@ body {
   font-family: var(--font-base);
   font-size: var(--step-0);
   font-size-adjust: from-font;
-  overflow-x: hidden;
   margin: 0;
   background-color: var(--color-global-background);
   color: var(--color-global-text);
