@@ -14,7 +14,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.0",
     "@11ty/eleventy-navigation": "^1.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.3",
     "check-html-links": "^0.2.4",
