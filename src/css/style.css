@@ -916,6 +916,15 @@ footer ul {
   max-width: var(--measure-l);
 }
 
+.prose__ad h2 {
+  margin-block-start: 0;
+  padding-block-end: var(--space-s);
+  border-block-end-width: var(--global-line-width);
+  border-block-end-style: var(--global-line-style);
+  border-block-end-color: var(--global-line-color);
+  font-family: var(--font-display);
+}
+
 .hero[data-hero-type="blog"] {
   --cluster-justify-content: space-between;
   --cluster-align-items: flex-end;
