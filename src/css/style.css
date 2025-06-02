@@ -808,7 +808,7 @@ nav a:hover {
 }
 
 .articles[data-articles-type="blog"] {
-  --wrapper-inner-border-block-start-width: var(--global-line-width);
+  --articles-list-margin-block-start: var(--space-xs);
 }
 
 .articles__list {

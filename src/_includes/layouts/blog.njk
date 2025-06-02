@@ -103,9 +103,9 @@ SOFTWARE.
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
       <h2 id="aside-for-you">For you</h2>
+      {% set blogList = collections.blog | shuffleFilter(numberOfRecommendation) %}
+      {% set useHeadingThree = true %}
+      {% include "blog/list.njk" %}
     </div>
-    {% set blogList = collections.blog | shuffleFilter(numberOfRecommendation) %}
-    {% set useHeadingThree = true %}
-    {% include "blog/list.njk" %}
   </div>
 </aside>
