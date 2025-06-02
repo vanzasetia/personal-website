@@ -584,6 +584,7 @@ mark {
 }
 
 .button {
+  position: relative;
   display: var(--button-display, inline-block);
   text-decoration-color: var(--button-text-decoration-color, transparent);
   text-transform: var(--button-text-transform, uppercase);
@@ -591,6 +592,7 @@ mark {
   font-weight: var(--button-font-weight, 700);
   border-color: var(--button-border-color, var(--global-line-color));
   border-width: var(--button-border-width, var(--global-line-width));
+  border-block-end-width: var(--button-border-block-end-width, 3px);
   border-style: var(--button-border-style, var(--global-line-style));
   border-radius: var(--button-border-radius, 0);
   padding-block: var(--button-padding-block, var(--space-xs));
@@ -617,6 +619,10 @@ mark {
 .button:hover {
   background-color: var(--color-global-text);
   color: var(--color-global-background);
+}
+
+.button:active {
+  top: 3px;
 }
 
 .badge {
