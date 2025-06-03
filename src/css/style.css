@@ -128,11 +128,17 @@
   --focus-ring-width: 2px;
 
   --wrapper-max-width: 1350px;
-  --gutter: var(--space-m);
+  --gutter: var(--space-s);
 
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+}
+
+@media (min-width: 37em) {
+  :root {
+    --gutter: var(--space-m);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
