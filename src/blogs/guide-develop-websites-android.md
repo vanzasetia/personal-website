@@ -15,9 +15,9 @@ copyright:
 
 I was making websites on my Android device. I had been doing it for about six months. Here are three projects that I created on my Android device:
 
-- [vanzasetia/clipboard-landing-page](https://github.com/vanzasetia/clipboard-landing-page)
-- [vanzasetia/huddle-landing-page-with-alternating-feature-blocks](https://github.com/vanzasetia/huddle-landing-page-with-alternating-feature-blocks)
-- [vanzasetia/fylo-dark-theme-landing-page](https://github.com/vanzasetia/fylo-dark-theme-landing-page)
+- [Clipboard Landing Page](https://github.com/vanzasetia/clipboard-landing-page)
+- [Huddle Landing Page with Alternating Feature Blocks](https://github.com/vanzasetia/huddle-landing-page-with-alternating-feature-blocks)
+- [Fylo Dark Theme Landing Page](https://github.com/vanzasetia/fylo-dark-theme-landing-page)
 
 I have proven that making a responsive website on Android is possible. You can now do that as well by following this blog post.
 
