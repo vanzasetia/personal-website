@@ -26,10 +26,10 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import timeToRead from "eleventy-plugin-time-to-read";
+import { CSSConfig } from "./src/plugins/css.js";
 
 import markdownLibrary from "./src/libraries/markdown.js";
 
-import cleanCSSFilter from "./src/filters/clean-css.js";
 import titleCaseFilter from "./src/filters/title-case.js";
 import blogDateFilter from "./src/filters/blog-date.js";
 import htmlDateFilter from "./src/filters/html-date.js";
@@ -57,10 +57,10 @@ export default async function (config) {
   config.addPlugin(EleventyHtmlBasePlugin);
   config.addPlugin(eleventyNavigationPlugin);
   config.addPlugin(timeToRead);
+  config.addPlugin(CSSConfig);
 
   config.setLibrary("md", markdownLibrary);
 
-  config.addFilter("cleanCSSFilter", cleanCSSFilter);
   config.addFilter("titleCaseFilter", titleCaseFilter);
   config.addFilter("blogDateFilter", blogDateFilter);
   config.addFilter("htmlDateFilter", htmlDateFilter);
