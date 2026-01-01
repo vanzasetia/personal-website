@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/fonts/atkinson-hyperlegible-next-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/fonts/atkinson-hyperlegible-next-normal.woff2") format("woff2");
+}
+
 :root {
   /* @link https://utopia.fyi/space/calculator?c=320,16,1.2,1280,21,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
@@ -82,18 +98,18 @@
   --leading-normal: 1.5;
   --leading-soft: 1.1;
   --font-serif:
-    Merriweather, "Georgia Pro", Georgia, Superclarendon, "Bookman Old Style",
-    "URW Bookman", "URW Bookman L", serif;
+    "Georgia Pro", Georgia, Superclarendon, "Bookman Old Style", "URW Bookman",
+    "URW Bookman L", serif;
   --font-sans-serif:
-    "Open Sans", "San Francisco", "Segoe UI", Roboto, Ubuntu, Cantarell,
-    "Noto Sans", sans-serif;
+    "Atkinson Hyperlegible Next", "San Francisco", "Segoe UI", Roboto, Ubuntu,
+    Cantarell, "Noto Sans", sans-serif;
   --font-monospace:
     "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono",
     monospace;
   --font-system:
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-base: var(--font-serif);
+  --font-base: var(--font-sans-serif);
   --font-display: var(--font-sans-serif);
   --measure-xs: 20ch;
   --measure-s: 35ch;
@@ -797,7 +813,6 @@ nav a:hover {
 
 .topics[data-topics-type="blog"] {
   --topics-heading-font-size: var(--step-2);
-  --topics-heading-font-family: var(--font-serif);
   --cluster-align-items: center;
   --wrapper-inner-padding-block: var(--gutter);
 }
@@ -914,10 +929,6 @@ footer ul {
 .prose[data-prose-type="blog"] .wrapper[data-wrapper-type="inner"] {
   margin-block-start: var(--gutter);
   margin-block-end: var(--gutter);
-}
-
-.prose :is(h2, h3, h4) {
-  font-family: var(--font-serif);
 }
 
 .prose h2 {

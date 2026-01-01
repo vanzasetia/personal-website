@@ -50,6 +50,7 @@ export default async function (config) {
   config.addPassthroughCopy("./src/manifest.json");
   config.addPassthroughCopy("./src/vanzasetia-public-key.txt");
   config.addPassthroughCopy("./src/images/");
+  config.addPassthroughCopy("./src/fonts/");
 
   config.addWatchTarget("./src/css/style.css");
 
