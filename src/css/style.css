@@ -614,7 +614,7 @@ mark {
   font-weight: var(--button-font-weight, 700);
   border-color: var(--button-border-color, var(--global-line-color));
   border-width: var(--button-border-width, var(--global-line-width));
-  border-block-end-width: var(--button-border-block-end-width, 3px);
+  border-block-end-width: var(--button-border-block-end-width, 0.15em);
   border-style: var(--button-border-style, var(--global-line-style));
   border-radius: var(--button-border-radius, 0);
   padding-block: var(--button-padding-block, var(--space-xs));
