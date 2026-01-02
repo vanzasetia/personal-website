@@ -61,7 +61,7 @@ I think the pope was trying to say that protecting citizens is not in the Gospel
 
 I have just made a new religion. All you need to do is to worship a potato. As long as you say, "Oh potato, may you bless me with carbohydrate" before you eat, you can go to heaven.
 
-Pope Francis's claim that [all religions are a path to God](https://www.christianpost.com/news/pope-francis-claims-all-religions-are-a-path-to-god.html) is satanic. Are you saying that [burning the wife because her husband is dead](https://www.bbc.com/news/articles/cn8ykmn2p1go) can lead us to God? This means being a Hindu is fine. Are you saying that worshiping a black stone (Kaaba) can lead us to God? This means being a Muslim is good.
+Pope Francis's claim that [all religions are a path to God](https://www.christianpost.com/news/pope-francis-claims-all-religions-are-a-path-to-god.html) is satanic. Are you saying that [burning the wife because her husband is dead](https://www.bbc.com/news/articles/cn8ykmn2p1go) can lead us to God? This means being a Hindu is fine.
 
 Why do we need to be a Christian then? Being a Christian is extremely hard. But non-Christians can go to heaven without following Christ. That is against the teaching of Christ.
 

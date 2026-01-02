@@ -109,8 +109,6 @@ Religions are business. Those fake religious leaders—businesspeople—use the 
 
 More importantly, evil people use religions to fool others. Ignorant people will get fooled by their leaders because those people do not read their books. In a church, [a priest](/blog/gay-pastor/) can say that LGBTQIA+ is biblical, and millions of Christians will believe in that. A pope can say that [all religions are paths to God](/blog/pope-francis/). Ignorant people will follow the pope or anybody blindly.
 
-If you are a Muslim, read your Quran. Do not believe in everything that your Sheikh tells you. You need to find the truth yourself. The same goes for others—Buddhists or Hindus.
-
 By the way, Christianity is not a religion. It is the teachings of Christ. It is not based on a concept or a collection of ideas. Christ was a real person, not an idea.
 
 Christians follow the truth only because the truth will set us free.
