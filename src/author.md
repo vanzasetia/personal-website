@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC-BY-ND-4.0
 layout: layouts/sub.njk
 title: Author
-description: I am a Christian. I am a web developer, writer, and privacy supporter. I do not have any social media accounts that you can scroll.
+description: I am a Christian. I am a web developer, writer, and privacy supporter.
 eleventyNavigation:
   key: Author
   order: 3
@@ -13,7 +13,7 @@ copyright:
 
 # {{ title }}
 
-I am a Christian. I am a web developer, writer, and privacy supporter. I do not have any social media accounts that you can scroll.
+I am a Christian. I am a web developer, writer, and privacy supporter.
 
 ## Web developer
 
@@ -38,6 +38,10 @@ But, in early 2024, I did not want to maintain it anymore. I realized that I had
 Then, in April 2024, I bought a new domain, `vanzasetia.xyz`. I redesigned the website by making it rely on the browser’s styling mostly. I started writing new articles again.
 
 In December 2024, I redesigned the website. I wanted it to have a modern look. Although the previous design was simple and good, it looked boring to me.
+
+In 2025, I shut down the website because I did not have a plan. I lost my purpose for developing this website. I wanted to start over because the website was not perfect, and I compared this website with other websites. But I was wrong. I should accept that imperfections are normal and focus on what I can do.
+
+In January 2026, I decided to continue running this website and to make it better instead of starting from scratch.
 
 Here I am now. I am developing this website and writing articles about many exciting topics, including modern web development.
 

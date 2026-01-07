@@ -37,6 +37,6 @@ People are also bad because they get the wrong idea. That means they keep doing 
 
 When I say "free knowledge," that does not mean every book or anything must have zero price. **I am in favor of people doing business**. Opposing commercial activities is impossible anyway because **we need money**. I mean "free" as in "free speech."
 
-I oppose keeping knowledge to be jailed. **Knowledge should not be locked**—such as using proprietary formats, using [Digital Restrictions Management](https://drm.info/) (DRM), and using copyright law. **Knowledge must have freedom**. Otherwise, only people with extraordinary power or privilege can be smart.
+I oppose keeping knowledge to be jailed. **Knowledge should not be locked**—such as using proprietary formats and using [Digital Restrictions Management](https://drm.info/) (DRM). **Knowledge must have freedom**. Otherwise, only people with extraordinary power or privilege can be smart.
 
 Knowing the truth helps people be free. I want people to have their freedom. They should control their lives. The only way to get that is through knowledge.
