@@ -8,7 +8,7 @@ eleventyNavigation:
   key: Author
   order: 3
 copyright:
-  year: 2024, 2025
+  year: 2024, 2025, 2026
 ---
 
 # {{ title }}
