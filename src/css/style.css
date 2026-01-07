@@ -979,8 +979,18 @@ footer ul {
   --cluster-row-gap: var(--space-xs);
 }
 
+.banner .wrapper[data-wrapper-type="inner"] {
+  background-color: var(--color-global-text);
+  color: var(--color-global-background);
+}
+
 .banner .icon {
   transform: translateY(0.06lh);
+}
+
+.banner ::selection {
+  --color-selection-background: var(--color-global-background);
+  --color-selection-text: var(--color-global-text);
 }
 
 footer {
