@@ -888,21 +888,28 @@ nav a:hover {
 .section {
   --flow-space: var(--space-m-l);
   --wrapper-inner-padding-block: var(--space-xl);
+  --wrapper-inner-border-block-start-width: 0;
 }
 
-.section:nth-child(odd) .wrapper[data-wrapper-type="inner"] {
+.section[data-border="true"] {
+  --wrapper-inner-border-block-start-width: var(--global-line-width);
+}
+
+.section[data-border="true"]:nth-child(odd)
+  .wrapper[data-wrapper-type="inner"] {
   border-inline-end-width: var(--global-line-width);
   border-inline-end-color: var(--global-line-color);
   border-inline-end-style: var(--global-line-style);
 }
 
-.section:nth-child(even) .wrapper[data-wrapper-type="inner"] {
+.section[data-border="true"]:nth-child(even)
+  .wrapper[data-wrapper-type="inner"] {
   border-inline-start-width: var(--global-line-width);
   border-inline-start-color: var(--global-line-color);
   border-inline-start-style: var(--global-line-style);
 }
 
-.section:last-of-type .wrapper[data-wrapper-type="inner"] {
+.section[data-border="true"]:last-of-type .wrapper[data-wrapper-type="inner"] {
   --wrapper-inner-border-block-end-width: var(--global-line-width);
 }
 
@@ -916,6 +923,13 @@ footer ul {
 .section blockquote {
   font-size: var(--step-5);
   max-width: var(--measure-s);
+}
+
+.section .grid h2 {
+  padding-block-end: var(--gutter);
+  border-block-end-width: var(--global-line-width);
+  border-block-end-color: var(--global-line-color);
+  border-block-end-style: var(--global-line-style);
 }
 
 .prose {
