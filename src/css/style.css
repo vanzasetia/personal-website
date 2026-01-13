@@ -931,6 +931,10 @@ footer ul {
   margin-block-end: var(--gutter);
 }
 
+.prose[data-prose-type="blog"] .prose__article {
+  margin-inline: auto;
+}
+
 .prose h2 {
   margin-block-start: var(--space-2xl);
 }
