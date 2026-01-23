@@ -9,4 +9,6 @@ copyright:
 ---
 
 {% set blogList = collections.people %}
-{% include "blog/list.njk" %}
+<ol class="articles__list grid" role="list" reversed>
+  {% include "blog/list.njk" %}
+</ol>

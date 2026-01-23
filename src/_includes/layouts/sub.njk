@@ -26,7 +26,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-<div class="prose">
+<div class="title">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <h1>{{ title | titleCaseFilter }}</h1>
+    </div>
+  </div>
+</div>
+<div class="prose" data-prose-type="blog" data-prose-body-size="bigger">
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
       <div class="prose__article flow">

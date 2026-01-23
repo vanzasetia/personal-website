@@ -29,7 +29,7 @@ By the way, I do not know Jeremy Keith. I think he is a great web developer. He 
 
 Do not pretend that making something on the internet is cute. Those so-called Artificial Intelligence (AI) crawlers will eat those cute things. Do not pretend. Be real, my friend.
 
-To my readers: "AI" is not intelligence. It is still very stupid when it comes to general knowledge. It can not even correctly answer "Do Muslims and Christians worship the same God?"
+To my readers: "AI" is not intelligence. It is still very stupid when it comes to general knowledge. It can not even correctly answer "Do Muslims and Christians worship the same God?" (Spoiler: No, they do not)
 
 > If you’re going to use generative tools powered by large language models, don’t pretend you don’t know how your sausage is made.
 

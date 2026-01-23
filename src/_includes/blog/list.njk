@@ -22,46 +22,44 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-<ul class="articles__list" role="list">
-  {% for blog in blogList | reverse %}
-  <li class="box cluster">
-    <div class="flow">
-      {% if page.url == "/" or useHeadingThree %}
-      <h3>
-        <a href="{{ blog.url }}"> {{ blog.data.title | titleCaseFilter }} </a>
-      </h3>
+{% for blog in blogList | reverse %}
+<li class="articles__item box cluster">
+  <div class="flow">
+    {% if page.url == "/" or useHeadingThree %}
+    <h3 class="articles__title">
+      <a href="{{ blog.url }}"> {{ blog.data.title | titleCaseFilter }} </a>
+    </h3>
+    {% else %}
+    <h2 class="articles__title">
+      <a href="{{ blog.url }}"> {{ blog.data.title | titleCaseFilter }} </a>
+    </h2>
+    {% endif %}
+    {% if blog.data.description %}
+    {% markdown %}{{ blog.data.description }}{% endmarkdown %}
+    {% endif %}
+  </div>
+  <div class="flow flow-space-2xs">
+    {% if blog.data.commentary.name %}
+    <p><strong>Original author:</strong> {{ blog.data.author.name }}</p>
+    <p><strong>Commentator:</strong> {{ blog.data.commentary.name }}</p>
+    {% else %}
+    <p>By {{ blog.data.author.name }}</p>
+    {% endif %}
+    {% set publishedDate = blog.date %}
+    <time datetime="{{ publishedDate | htmlDateFilter }}"
+      >{{ publishedDate | blogDateFilter }}</time
+    >
+    {% set category = blog.data.tags[1] %}
+    {% if category %}
+      {% set tagUrl %}/category/{{ category | slugify }}/{% endset %}
+      {% if '/category' in page.url or '/people' in page.url %}
+      {# No tag #}
       {% else %}
-      <h2>
-        <a href="{{ blog.url }}"> {{ blog.data.title | titleCaseFilter }} </a>
-      </h2>
+      <p>
+        <a href="{{ tagUrl }}" class="badge">{{ category }}</a>
+      </p>
       {% endif %}
-      {% if blog.data.description %}
-      {% markdown %}{{ blog.data.description }}{% endmarkdown %}
-      {% endif %}
-    </div>
-    <div class="flow">
-      {% if blog.data.commentary.name %}
-      <p><strong>Original author:</strong> {{ blog.data.author.name }}</p>
-      <p><strong>Commentator:</strong> {{ blog.data.commentary.name }}</p>
-      {% else %}
-      <p><strong>Author:</strong> {{ blog.data.author.name }}</p>
-      {% endif %}
-      {% set publishedDate = blog.date %}
-      <time datetime="{{ publishedDate | htmlDateFilter }}"
-        >{{ publishedDate | blogDateFilter }}</time
-      >
-      {% set category = blog.data.tags[1] %}
-      {% if category %}
-        {% set tagUrl %}/category/{{ category | slugify }}/{% endset %}
-        {% if '/category' in page.url or '/people' in page.url %}
-        {# No tag #}
-        {% else %}
-        <p>
-          <a href="{{ tagUrl }}" class="badge">{{ category }}</a>
-        </p>
-        {% endif %}
-      {% endif %}
-    </div>
-  </li>
-  {% endfor %}
-</ul>
+    {% endif %}
+  </div>
+</li>
+{% endfor %}

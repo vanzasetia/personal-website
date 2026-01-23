@@ -13,7 +13,7 @@
     "prefer-native-element": [
       "error",
       {
-        "exclude": ["heading"]
+        "exclude": ["heading", "list"]
       }
     ],
     "no-redundant-role": ["off"],

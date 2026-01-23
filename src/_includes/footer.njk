@@ -1,7 +1,7 @@
 {#
 MIT License
 
-Copyright (c) 2024, 2025 Vanza Setia
+Copyright (c) 2024, 2025, 2026 Vanza Setia
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,57 +22,63 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-<footer>
+<footer class="footer">
   <div class="wrapper">
-    <div class="box">
+    <div class="wrapper" data-wrapper-type="inner">
       <div class="flow">
+        <ul class="cluster" role="list">
+          <li>
+            <a href="https://bsky.app/profile/vanzasetia.bsky.social">
+              Bluesky
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/VanzaSetia">X</a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/vanzasetia">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:{{ site.email }}">Email</a>
+          </li>
+          <li>
+            <a href="/feed.xml">Article RSS</a>
+          </li>
+          <li>
+            <a href="/people.xml">People RSS</a>
+          </li>
+          <li>
+            <a href="/vanzasetia-public-key.txt">Public GPG key</a>
+          </li>
+          <li>
+            <a href="{{ site.repository }}">Source code</a>
+          </li>
+        </ul>
         <div>
-          <a href="/">
+          <a href="/" class="header__logo">
             <svg
+              width="71.601"
+              height="78.7"
+              viewBox="0 0 71.601 78.7"
               role="img"
               aria-label="VanzaSetia - Home"
               focusable="false"
-              width="527.8"
-              height="77.801"
-              viewBox="0 0 527.8 77.801"
             >
               <g fill="currentColor">
-                <use href="#vanzasetia"></use>
+                <use href="#tav"></use>
               </g>
             </svg>
           </a>
         </div>
-        <p><em>Sharing knowledge to defeat ignorance.</em></p>
-      </div>
-      <div class="footer__meta flow">
-        <p>
-          Subscribe to the <a href="/feed.xml">Articles RSS feed</a> and
-          <a href="/people.xml">People RSS feed</a>. Send your comments or
-          report any issues you find to
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
-        </p>
-        <p>
-          Encrypt your email to me with
-          <a href="/vanzasetia-public-key.txt">my public GPG key</a>. (GPG key
-          fingerprint: AD60 1C7F 24B9 21E5 02E9 E9C1 372F 9239 830C 910A)
-        </p>
-        <p>
-          The <a href="{{ site.repository }}">source code of this website</a> is
-          licensed under the
-          <a href="{{ site.repository }}blob/main/LICENSE"
-            >MIT License (Expat License)</a
-          >.
-        </p>
-        <p>
+        <p class="footer__meta">
           Copyright © {{ copyright.year }} {{ copyright.holder or
           site.copyright.holder }}.
         </p>
-        <p class="margin-block-0">
-          This page is licensed under a
-          <a href="{{ license.url or site.license.url }}"
+        <p class="footer__meta margin-block-start-0">
+          This page is licensed under <a href="{{ license.url or site.license.url }}"
             >{{ license.name or site.license.name }}</a
-          >. All code samples are licensed under the
-          <a href="{{ site.repository }}blob/main/LICENSE-SAMPLECODE"
+          >. All code samples are
+          licensed under the <a href="{{ site.repository }}blob/main/LICENSE-SAMPLECODE"
             >MIT No Attribution License (MIT-0)</a
           >.
         </p>

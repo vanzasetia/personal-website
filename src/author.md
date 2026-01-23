@@ -11,8 +11,6 @@ copyright:
   year: 2024, 2025, 2026
 ---
 
-# {{ title }}
-
 I am a Christian. I am a web developer, writer, and privacy supporter.
 
 ## Web developer
@@ -61,7 +59,7 @@ I started writing articles in August 2021. I tried writing in Code Newbie. My fi
 
 Although I did not get any comments, I found writing to be fun and interesting. I could help others through my articles. I realized that my writing and reading abilities are valuable.
 
-Once I had a personal website, I became active in writing articles. I enjoyed the freedom of expressing myself, like sharing my ideas and my experience in coding with an Android device.
+Once I had a personal website, I became active in writing articles. I enjoyed the freedom of expressing myself, like sharing my ideas and [my experience in coding with an Android device](/blog/guide-develop-websites-android/).
 
 I always want to share what I have learned. Writing articles helps me to reinforce the knowledge that I learned. It helps others who face the same problem as me. It also allows me to organize my thoughts.
 
@@ -76,8 +74,6 @@ A Christian loves their enemies. This means teaching them to be good. The ways o
 I only follow Jesus Christ. I do not worship the pope. The pope is a human like me. The pope can not save himself from death like me. The pope is a sinner like me. I do not worship priests. I only worship God.
 
 ## Privacy supporter
-
-I do not have social media. In the past, I tried using many social media platforms. But none of them worked for me. Instead, they invaded my privacy. They could read all “private messages.” Those are not private messages when strangers can read those messages.
 
 I prefer to pay cash. I walk instead of using Uber-like applications.
 

@@ -35,15 +35,23 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
+<div class="title" data-title-type="category">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <div class="title__container cluster">
+        <h1>{{ topic | titleCaseFilter }}</h1>
+        <p class="badge">Topic archive</p>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="articles">
   <div class="wrapper">
-    <div class="wrapper cluster" data-wrapper-type="inner">
-      <h1>{{ topic | titleCaseFilter }}</h1>
-      <p class="margin-block-0">
-        <span class="badge">Topic archive</span>
-      </p>
+    <div class="wrapper" data-wrapper-type="inner">
+      {% set blogList = collections[ topic ] %}
+      <ol class="articles__list grid" role="list" reversed>
+        {% include "blog/list.njk" %}
+      </ol>
     </div>
-    {% set blogList = collections[ topic ] %}
-    {% include "blog/list.njk" %}
   </div>
 </div>

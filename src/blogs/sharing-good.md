@@ -20,7 +20,7 @@ Copyright law that prohibits people from sharing is bad. The law is bad, not the
 
 Remember that the law exists to uphold justice. The law is not the one that defines justice. If the law defines justice, then people who have control over the law will dictate what justice means to the public.
 
-The copyright law must legalize sharing. All people must be allowed to make copies of any works and distribute them non-commercially.
+The copyright law must legalize sharing. All people must be allowed to make the exact copies of any works and distribute them non-commercially.
 
 Also, do you know the purpose of copyright law? Copyright law exists to promote the progress of art and science. Sharing copies of any works does that well. The purpose is intended for the benefit of the public. If the law starts doing the opposite, which is attacking the public, it becomes wrong.
 

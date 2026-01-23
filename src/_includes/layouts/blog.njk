@@ -27,26 +27,27 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-<div class="hero" data-hero-type="blog">
+<div class="title" data-title-type="blog">
   <div class="wrapper">
-    <div class="wrapper flow" data-wrapper-type="inner">
-      <h1>{{ title | titleCaseFilter }}</h1>
-      <div class="hero__meta cluster">
-        <p>
-          <strong>Published:</strong>
-          {% set publishedDate = page.date %}
-          <time datetime="{{ publishedDate | htmlDateFilter }}"
-            >{{ publishedDate | blogDateFilter }}</time
-          >
-        </p>
-        <p><strong>Written by:</strong> {{ author.name }}</p>
+    <div class="wrapper" data-wrapper-type="inner">
+      <div class="flow">
+        <h1>{{ title | titleCaseFilter }}</h1>
+        <div class="title__meta cluster">
+          <p>
+            <strong>{{ author.name }}</strong>,
+            {% set publishedDate = page.date %}
+            <time datetime="{{ publishedDate | htmlDateFilter }}"
+              >{{ publishedDate | blogDateFilter }}</time
+            >
+          </p>
+          <p>Estimated reading time: <strong>{{ content | timeToRead("200 words a minute") }}</strong></p>
+        </div>
       </div>
-      <p>Estimated reading time: <strong>{{ content | timeToRead("200 words a minute") }}</strong></p>
     </div>
   </div>
 </div>
 {% include "support.njk"%}
-<div class="prose" data-prose-type="blog">
+<div class="prose" data-prose-type="blog" data-prose-body-size="bigger">
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
       <div class="prose__article flow">
@@ -64,27 +65,6 @@ SOFTWARE.
             <use href="#arrow-up-right"></use>
           </svg>
         </a>
-        <aside class="box flow prose__ad" aria-labelledby="aside-box-ad">
-          <h2 id="aside-box-ad">Do you want a gift?</h2>
-          <p>
-            Upgrade your personal website with Smart Website. This course
-            empowers you to make a personalized website that truly stands out.
-            <strong>Make sure you know when the course is ready.</strong>
-          </p>
-          <a href="/smart-website/" class="button">
-            Check it out
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-              focusable="false"
-              fill="currentColor"
-            >
-              <use href="#arrow-up-right"></use>
-            </svg>
-          </a>
-        </aside>
       </div>
     </div>
   </div>
@@ -99,13 +79,41 @@ SOFTWARE.
     </div>
   </div>
 </div>
-<aside class="articles" data-articles-type="blog" aria-labelledby="aside-for-you">
+<div class="prose">
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
-      <h2 id="aside-for-you">For you</h2>
-      {% set blogList = collections.blog | shuffleFilter(numberOfRecommendation) %}
-      {% set useHeadingThree = true %}
-      {% include "blog/list.njk" %}
+      <div class="request">
+        <div class="prose__article">
+          <p>
+            Thank you for reading this
+            <strong><a href="{{ page.url }}">{{ title | titleCaseFilter }}</a></strong
+            >. You can subscribe to all my articles with the
+            <a href="/feed.xml">Articles RSS</a>. If you have a positive or
+            <em>negative</em> comment, please send me an
+            <a href="mailto:{{ site.email }}">email</a> or contact me through one of my social
+            media accounts.
+          </p>
+        </div>
+      </div>
+      <div class="request">
+        <div class="flow prose__article">
+          <h2>Share with your network</h2>
+          <p>Copy this link and send it to great people only.</p>
+          <p><code>{{ site.url }}/{{ page.url }}</code></p>
+        </div>
+      </div>
     </div>
   </div>
-</aside>
+</div>
+<div class="articles" data-articles-type="blog">
+  <div class="wrapper">
+    <div class="wrapper flow" data-wrapper-type="inner">
+      <h2>For you</h2>
+      {% set blogList = collections.blog | shuffleFilter(numberOfRecommendation) %}
+      {% set useHeadingThree = true %}
+      <ul class="articles__list grid" role="list">
+        {% include "blog/list.njk" %}
+      </ul>
+    </div>
+  </div>
+</div>

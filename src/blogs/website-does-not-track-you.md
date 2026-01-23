@@ -23,3 +23,7 @@ I have three reasons to add that notice:
 Now, if I do not add that notice, how do you know that I value your privacy? I do not have a good reason to hide my decision to respect your privacy.
 
 If you have a website and care about your visitor's privacy, how do you show that you decide to respect other's privacy? People will not know your good deed if you do not show it.
+
+## Update, 23 January 2026
+
+Wow! This website still does not track you. I prefer it this way.

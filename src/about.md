@@ -11,8 +11,6 @@ copyright:
   year: 2024, 2025, 2026
 ---
 
-# {{ title }}
-
 The articles on this website encourage you to think critically. I invite you to judge whether what I write is right or wrong. Fight against intellectual laziness.
 
 Intellectual laziness is an invisible disease that makes a person let others decide. The person is too lazy to think. In fact, the person constantly decides to let others make decisions. This disease makes the person a slave—either a society’s slave or someone else’s slave.

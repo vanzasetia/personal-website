@@ -5,7 +5,7 @@ layout: layouts/extension.njk
 {#
 MIT License
 
-Copyright (c) 2024 Vanza Setia
+Copyright (c) 2024, 2026 Vanza Setia
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,27 +26,26 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #}
 
-<div class="hero" data-hero-type="blog">
+<div class="title" data-title-type="blog">
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
-      <h1>{{ title | titleCaseFilter }}</h1>
-      <div class="hero__meta cluster">
-        <p>
-          <strong>Published:</strong>
-          {% set publishedDate = page.date %}
-          <time datetime="{{ publishedDate | htmlDateFilter }}"
-            >{{ publishedDate | blogDateFilter }}</time
-          >
-        </p>
-        <div class="flow">
-          <p><strong>Original author:</strong> {{ author.name }}</p>
+      <div class="flow">
+        <h1>{{ title | titleCaseFilter }}</h1>
+        <div class="title__meta cluster">
+          <p>
+            Original author: {{ author.name }},
+            {% set publishedDate = page.date %}
+            <time datetime="{{ publishedDate | htmlDateFilter }}"
+              >{{ publishedDate | blogDateFilter }}</time
+            >
+          </p>
           <p><strong>Commentator:</strong> {{ commentary.name }}</p>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="prose" data-prose-type="blog">
+<div class="prose" data-prose-type="blog" data-prose-body-size="bigger">
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
       <div class="prose__article flow">

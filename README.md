@@ -24,7 +24,7 @@ SOFTWARE.
 
 # Vanza Setia's Website
 
-I develop a website to help others fighting ignorance.
+I help new web developers build great websites on their own without going through tutorial hell and experiencing the blank page
 
 I use Windows Terminal with Command Prompt in Windows 10 to develop the website. The source code works well on that setup. Different setup means you may need to adjust something. (I am neither endorsing Windows Terminal nor Command Prompt nor Windows 10.)
 

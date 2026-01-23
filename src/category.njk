@@ -5,10 +5,16 @@ copyright:
   year: 2024
 ---
 
+<div class="title">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <h1>{{ title }}</h1>
+    </div>
+  </div>
+</div>
 <div class="topics">
   <div class="wrapper">
-    <div class="wrapper flow" data-wrapper-type="inner">
-      <h1>{{ title }}</h1>
+    <div class="wrapper" data-wrapper-type="inner">
       {% set tags = collections.sort %}
       {% include "blog/categories.njk" %}
     </div>

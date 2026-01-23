@@ -9,155 +9,146 @@ copyright:
 
 {% include "header/full.njk" %}
 <main tabindex="-1">
-  <div class="hero">
+  <div class="hero prose" data-prose-align="start">
     <div class="wrapper">
-      <div class="wrapper flow" data-wrapper-type="inner">
-        <h1>I write <em>great</em> articles.</h1>
-        <p class="hero__lede">
-          High-quality, critical, and clear articles from a front-end web
-          developer to make you smarter.
-        </p>
-        <div class="cluster">
-          <a href="/smart-website/" class="button">
-            Smart Website course
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-              focusable="false"
-              fill="currentColor"
-            >
-              <use href="#arrow-up-right"></use>
-            </svg>
-          </a>
-          <a href="/blog/" class="button">
-            Latest articles
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-              focusable="false"
-              fill="currentColor"
-            >
-              <use href="#arrow-up-right"></use>
-            </svg>
-          </a>
+      <div class="wrapper" data-wrapper-type="inner">
+        <div class="flow">
+          <h1>Go <em>again</em></h1>
+          <p class="hero__description prose__article">
+            I help new web developers build great websites on their own without
+            going through tutorial hell and experiencing the blank page
+            syndrome.
+          </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="topics">
+  <div class="magic">
     <div class="wrapper">
-      <div class="wrapper flow" data-wrapper-type="inner">
-        <h2>Topics</h2>
-        {% set tags = collections.sort %}
-        {% include "blog/categories.njk" %}
+      <div class="wrapper" data-wrapper-type="inner">
+        <p><span>One birth, one life, one death</span></p>
       </div>
     </div>
   </div>
-  <div class="articles">
+  <div
+    class="prose"
+    data-prose-heading-two-size="bigger"
+    data-prose-variant="glare"
+  >
     <div class="wrapper">
       <div class="wrapper" data-wrapper-type="inner">
-        <h2>Best articles</h2>
-      </div>
-      {% set blogList = collections.best | blogSliceFilter(-1 * numberOfBestBlogsToShow) %}
-      {% include "blog/list.njk" %}
-    </div>
-  </div>
-  <div class="articles">
-    <div class="wrapper">
-      <div class="wrapper" data-wrapper-type="inner">
-        <h2>Latest</h2>
-      </div>
-      {% set blogList = collections.latest | blogSliceFilter(-1 * numberOfLatestBlogsToShow) %}
-      {% include "blog/list.njk" %}
-      <div class="wrapper" data-wrapper-type="inner">
-        <a href="/blog/" class="button" data-button-size="mega">
-          View all articles
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-            focusable="false"
-            fill="currentColor"
-          >
-            <use href="#arrow-up-right"></use>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="wrapper">
-      <div
-        class="wrapper grid border-block-start-0"
-        data-grid-gap="wide"
-        data-wrapper-type="inner"
-      >
-        <div class="flow">
-          <h2>Discuss with me</h2>
+        <div class="prose__article flow">
+          <h2>Hi, I am Vanza.</h2>
           <p>
-            I love interacting with my readers—not bots or
-            <em>even</em> artificial intelligence (AI). Do not worry if your
-            English is not good. My English is not very good either. Let us have
-            a nice discussion.
+            I teach how to build beautiful and well-functioning UIs using HTML,
+            CSS, and JavaScript with AI assistance. I use AI
+            <strong>only</strong> when it makes my job easier.
           </p>
           <p>
-            Do you want me to write something? I am happy to know that. Tell me
-            exactly your <em>brilliant</em> idea through
-            <strong>{{ site.email }}</strong>.
+            I simplify complex ideas into clear messaging and has comfort using
+            generative AI tools to support—and only to support—creative
+            workflows.
           </p>
-        </div>
-        <div class="flow">
-          <h2>Author</h2>
-          <p>
-            I am a Christian. I develop websites with modern techniques and
-            accessibility in mind. I am a privacy supporter.
-          </p>
-          <p>
-            <a href="/author/" class="button">
-              More about me
+          <div class="cluster">
+            <a
+              href="/smart-website/"
+              class="button"
+              data-button-variant="light"
+            >
+              Smart website course
               <svg
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
                 focusable="false"
-                fill="currentColor"
               >
-                <use href="#arrow-up-right"></use>
+                <g fill="currentColor">
+                  <use href="#arrow-up-right"></use>
+                </g>
               </svg>
             </a>
-          </p>
+            <a href="/blog/" class="button">
+              Latest articles
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <g fill="currentColor">
+                  <use href="#arrow-up-right"></use>
+                </g>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="section" data-border="true">
+  <div class="articles" data-articles-page="home">
     <div class="wrapper">
-      <div class="wrapper flow" data-wrapper-type="inner">
-        <h2><span class="badge">Motivation</span></h2>
-        <blockquote>
-          <p>My people are destroyed for lack of knowledge…</p>
-          <p>—Hosea 4:6, King James Version</p>
-        </blockquote>
+      <div class="wrapper" data-wrapper-type="inner">
+        <div class="sidebar">
+          <div class="flow box">
+            <h2 class="articles__headline">Best articles</h2>
+            <p class="articles__lede">
+              All articles are great but these are the best of the best from me.
+            </p>
+          </div>
+          {% set blogList = collections.best | blogSliceFilter(-1 *
+          numberOfBestBlogsToShow) %}
+          <ul class="articles__list grid" role="list">
+            {% include "blog/list.njk" %}
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-  <div class="section" data-border="true">
+  <div class="articles" data-articles-page="home">
     <div class="wrapper">
-      <div class="wrapper flow" data-wrapper-type="inner">
-        <h2><span class="badge">Comment</span></h2>
-        <p class="text-size-large font-family-sans-serif font-weight-700">
-          What do you think about this home page?
-        </p>
-        <p>
-          My email is
-          <strong>{{ site.email }}</strong>. Don't be shy!
-        </p>
+      <div class="wrapper" data-wrapper-type="inner">
+        <div class="flow box">
+          <h2 class="articles__headline">Latest articles</h2>
+          <p class="articles__lede">
+            I am now interested in teaching normal web development and writing
+            in plain language.
+          </p>
+          <p>
+            <a href="./" class="button" data-button-variant="light"
+              >View all articles</a
+            >
+          </p>
+        </div>
+        {% set blogList = collections.latest | blogSliceFilter(-1 *
+        numberOfLatestBlogsToShow) %}
+        <ol class="articles__list grid" role="list" reversed>
+          {% include "blog/list.njk" %}
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="topics">
+    <div class="wrapper">
+      <div class="wrapper" data-wrapper-type="inner">
+        <div class="sidebar">
+          <h2>Topics</h2>
+          {% set tags = collections.sort %} {% include "blog/categories.njk" %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="motivation prose">
+    <div class="wrapper">
+      <div class="wrapper" data-wrapper-type="inner">
+        <div class="prose__article flow">
+          <h2 class="badge" data-badge-variant="transparent">Motivation</h2>
+          <p>
+            <strong>My people are destroyed for lack of knowledge…</strong>
+          </p>
+          <p>—Hosea 4:6, King James Version</p>
+        </div>
       </div>
     </div>
   </div>

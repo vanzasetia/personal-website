@@ -101,7 +101,7 @@ Why do I call it an unauthorized copy? Because I do not have the permission to s
 
 In English, "free" has two meanings: zero price and free as in freedom. The Indonesian language has "gratis" for zero price and "bebas" for free as in freedom. Indonesian has a unique term for each meaning of "free." One more point for the Indonesian language!
 
-I adopt Richard Stallman's idea of using "free" in the sense of freedom and "gratis" when referring to zero price.
+I occasionally adopt Richard Stallman's idea of using "free" in the sense of freedom and "gratis" when referring to zero price.
 
 ## "Pendapatan pasif" and "passive income"
 
