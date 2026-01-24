@@ -1476,6 +1476,14 @@ a.badge:hover {
   text-decoration-color: var(--color-body-text);
 }
 
+.footer__logo {
+  display: inline-block;
+}
+
+.footer__logo:hover {
+  color: var(--color-primary);
+}
+
 .footer__meta {
   max-width: var(--measure-l);
   font-size: var(--size-step--1);
