@@ -2,12 +2,10 @@
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
       <div class="cluster">
-        <p>
-          Discover how to develop a truly unique personal website!
-        </p>
+        <p>{{ message.description }}</p>
         <div>
-          <a href="/smart-website/" class="button">
-            Check out the course
+          <a href="{{ message.link }}" class="button">
+            {{ message.button }}
             <svg
               width="24"
               height="24"

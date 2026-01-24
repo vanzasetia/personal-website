@@ -1,6 +1,11 @@
 ---
 layout: layouts/extension.njk
 numberOfRecommendation: 2
+banner: false
+message:
+  description: Discover how to develop a truly unique personal website!
+  button: Check out the course
+  link: /smart-website/
 ---
 
 {#
@@ -46,7 +51,9 @@ SOFTWARE.
     </div>
   </div>
 </div>
-{% include "support.njk"%}
+{% if banner and message.description and message.button and message.link %}
+  {% include "banner.njk"%}
+{% endif %}
 <div class="prose" data-prose-type="blog" data-prose-body-size="bigger">
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">
