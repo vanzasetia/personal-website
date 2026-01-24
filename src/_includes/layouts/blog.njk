@@ -1,11 +1,17 @@
 ---
 layout: layouts/extension.njk
 numberOfRecommendation: 2
-banner: false
+banner: true
 message:
   description: Discover how to develop a truly unique personal website!
   button: Check out the course
   link: /smart-website/
+advert: true
+ads:
+  label: New course
+  descriptions: ["Can you build a website on your own? Don't worry if you can't. I am now making a course to help you build your personal website without headache."]
+  link: /smart-website/
+  button: Check out the course
 ---
 
 {#
@@ -76,6 +82,17 @@ SOFTWARE.
     </div>
   </div>
 </div>
+{% if advert %}
+<div class="prose" data-prose-body-size="bigger">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <div class="prose__article flow">
+        {% include "ads.njk"%}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
 <div class="topics" data-topics-type="blog">
   <div class="wrapper">
     <div class="wrapper" data-wrapper-type="inner">

@@ -1,0 +1,40 @@
+<aside class="ads" aria-labelledby="ads-title">
+  <div class="ads__box box flow">
+    <h2
+      class="margin-block-start-0-important font-family-monospace-important font-size-size-step-0-important"
+      id="ads-title"
+    >
+    {% if ads.label %}
+     {{ ads.label }}
+     {% else %}
+     Sponsor message
+    {% endif %}
+    </h2>
+    {% if ads.descriptions %}
+      {% set descriptions = ads.descriptions %}
+      {% for content in descriptions %}
+        {% markdown %}{{ content }}{% endmarkdown %}
+      {% endfor %}
+      {% else %}
+      <p>Where is the description?</p>
+    {% endif %}
+    </ul>
+    {% if ads.link and ads.button %}
+    <a href="{{ ads.link }}" class="button"
+      >
+      {{ ads.button }}
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <g fill="currentColor">
+          <use href="#arrow-up-right"></use>
+        </g>
+      </svg>
+    </a>
+    {% endif %}
+  </div>
+</aside>

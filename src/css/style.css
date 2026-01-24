@@ -1000,6 +1000,32 @@ mark {
   --button-font-size: var(--size-step--1);
 }
 
+.ads__box {
+  --color-focus-ring: var(--color-dark);
+  --box-padding-block: var(--space-l);
+  --box-padding-inline: var(--space-l);
+  --box-border-width: 0;
+  background-color: var(--color-primary-shade);
+  background-image: linear-gradient(
+    90deg,
+    var(--color-primary-shade) 0%,
+    var(--color-primary-gloom) 90%
+  );
+  color: var(--color-dark);
+}
+
+.ads__box .button {
+  border: 0;
+}
+
+.ads h2 {
+  font-family: var(--font-monospace);
+  font-size: var(--size-step-0);
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-block-start: 0;
+}
+
 .badge {
   --badge-background-color: var(--color-body-background);
   --badge-text-color: var(--color-body-text);
@@ -1499,8 +1525,16 @@ section[aria-labelledby="footnotes"] h2 {
   font-weight: 400;
 }
 
-.margin-block-start-0 {
-  margin-block-start: 0;
+.margin-block-start-0-important {
+  margin-block-start: 0 !important;
+}
+
+.font-family-monospace-important {
+  font-family: var(--font-monospace) !important;
+}
+
+.font-size-size-step-0-important {
+  font-size: var(--size-step-0) !important;
 }
 
 .flow-space-3xs {
