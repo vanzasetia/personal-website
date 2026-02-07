@@ -5,6 +5,8 @@ title: Confused people expose themselves
 description: Atheist people, some of them, expose their stupidity. They try to convince people that they are animals. Do not worry. I am convinced.
 date: 2026-02-07
 tags: mind
+copyright:
+  year: 2026
 ---
 
 Atheists are not smart when they talk about their beliefs because they do not believe in anything anyway. They do not have a book. They believe they are animals. Again, they are animals. But they
