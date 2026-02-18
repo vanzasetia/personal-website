@@ -21,6 +21,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+title: Vanza Setia - Articles
 permalink: feed.xml
 eleventyExcludeFromCollections: true
 eleventyImport:
@@ -30,6 +31,5 @@ copyright:
 numberOfLatestBlogsToShow: 5
 ---
 <?xml version="1.0" encoding="utf-8"?>
-{% set title = site.title %}
 {% set blogs = collections.blog | blogSliceFilter(-1 * numberOfLatestBlogsToShow) %}
 {% include "rss.njk" %}

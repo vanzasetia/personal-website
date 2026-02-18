@@ -13,9 +13,7 @@
     <item>
       <title>{{ blog.data.title | titleCaseFilter }}</title>
       <link>{{ absoluteBlogUrl }}</link>
-      {% if blog.data.commentary.name %}
       <dc:creator>{{ blog.data.author.name }}</dc:creator>
-      {% endif %}
       <pubDate>{{ blog.date | dateToRfc822 }}</pubDate>
       <guid isPermaLink="true">{{ absoluteBlogUrl }}</guid>
       <description>{{ blog.content | renderTransforms(blog.data.page, site.url) }}{% if blog.data.author.url %}&lt;p&gt;&lt;a href=&quot;{{ blog.data.author.url }}&quot;&gt;Check it out&lt;/a&gt;.&lt;/p&gt;{% endif %}</description>
