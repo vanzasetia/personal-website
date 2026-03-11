@@ -35,3 +35,9 @@ Here are some key points that I believe and do:
 1. I support freedom of speech. If we all have it, we can *respectfully* express our disagreement honestly without any fear.
 1. I condemn Pope Leo XIV because he [set up a dedicated Muslim prayer room at the Vatican Apostolic Library](https://www.gbnews.com/news/world/vatican-muslim-prayer-room-library). Do you think St. Peter would allow such thing? I agree with [Mother Miriam](https://www.youtube.com/watch?v=rWtk4-1_q18) because she is aligned with the Bible.
 1. I agree when people say, "You can not be a Christian and a Democrat at the same time." You can not be a follower of Christ and a supporter of abortion at the same time. The Bible says many times that [we can not be both a good and a bad tree at the same time](https://www.biblegateway.com/passage/?search=Matthew%207%3A17-20&version=KJV). Mother Miriam says, "*[You can not be Catholic and Democrat. Absolutely not.](https://www.youtube.com/watch?v=rvTv83Ml0Fs)*" Fr. Altman also [agrees on that](https://www.youtube.com/watch?v=3-7eoTN2vNM). All true Christians agree that you can not be a Christian and a Democrat. If you think you are both, you are fooling yourself. Go study what the Bible says and what the Democratic Party says.
+
+You do not need to agree on everything. You can disagree.
+
+Sharing my beliefs here means that you know what kind of person I am in general, and I filter billions of people on the internet to be friends with me.
+
+(If your beliefs are exactly the same as mine, wait, wait! Does that mean you are me?)
