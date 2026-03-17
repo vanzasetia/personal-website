@@ -1,14 +1,15 @@
 ---
 # Copyright (c) Vanza Setia
 # SPDX-License-Identifier: CC-BY-NC-ND-4.0
-layout: layouts/base.njk
-title: Smart Website - Coming Soon
-name: Smart Website
-description: This page will be the table of content of Smart Website course.
+layout: "layouts/base.njk"
+title: Smart Website - Lessons
+description: This page is the table of content of the Smart Website course.
+permalink: "/smart-website/lessons/index.html"
 author:
   name: Vanza Setia
 copyright:
-  year: 2025
+  year: 2025, 2026
+eleventyExcludeFromCollections: true
 ---
 
 {% include "header/course.njk" %}
@@ -16,25 +17,30 @@ copyright:
   <div class="title">
     <div class="wrapper">
       <div class="wrapper" data-wrapper-type="inner">
-        <div class="title__container cluster">
-          <h1>Lessons</h1>
-          <p class="badge">Coming soon</p>
-        </div>
-        <p>
-          <span aria-hidden="true">»</span>
-          <a href="/blog/">Back to read articles</a>
-        </p>
+        <h1>Lessons</h1>
       </div>
     </div>
   </div>
-  <div class="prose" data-prose-type="blog" data-prose-body-size="bigger">
+  <div class="course-contents prose">
     <div class="wrapper">
       <div class="wrapper" data-wrapper-type="inner">
-        <div class="prose__article flow">
-          <p>
-            Sorry. The course is not available yet. It will be available as soon
-            as possible. For now, feel free to <a href="/blog/">explore my articles</a> or <a href="/people/">check out my comments</a> on others' posts. Thank you for your patience!
-          </p>
+        <div class="prose__article flow flow-space-m-l">
+        {% set lessons = collections["smart-website"] | groupby("data.chapter") | dictsort %}
+        {% set index = 1 %}
+        {% for chapter, lessons in lessons %}
+        <h2>{{ chapter | replace( r/([0-9][0-9]\-)/g, "") | titleCaseFilter }}</h2>
+        <ol start="{{ index }}">
+          {% for lesson in lessons %}
+          <li>
+            <a href="{{ lesson.url }}">{{ lesson.data.title | titleCaseFilter }}</a>
+            <p class="course-contents__love">
+              <strong>Free to read</strong>
+            </p>
+          </li>
+          {% set index = index + 1 %}
+          {% endfor %}
+        </ol>
+        {% endfor %}
         </div>
       </div>
     </div>

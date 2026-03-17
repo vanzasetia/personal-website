@@ -29,6 +29,13 @@ SOFTWARE.
   {% set url = site.url + page.url %}
   {% set pageTitle = title + " - Vanza Setia" %}
 {% endif %}
+{% if socialPromo  %}
+  {% set socialPromo = socialPromo %}
+  {% set alt = alt %}
+  {% else %}
+  {% set socialPromo = "/images/social-share.png" %}
+  {% set alt = "Leave good marks. One birth, one life, one death. And ye shall know the truth, and the truth shall make you free. John 8:32. Vanza Setia." %}
+{% endif %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -95,19 +102,19 @@ SOFTWARE.
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       property="og:image"
-      content="{{ site.url }}/images/social-share.png"
+      content="{{ site.url }}{{ socialPromo }}"
     />
     <meta
       name="twitter:image"
-      content="{{ site.url }}/images/social-share.png"
+      content="{{ site.url }}{{ socialPromo }}"
     />
     <meta
       property="og:image:alt"
-      content="Leave good marks. One birth, one life, one death. And ye shall know the truth, and the truth shall make you free. John 8:32. Vanza Setia."
+      content="{{ alt }}"
     />
     <meta
       name="twitter:image:alt"
-      content="Leave good marks. One birth, one life, one death. And ye shall know the truth, and the truth shall make you free. John 8:32. Vanza Set"
+      content="{{ alt }}"
     />
   </head>
   <body>

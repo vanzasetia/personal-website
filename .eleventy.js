@@ -44,6 +44,7 @@ import minifyHTML from "./src/transformers/minify-html.js";
 
 import sort from "./src/collections/sort.js";
 import latest from "./src/collections/latest.js";
+import smartWebsite from "./src/collections/smart-website.js";
 
 export default async function (config) {
   config.addPassthroughCopy("./src/favicons");
@@ -76,6 +77,7 @@ export default async function (config) {
 
   config.addCollection("sort", sort);
   config.addCollection("latest", latest);
+  config.addCollection("smart-website", smartWebsite);
 }
 
 export const config = {

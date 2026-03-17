@@ -191,10 +191,10 @@
   --global-figure-margin: var(--figure-margin, 0);
   --gutter: var(--space-xs);
   --wrapper-max-width: 1350px;
+  font-variant-alternates: styleset(disambiguation);
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-  font-variant-alternates: styleset(disambiguation);
 }
 
 @supports (color: color(display-p3 1 1 1)) {
@@ -980,8 +980,41 @@ mark {
 
 .button__description {
   display: block;
-  margin-block-start: 1em;
-  font-size: var(--size-step-0);
+  margin-block-start: var(--button-description-margin-block-start, 1em);
+  font-size: var(--button-description-font-size, var(--size-step-0));
+}
+
+.button[data-button-variant="lesson-navigation"] {
+  --cluster-justify-content: space-between;
+  --cluster-align-items: center;
+  --cluster-flex-wrap: no-wrap;
+  --button-display: block;
+  --button-padding-block: var(--space-m);
+  --button-padding-inline: var(--space-m);
+  --button-border-width: 1px;
+  --button-border-style: solid;
+  --button-border-color: var(--color-body-text);
+  --button-font-weight: 700;
+  --button-text-transform: normal;
+  --button-border-block-end-width: var(--button-border-width);
+  --button-font-size: var(--size-step-3);
+  --button-description-font-size: var(--button-font-size);
+  --button-description-margin-block-start: 0;
+  --button-hover-background-color: var(--color-dark-shade);
+  --button-hover-text-color: var(--color-light);
+  display: grid;
+  row-gap: var(--space-m-l);
+  width: 100%;
+}
+
+.button[data-button-variant="lesson-navigation"] svg {
+  height: 3ex;
+}
+
+.button[data-button-variant="lesson-navigation"]:hover .badge {
+  --badge-background-color: var(--button-hover-background-color);
+  --badge-text-color: var(--button-hover-text-color);
+  --badge-border-color: var(--button-hover-text-color);
 }
 
 .banner {
@@ -1020,11 +1053,11 @@ mark {
 }
 
 .ads h2 {
+  margin-block-start: 0;
   font-family: var(--font-monospace);
   font-size: var(--size-step-0);
-  text-transform: uppercase;
   font-weight: 400;
-  margin-block-start: 0;
+  text-transform: uppercase;
 }
 
 .badge {

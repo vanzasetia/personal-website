@@ -1,0 +1,57 @@
+---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-NC-ND-4.0
+layout: layouts/base.njk
+---
+
+{% include "header/course.njk" %}
+<main tabindex="-1">
+  <div class="title">
+    <div class="wrapper">
+      <div class="wrapper" data-wrapper-type="inner">
+        <div class="title__container cluster">
+          <h1>{{ title | titleCaseFilter }}</h1>
+          <p class="badge">{{ chapter | replace( r/([0-9][0-9]\-)/g, "") | titleCaseFilter }}</p>
+        </div>
+        <p>
+          <span aria-hidden="true">«</span>
+          <a href="/smart-website/lessons/">Back to table of contents</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="prose" data-prose-type="blog" data-prose-body-size="bigger">
+    <div class="wrapper">
+      <div class="wrapper" data-wrapper-type="inner">
+        <div class="prose__article flow">
+          {{ content | safe }}
+          {% set nextLesson = collections["smart-website"] | getNextCollectionItem(page) %}
+          {% if nextLesson %}<a
+              href="{{ nextLesson.url }}"
+              class="button"
+              data-button-variant="lesson-navigation"
+            >
+              <span><span class="badge">Next lesson</span></span>
+              <span class="cluster">
+                <span class="button__description">
+                  {{ nextLesson.data.title | titleCaseFilter }}
+                </span>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <g fill="currentColor">
+                    <use href="#arrow-up-right"></use>
+                  </g>
+                </svg>
+              </span>
+            </a>
+            {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
