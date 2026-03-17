@@ -38,13 +38,13 @@ export default function (collection) {
       const count = tagsAndPostTotalNumbers.get(tag) || 0;
       tagsAndPostTotalNumbers.set(tag, count + 1);
     };
-    const addTagsAndPostTotalNumbers = (tags) => {
+    const getTagsAndPostTotalNumbers = (tags) => {
       tags
         .filter((tag) => removeExcludedTags(tag))
         .forEach((tag) => countTotalPostForEachTag(tag));
     };
 
-    addTagsAndPostTotalNumbers(tags);
+    getTagsAndPostTotalNumbers(tags);
   });
 
   const tagsSortedByPostCount = [...tagsAndPostTotalNumbers].sort(
