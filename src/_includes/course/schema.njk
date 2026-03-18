@@ -1,0 +1,41 @@
+{% if courseSchema %}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Chapter",
+    "name": "{{ title }}",
+    "inLanguage": "en",
+    "isPartOf": "Smart Website",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Vanza Setia"
+      }
+    ],
+    "contributor": [],
+    "translator": [],
+    "reviewedBy": [],
+    "illustrator": [],
+    "publisher": {
+      "@type": "Person",
+      "name": "Vanza Setia",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": ""
+      }
+    },
+    "datePublished": "2026-03-17",
+    "copyrightYear": "2026",
+    "copyrightHolder": {
+      "@type": "Person",
+      "name": "Vanza Setia"
+    },
+    "license": {
+      "@type": "CreativeWork",
+      "url": "{{ license.url }}",
+      "name": "{{ license.name }}"
+    },
+    "isBasedOn": "URL"
+  }
+</script>
+{% endif %}
