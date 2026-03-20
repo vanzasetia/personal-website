@@ -11,7 +11,8 @@
     "check-links": "check-html-links _site",
     "validate-html": "html-validate ./_site/**/*.html",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint-markdown": "markdownlint-cli2 \"**/*.md\""
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
@@ -30,6 +31,8 @@
     "markdown-it-kbd": "^3.0.0",
     "markdown-it-mark": "^4.0.0",
     "markdown-it-sup": "^2.0.0",
+    "markdownlint": "^0.40.0",
+    "markdownlint-cli2": "^0.21.0",
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
     "title": "^4.0.1"

@@ -32,7 +32,7 @@ Merry Christmas and Happy New Year 2025, everyone!
 
 ## Haiku
 
-```
+```txt
 New year is coming
 Will it be better or worse?
 I am ready, folks!

@@ -11,7 +11,7 @@ copyright:
   year: 2025
 ---
 
->  Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves.
+> Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves.
 >
 > —[Matthew 7:15, King James Version](https://www.biblegateway.com/passage/?search=Matthew%207%3A15&version=KJV)
 

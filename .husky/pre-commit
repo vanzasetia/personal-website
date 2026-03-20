@@ -1,5 +1,6 @@
 npm run clean
 npm run format
+npm run lint-markdown
 npm run build
 npm run check-links
 npm run validate-html

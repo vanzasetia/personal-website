@@ -28,6 +28,7 @@ Some web developers may say, "What if we do both?"
 
 That is redundant. Also, your users are not that stupid to the point you need to tell every detail about the link. They may not even care about your article. **Just tell them the purpose of the link**.
 
+<!-- markdownlint-disable-next-line descriptive-link-text -->
 Another option is to tell them the title of the article. Here is a wonderful and smart example: [Click Here](./).
 
 The end.

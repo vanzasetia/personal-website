@@ -66,9 +66,12 @@ Make sure you wrap your content with the `<main>` element.
 To develop your current design, you can repeat the following two steps:
 
 1. Write content.
-2. Write code.
-  1. Write HTML without any CSS.
-  2. Write CSS and add the necessary `<div>` or `<span>` elements to get the layout that you want.
+1. Write code.
+
+When you are writing code,
+
+1. write HTML without any CSS; and
+1. write CSS and add the necessary `<div>` or `<span>` elements to get the layout that you want.
 
 You want to write content first without thinking about the code. If you write content while you are writing code, you are doing two things at the same time. Doing those will confuse you and overwhelm you.
 

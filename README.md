@@ -66,6 +66,7 @@ You can use any other services to host the source code and the website.
 
 ## Contributing
 
+<!-- markdownlint-disable-next-line reference-links-images -->
 If you want to contribute, please contact me through **[vanzasetia][at]proton[dot]me**.
 
 ## Acknowledgment
