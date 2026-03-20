@@ -105,6 +105,7 @@
   --color-primary-glare: #ffff4d;
   --color-secondary: #55185d;
   --color-secondary-glare: #8f269d;
+  --color-secondary-bright: #ff42ff;
   --color-tertiary: #c80000;
   --color-tertiary-glare: #ff0000;
   --color-dark-shade: #000;
@@ -205,6 +206,7 @@
     --color-primary: color(display-p3 1 1 0);
     --color-secondary: color(display-p3 0.3 0 0.37);
     --color-secondary-glare: color(display-p3 0.5 0 0.61);
+    --color-secondary-bright: color(display-p3 0.95 0.37 1);
     --color-tertiary: color(display-p3 0.69 0.05 0);
     --color-dark: color(display-p3 0.07 0.07 0.07);
     --color-dark-glare: color(display-p3 0.12 0.12 0.12);
@@ -438,6 +440,16 @@ textarea {
 
 small {
   font-size: 0.8em;
+}
+
+em {
+  font-style: italic;
+  color: var(--em-text-color, currentColor);
+}
+
+strong {
+  font-weight: 700;
+  color: var(--strong-text-color, currentColor);
 }
 
 code,
@@ -1168,6 +1180,8 @@ a.badge:hover {
 }
 
 .prose[data-prose-type="blog"] {
+  --strong-text-color: var(--color-accent);
+  --em-text-color: var(--color-secondary-bright);
   margin-block-start: var(--space-m);
   margin-block-end: var(--space-m);
 }
