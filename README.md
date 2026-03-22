@@ -30,7 +30,7 @@ I use Windows Terminal with Command Prompt in Windows 10 to develop the website.
 
 ## Setup
 
-First, install [Node.js](https://nodejs.org/) version 18.18.0 or higher on your machine.
+First, install [Node.js](https://nodejs.org/) version 24.12.0 or higher on your machine.
 
 Second, install all the packages.
 
