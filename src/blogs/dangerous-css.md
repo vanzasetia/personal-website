@@ -142,7 +142,7 @@ Be very careful when you use shorthand properties.
 
 ## Using ID selectors (`#`)
 
-These selectors are super dangerous because they destroy the harmony of your style sheet due to their high specificity. Be ready to use `!important` flag or refactor the selectors.
+These selectors are super dangerous because they destroy the harmony of your stylesheet due to their high specificity. Be ready to use `!important` flag or refactor the selectors.
 
 If you find yourself using ID selectors, you need to [change your mindset](/blog/basic-guide-css-selector/) to choose the right CSS selectors.
 

@@ -29,7 +29,7 @@ Another example is to use the `button[type]` selector to set the default styling
 
 One more example is to use the `img[alt]` selector because each image element must have an `alt` attribute.
 
-By doing those, your style sheet becomes your HTML validator during the development process. The production code does need to include those selectors.
+By doing those, your stylesheet becomes your HTML validator during the development process. The production code does need to include those selectors.
 
 You can use [a11y.css](https://ffoodd.github.io/a11y.css/) or [Heydon's REVENGE.CSS](https://github.com/Heydon/REVENGE.CSS) instead. Both use CSS to check flaws in your HTML code.
 

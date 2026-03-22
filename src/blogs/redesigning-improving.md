@@ -73,7 +73,7 @@ I started writing the HTML markup for each page. First, I wrote the HTML markup 
 
 For the content, it was not "Lorem ipsum" text. I used the content from the priority guide. The English was still broken. I did not care about grammar. All I wanted to get was the visualization of the final product.
 
-I decided to separate the CSS from the HTML. This means all HTML pages would use one external style sheet. I wrote the style sheet badly, with lots of repeated code. At this point, the code quality still did not matter as long as those pages looked good on my browser.
+I decided to separate the CSS from the HTML. This means all HTML pages would use one external stylesheet. I wrote the stylesheet badly, with lots of repeated code. At this point, the code quality still did not matter as long as those pages looked good on my browser.
 
 ## Key takeaways
 

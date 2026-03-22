@@ -67,13 +67,13 @@ A black-and-white theme is also easy to meet the Web Content Accessibility Guide
 
 ## Choosing a CSS reset
 
-The CSS reset that I used was from Piccalilli: [A (more) modern CSS reset](https://piccalil.li/blog/a-more-modern-css-reset/). This CSS reset became the foundation for the style sheet. Then, I changed it to fit with the website's needs.
+The CSS reset that I used was from Piccalilli: [A (more) modern CSS reset](https://piccalil.li/blog/a-more-modern-css-reset/). This CSS reset became the foundation for the stylesheet. Then, I changed it to fit with the website's needs.
 
-## Writing a great style sheet
+## Writing a great stylesheet
 
 I started following the CUBE CSS methodology. When writing CSS, I did not just write CSS. I also wrote HTML by adding necessary `<div>` elements to help me make the layout.
 
-As I was writing the global styling, I saw the website progressively getting better. That was the greatest experience to see this website get better and cooler. I saw the website with just plain HTML and the user-agent style sheet. Then, as I added new global styling, I could feel that I made progress. That was an amazing view.
+As I was writing the global styling, I saw the website progressively getting better. That was the greatest experience to see this website get better and cooler. I saw the website with just plain HTML and the user-agent stylesheet. Then, as I added new global styling, I could feel that I made progress. That was an amazing view.
 
 Then, as I was in the Composition until the Exception in the CUBE CSS, I started going back and forth between HTML and CSS. The CUBE CSS was helping me to write CSS and add only the necessary `<div>` elements. I believe nobody talks about this: **the CUBE CSS** can help you to **write decorative HTML elements**, `<div>` and `<span>`.
 

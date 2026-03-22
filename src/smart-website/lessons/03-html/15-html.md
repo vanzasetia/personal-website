@@ -24,12 +24,12 @@ According to Harry Roberts, an independent Consultant Web Performance Engineer f
 
 1. meta viewport tag (`<meta name="viewport" content="width=device-width, initial-scale=1.0" />`);
 1. title tag;
-1. link tag for the style sheet (`<link rel="stylesheet" href="FILE-PATH">`); and
+1. link tag for the stylesheet (`<link rel="stylesheet" href="FILE-PATH">`); and
 1. Search Engine Optimization (SEO) meta tags.
 
 The complete original list is available on *[Get Your Head Straight - Speaker Deck (slide number 39)](https://speakerdeck.com/csswizardry/get-your-head-straight?slide=39).*
 
-Now, visible elements are all elements with a user-agent style sheet inside the HTML body element.
+Now, visible elements are all elements with a user-agent stylesheet inside the HTML body element.
 
 These are some guidelines about the most-used visible elements:
 

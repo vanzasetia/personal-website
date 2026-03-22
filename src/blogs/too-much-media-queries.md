@@ -13,7 +13,7 @@ No, there is not. You can add as much as possible. You can even decide to develo
 
 The better answer for the question is that **it depends on the context**. For example, if you make a personal website with links and with a simple and straightforward layout and with one theme, you do not need a media query. But when you want to use the empty space on large screen sizes, you may need a media query to make the website responsive. After that, you want your website to adapt to the user's preferences, such as dark/light theme, reduced animations, and more/less contrast. This means you need to be specific and know what you are doing.
 
-Then, you can write your first messy style sheet. Improve your style sheet. Use modern CSS layout techniques like CSS Grid and CSS Flexbox to reduce the use of viewport media queries, for example, `@media screen and (width >= 900px)`. Improve it again until you are satisfied with it.
+Then, you can write your first messy stylesheet. Improve your stylesheet. Use modern CSS layout techniques like CSS Grid and CSS Flexbox to reduce the use of viewport media queries, for example, `@media screen and (width >= 900px)`. Improve it again until you are satisfied with it.
 
 Simply, you can have too many media queries. But to get the exact answer, **your knowledge and the website you develop will determine the ideal number of media queries**.
 

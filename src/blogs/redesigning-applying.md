@@ -33,13 +33,13 @@ After thinking for around 15 minutes or probably less, I came up with the follow
 1. Delete unnecessary things from the existing website.
 1. Update [Eleventy](https://www.11ty.dev/) to the third major version.
 1. Update the metadata.
-1. Disable the style sheet.
+1. Disable the stylesheet.
 1. Replace the old CSS with the new one.
 1. Update the HTML markup with content from the design.
 1. Write some Nunjucks code to generate content from the website.
 1. Separate code with the same HTML structure.
 1. Repeat the last three steps for each page until everything is done.
-1. Enable the style sheet to see the result.
+1. Enable the stylesheet to see the result.
 
 ## Updating from Eleventy v2.0.1 to v3.0.0
 
@@ -60,7 +60,7 @@ Updating metadata was time-consuming, but easy to do.
 
 ## Updating the website with HTML view only
 
-I disabled the style sheet. I was updating the HTML markup without CSS.
+I disabled the stylesheet. I was updating the HTML markup without CSS.
 
 Everything went well at this point. I started updating the HTML from the base layout until each specific page.
 

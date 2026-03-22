@@ -39,7 +39,7 @@ For Heydon's websites, I chose [his personal website](https://heydonworks.com/),
 
 For Andy Bell's websites, I chose [his old personal website](https://archive.hankchizljaw.com/notes/122/), [Build Excellent Websites](https://buildexcellentwebsit.es/), and [Piccalilli](https://piccalil.li/).
 
-From both, I chose the [Every Layout](https://every-layout.dev/) website. I mainly learned from its incredible style sheet.
+From both, I chose the [Every Layout](https://every-layout.dev/) website. I mainly learned from its incredible stylesheet.
 
 Then, I decided to use Piccalilli as my main design reference. I wrote notes as I inspected the Piccalilli website. For example,
 
@@ -76,7 +76,7 @@ Then, I picked all the possible icons that I would use from [IcoMoon](https://ic
 
 ## Making disposable components
 
-I made all possible components that I would use, such as different types of buttons, an inline link, and header navigation. Then, I made each component in an HTML file. I did not use anything fancy to make them. I used an HTML file with an internal style sheet—the style tag (`<style>`) within the HTML head element (`<head>`)—for each component.
+I made all possible components that I would use, such as different types of buttons, an inline link, and header navigation. Then, I made each component in an HTML file. I did not use anything fancy to make them. I used an HTML file with an internal stylesheet—the style tag (`<style>`) within the HTML head element (`<head>`)—for each component.
 
 As I made the components, new ideas for the upcoming articles came to me. Then, I wrote them in a text file. [One of them was to write this.]
 

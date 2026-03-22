@@ -115,9 +115,9 @@ In Chromium-based browser
 If you find it hard to follow, visit the [official documentation](https://developer.chrome.com/docs/devtools/device-mode/).
 :::
 
-## Separating style sheet
+## Separating stylesheet
 
-To destroy the entire idea, the author proposes to separate the style sheet. The example that the author gives is using the `min-width` with the `media` attribute. That proves the CSS mobile-first approach allows us to separate the CSS files. In fact, if the `link` element has already the `media` attribute, you do not need to wrap the code inside the style sheet with `min-width` media queries.
+To destroy the entire idea, the author proposes to separate the stylesheet. The example that the author gives is using the `min-width` with the `media` attribute. That proves the CSS mobile-first approach allows us to separate the CSS files. In fact, if the `link` element has already the `media` attribute, you do not need to wrap the code inside the stylesheet with `min-width` media queries.
 
 Anyway, does this have something to do with the closed media query ranges approach? No, it does not. It is a completely different topic from the CSS mobile-first approach.
 
@@ -129,7 +129,7 @@ Think again! The reality is that nobody wants to follow this approach.
 
 - It adds unnecessary complexity. If you can just simply use `min-width`, why do you need to use both `min-width` and `max-width`?
 - It is not efficient. If you use this approach, that means you need to write two breakpoints for every media query. For example, if you have a breakpoint of `768px`, you need to have `767.98px`.
-- It makes your code base harder to maintain. You have more breakpoint values to track which makes your style sheet harder to maintain in the long run.
+- It makes your code base harder to maintain. You have more breakpoint values to track which makes your stylesheet harder to maintain in the long run.
 
 I would say that this approach has a place, like for text alignment, but it *should* be extremely rare to use—or never. If you find using this approach works, that is a sign of bad and complex web design.
 
