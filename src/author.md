@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC-BY-ND-4.0
 layout: layouts/sub.njk
 title: Author
-description: I am a Christian. I am a web developer, writer, and privacy supporter.
+description: I am a Christian. I am a web developer, copywriter, and privacy supporter.
 eleventyNavigation:
   key: Author
   order: 3
@@ -53,7 +53,7 @@ Then, the admin added a nasty feature to prevent people from copying the text. I
 
 In the end, I decided to stop being a volunteer because the admin does not make accessibility a priority. Also, I do not want to become a part of the people who develop a website that restricts copying text.
 
-## Writer
+## Copywriter
 
 I started writing articles in August 2021. I tried writing in Code Newbie. My first ever publication was about [absolute and relative file paths](https://web.archive.org/web/20211022004113/https://community.codenewbie.org/vanzasetia/relative-vs-absolute-file-paths-4j1n). I also wrote a `README` every time I made [a project from Frontend Mentor](https://github.com/vanzasetia/designo-multi-page-website).
 
