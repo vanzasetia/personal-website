@@ -1480,7 +1480,7 @@ a.badge:hover {
 }
 
 .course-contents ol {
-  font-size: var(--size-step-3);
+  font-size: var(--size-step-2);
 }
 
 .course-contents a:not(:hover) {
@@ -1488,6 +1488,8 @@ a.badge:hover {
 }
 
 .course-contents__love {
+  --cluster-align-items: center;
+  --cluster-column-gap: var(--space-2xs);
   color: var(--color-primary);
   font-size: var(--size-step-0);
 }

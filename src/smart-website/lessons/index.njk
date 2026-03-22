@@ -35,7 +35,20 @@ courseSchema: false
           <li>
             <a href="{{ lesson.url }}">{{ lesson.data.title | titleCaseFilter }}</a>
             <p class="course-contents__love">
-              <strong>Free to read</strong>
+              <strong class="cluster">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <g fill="currentColor">
+                    <use href="#love"></use>
+                  </g>
+                </svg>
+                Free to read
+              </strong>
             </p>
           </li>
           {% set index = index + 1 %}
