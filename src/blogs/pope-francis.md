@@ -27,6 +27,12 @@ If a priest says that being gay or lesbian is not against God, [the priest is sa
 
 Even a pope can be a false teacher. Pope Francis is not a Christian. How do I know that? Let us judge his fruits.
 
+## Thinking with clear context
+
+**I am here only addressing Pope Francis.** No more, no less.
+
+I love Roman Catholic people. But sins are sins, and—*again*—I am here **specifically addressing Pope Francis.**
+
 ## Claiming to be holy
 
 Every human is a sinner. That includes the pope too. Why is there "Holy Father Pope Francis" on the [official Vatican website](https://www.vatican.va/content/francesco/en/events/latest.html)? Only God is holy. The pope should know that.
