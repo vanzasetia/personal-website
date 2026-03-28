@@ -8,7 +8,7 @@ tags:
   - christianity
   - best
 copyright:
-  year: 2025
+  year: 2025, 2026
 ---
 
 Shalom. Peace for those who love Christ and no peace for the wicked ones as the Lord said:

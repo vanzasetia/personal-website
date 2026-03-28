@@ -69,6 +69,10 @@ You can use any other services to host the source code and the website.
 <!-- markdownlint-disable-next-line reference-links-images -->
 If you want to contribute, please contact me through **[vanzasetia][at]proton[dot]me**.
 
+### Join Christian Club
+
+If you are a Christian, please join the [Christian Club](/christian-club/).
+
 ## Acknowledgment
 
 [Eleventy](https://11ty.dev/) is good.
