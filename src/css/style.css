@@ -510,6 +510,11 @@ pre {
   word-wrap: normal;
 }
 
+/* Make plain text easy to read */
+pre:has(code.language-txt) {
+  white-space: pre-line;
+}
+
 pre code {
   padding: 0;
   background: none;
