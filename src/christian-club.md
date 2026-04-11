@@ -6,6 +6,8 @@ title: Christian Club
 description: We are Christians who use the internet to share the truth.
 copyright:
   year: 2026
+socialPromo: "/images/christian-club.png"
+alt: Christian Club. Promote Christianity with your website. A web club by Vanza Setia.
 ---
 
 Congratulations on finding a group of faithful people who use the internet to share the truth.
