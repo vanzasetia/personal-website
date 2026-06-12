@@ -1,0 +1,104 @@
+---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
+layout: layouts/extension.njk
+title: Statistics
+description: This page exists to motivate me and other bloggers to help people by writing more.
+copyright:
+  year: 2026
+---
+
+{% set blogStats = collections.blog | collectionStatsFilter %}
+{% set peopleStats = collections.people | collectionStatsFilter %}
+
+<div class="title">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <h1>{{ title | titleCaseFilter }}</h1>
+    </div>
+  </div>
+</div>
+<div class="statistics">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <ul class="flexible" role="list" data-flexible-type="line">
+        <li class="cluster" data-cluster-center="center">
+          <span class="statistics__number">{{ blogStats.totalItems }} </span>
+          articles
+        </li>
+        <li class="cluster" data-cluster-center="center">
+          <span class="statistics__number">{{ blogStats.totalWords }} </span>
+          words from all articles
+        </li>
+        <li class="cluster" data-cluster-center="center">
+          <span class="statistics__number">{{ peopleStats.totalItems }} </span>
+          comments
+        </li>
+        <li class="cluster" data-cluster-center="center">
+          <span class="statistics__number">{{ peopleStats.totalWords }} </span>
+          words from all comments
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="accomplishments">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <div class="flow flow-space-s-m">
+        <h2 class="badge">Accomplishments</h2>
+        <div class="grid">
+          {% for year in blogStats.byYear | reverse %}
+          <div class="accomplishments__column">
+            <h3>{{ year.year }}</h3>
+            <ul>
+              <li>I wrote <strong>{{ year.totalItems }}</strong> articles.</li>
+              <li>I wrote <strong>{{ year.totalWords }}</strong> words.</li>
+              <li>
+                On average, I wrote <strong>{{ year.avgWords }}</strong> words
+                for each article.
+              </li>
+            </ul>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="prose" data-prose-align="start">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <div class="prose__article flow" data-prose-article-margin-inline="zero">
+        <h2>Records</h2>
+        <ul>
+          <li>
+            The first article is
+            <a href="{{ blogStats.firstItem.url }}"
+              >{{ blogStats.firstItem.data.title | titleCaseFilter }}</a
+            >.
+          </li>
+          <li>
+            The longest article is
+            <a href="{{ blogStats.longestItem.item.url }}"
+              >{{ blogStats.longestItem.item.data.title | titleCaseFilter }}</a
+            >, at {{ blogStats.longestItem.wordCount }} words.
+          </li>
+          <li>
+            The first comment is
+            <a href="{{ peopleStats.firstItem.url }}"
+              >{{ peopleStats.firstItem.data.title | titleCaseFilter }}</a
+            >.
+          </li>
+          <li>
+            The longest comment is
+            <a href="{{ peopleStats.longestItem.item.url }}"
+              >{{ peopleStats.longestItem.item.data.title | titleCaseFilter
+              }}</a
+            >, at {{ peopleStats.longestItem.wordCount }} words.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

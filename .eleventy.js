@@ -25,7 +25,6 @@
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import timeToRead from "eleventy-plugin-time-to-read";
 import { CSSConfig } from "./src/plugins/css.js";
 import eleventyAutoCacheBuster from "eleventy-auto-cache-buster";
 
@@ -38,6 +37,8 @@ import blogSliceFilter from "./src/filters/blog-slice.js";
 import filteredTagFilter from "./src/filters/filtered-tag.js";
 import getKeysFilter from "./src/filters/get-keys.js";
 import shuffleFilter from "./src/filters/shuffle.js";
+import timeToReadFilter from "./src/filters/time-to-read.js";
+import collectionStatsFilter from "./src/filters/collection-stats.js";
 
 import markdown from "./src/shortcodes/markdown.js";
 
@@ -61,7 +62,6 @@ export default async function (config) {
   config.addPlugin(pluginRss);
   config.addPlugin(EleventyHtmlBasePlugin);
   config.addPlugin(eleventyNavigationPlugin);
-  config.addPlugin(timeToRead);
   config.addPlugin(CSSConfig);
   config.addPlugin(eleventyAutoCacheBuster);
 
@@ -74,6 +74,8 @@ export default async function (config) {
   config.addFilter("filteredTagFilter", filteredTagFilter);
   config.addFilter("getKeysFilter", getKeysFilter);
   config.addFilter("shuffleFilter", shuffleFilter);
+  config.addFilter("timeToReadFilter", timeToReadFilter);
+  config.addFilter("collectionStatsFilter", collectionStatsFilter);
 
   config.addPairedShortcode("markdown", markdown);
 

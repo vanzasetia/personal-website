@@ -51,7 +51,14 @@ SOFTWARE.
               >{{ publishedDate | blogDateFilter }}</time
             >
           </p>
-          <p>Estimated reading time: <strong>{{ content | timeToRead("200 words a minute") }}</strong></p>
+          {% set readingTime = content | timeToReadFilter %}
+          <p>Estimated reading time: <strong>{{ readingTime }}
+            {% if readingTime > 1 %}
+              minutes
+            {% else %}
+              minute
+            {% endif %}
+          </strong></p>
         </div>
       </div>
     </div>

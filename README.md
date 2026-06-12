@@ -81,6 +81,6 @@ If you are a Christian, please join the [Christian Club](/christian-club/).
 
 Except where otherwise stated, the blog posts and publications are licensed under a [Creative Commons Attribution NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/). All code samples are licensed under [the MIT No Attribution License (MIT-0)](./LICENSE-SAMPLECODE).
 
-The underlying source code used to format and display all those blog posts and publications is licensed under [the MIT License (Expat License)](./LICENSE).
+The underlying source code used to format and display all those blog posts and publications is licensed under [the MIT License (Expat License)](./LICENSE), unless stated otherwise.
 
 Copyright years on the source files and the license files may be listed using range notation—for example 2021–2024—indicating that every year in the range, inclusive, is a copyrightable year that could otherwise be listed individually.
