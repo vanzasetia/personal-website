@@ -27,6 +27,7 @@ import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import timeToRead from "eleventy-plugin-time-to-read";
 import { CSSConfig } from "./src/plugins/css.js";
+import eleventyAutoCacheBuster from "eleventy-auto-cache-buster";
 
 import markdownLibrary from "./src/libraries/markdown.js";
 
@@ -53,6 +54,8 @@ export default async function (config) {
   config.addPassthroughCopy("./src/images/");
   config.addPassthroughCopy("./src/fonts/");
 
+  config.setServerPassthroughCopyBehavior("passthrough");
+
   config.addWatchTarget("./src/css/style.css");
 
   config.addPlugin(pluginRss);
@@ -60,6 +63,7 @@ export default async function (config) {
   config.addPlugin(eleventyNavigationPlugin);
   config.addPlugin(timeToRead);
   config.addPlugin(CSSConfig);
+  config.addPlugin(eleventyAutoCacheBuster);
 
   config.setLibrary("md", markdownLibrary);
 
@@ -78,6 +82,8 @@ export default async function (config) {
   config.addCollection("sort", sort);
   config.addCollection("latest", latest);
   config.addCollection("smart-website", smartWebsite);
+
+  config.setQuietMode(true);
 }
 
 export const config = {

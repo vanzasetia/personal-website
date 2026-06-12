@@ -65,6 +65,7 @@ SOFTWARE.
     />
     {% include "blog/schema.njk" %}
     {% include "course/schema.njk" %}
+    <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -117,6 +118,7 @@ SOFTWARE.
       name="twitter:image:alt"
       content="{{ alt }}"
     />
+    <meta name="generator" content="{{ eleventy.generator }}" />
   </head>
   <body>
     {{ content | safe }}
