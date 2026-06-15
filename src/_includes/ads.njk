@@ -20,7 +20,9 @@
     {% endif %}
     </ul>
     {% if ads.link and ads.button %}
-    <a href="{{ ads.link }}" class="button"
+    <a href="{{ ads.link }}"
+       class="button"
+       data-button-border="none"
       >
       {{ ads.button }}
       <svg
