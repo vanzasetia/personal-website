@@ -974,7 +974,7 @@ mark {
   top: 3px;
 }
 
-.button[data-button-variant="course-call-to-action"] {
+.button[data-button-variant="call-to-action"] {
   --cluster-justify-content: space-between;
   --cluster-align-items: center;
   --cluster-flex-wrap: no-wrap;
@@ -991,7 +991,7 @@ mark {
   width: 100%;
 }
 
-.button[data-button-variant="course-call-to-action"]:hover svg {
+.button[data-button-variant="call-to-action"]:hover svg {
   transform: rotate(45deg);
 }
 
@@ -1001,7 +1001,7 @@ mark {
   font-size: var(--button-description-font-size, var(--size-step-0));
 }
 
-.button[data-button-variant="lesson-navigation"] {
+.button[data-button-variant="navigation"] {
   --cluster-justify-content: space-between;
   --cluster-align-items: center;
   --cluster-flex-wrap: no-wrap;
@@ -1024,11 +1024,11 @@ mark {
   width: 100%;
 }
 
-.button[data-button-variant="lesson-navigation"] svg {
+.button[data-button-variant="navigation"] svg {
   height: 3ex;
 }
 
-.button[data-button-variant="lesson-navigation"]:hover .badge {
+.button[data-button-variant="navigation"]:hover .badge {
   --badge-background-color: var(--button-hover-background-color);
   --badge-text-color: var(--button-hover-text-color);
   --badge-border-color: var(--button-hover-text-color);
