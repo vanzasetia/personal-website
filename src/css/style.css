@@ -443,13 +443,13 @@ small {
 }
 
 em {
-  font-style: italic;
   color: var(--em-text-color, currentColor);
+  font-style: italic;
 }
 
 strong {
-  font-weight: 700;
   color: var(--strong-text-color, currentColor);
+  font-weight: 700;
 }
 
 code,
@@ -511,6 +511,7 @@ pre {
 }
 
 /* Make plain text easy to read */
+
 pre:has(code.language-txt) {
   white-space: pre-line;
 }
@@ -1060,6 +1061,7 @@ mark {
   --box-padding-block: var(--space-l);
   --box-padding-inline: var(--space-l);
   --box-border-width: 0;
+  --flow-space: var(--space-s);
   background-color: var(--color-primary-shade);
   background-image: linear-gradient(
     90deg,
@@ -1070,11 +1072,17 @@ mark {
 }
 
 .ads h2 {
-  margin-block-start: 0;
-  font-family: var(--font-monospace);
-  font-size: var(--size-step-0);
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.ads[data-ads-type="plain"] .ads__box {
+  --color-selection-background: var(--color-body-background);
+  --color-selection-text: var(--color-body-text);
+  --button-border-color: var(--color-body-background);
+  background-color: var(--color-body-text);
+  background-image: none;
+  color: var(--color-body-background);
 }
 
 .badge {
@@ -1571,6 +1579,52 @@ a.badge:hover {
   --grid-column-gap: var(--space-m-l);
 }
 
+.vl3-archive h1,
+.vl3-capsule h1,
+.vl3-home h1 {
+  font-size: var(--size-step-8);
+}
+
+.vl3-home a strong {
+  color: currentColor;
+}
+
+.vl3-capsule h2 + p {
+  margin-block-start: var(--space-xs);
+}
+
+.vl3-capsule h2 a {
+  text-decoration: underline;
+}
+
+.vl3-medical-kit {
+  --cluster-justify-content: space-between;
+  --cluster-align-items: center;
+}
+
+.vl3-medical-kit a {
+  padding-block: var(--space-2xs);
+  text-decoration-color: transparent;
+}
+
+.vl3-medical-kit a:hover span {
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+}
+
+.vl3-medical-kit li {
+  margin-block: 0;
+}
+
+.vl3-medical-kit li + li {
+  border-block-start: var(--stroke);
+}
+
+.vl3-medical-kit span {
+  font-size: var(--size-step-3);
+  font-weight: 700;
+}
+
 .footer {
   margin-block-start: var(--space-xl);
 }
@@ -1595,6 +1649,13 @@ a.badge:hover {
 .footer__meta {
   max-width: var(--measure-l);
   font-size: var(--size-step--1);
+}
+
+.footer[data-footer-type="vl3"] .wrapper[data-wrapper-type="inner"] {
+  max-width: var(--measure-m);
+  background-color: var(--color-body-background);
+  font-size: 1rem;
+  text-align: center;
 }
 
 section[aria-labelledby="footnotes"] {

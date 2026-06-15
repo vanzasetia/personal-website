@@ -1,0 +1,21 @@
+---
+layout: layouts/vl3.njk
+---
+
+<div class="vl3-capsule prose" data-prose-type="blog">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <div class="prose__article flow">
+        <h1>#{{ title }}</h1>
+        <time datetime="{{ date | htmlDateFilter }}"
+            >{{ date | blogDateFilter }}</time
+          >
+        {{ content | safe }}
+        {% if advert %}
+          <hr />
+          {% include "ads.njk" %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

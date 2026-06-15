@@ -1,0 +1,28 @@
+---
+title: Medical kit
+permalink: /vitamin-l3/medical-kit/index.html
+---
+
+<div class="vl3-medical-kit prose">
+  <div class="wrapper">
+    <div class="wrapper" data-wrapper-type="inner">
+      <div class="prose__article flow">
+        <h1>{{ title | titleCaseFilter }}</h1>
+        <ol role="list" class="vl3-medical-kit__list" reversed>
+          {% set capsules = collections.vl3 %}
+          {% for capsule in capsules | reverse %}
+          {% set publishedDate = capsule.date %}
+          <li>
+            <a href="{{ capsule.url }}" class="cluster"
+              ><span>Capsule #{{ capsule.data.title }}</span>
+              <time datetime="{{ publishedDate | htmlDateFilter }}"
+                >{{ publishedDate | blogDateFilter }}</time
+              ></a
+            >
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>

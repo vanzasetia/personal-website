@@ -1,0 +1,69 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ pageTitle | titleCaseFilter }}</title>
+  <link
+    rel="preload"
+    href="/fonts/atkinson-hyperlegible-next-normal.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="preload"
+    href="/fonts/atkinson-hyperlegible-next-italic.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="/style.css" />
+  <link
+    rel="alternate"
+    href="/feed.xml"
+    type="application/atom+xml"
+    title="{{ site.title }}"
+  />
+  {% include "blog/schema.njk" %}
+  {% include "course/schema.njk" %}
+  <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/favicons/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/favicons/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/favicons/favicon-16x16.png"
+  />
+  <link rel="manifest" href="/manifest.json" />
+  <link
+    rel="mask-icon"
+    href="/favicons/safari-pinned-tab.svg"
+    color="#ffffff"
+  />
+  <meta name="msapplication-TileColor" content="#222222" />
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
+  <meta name="theme-color" content="#222222" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="{{ description }}" />
+  <meta name="url" content="{{ url }}" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:site_name" content="Vanza Setia" />
+  <meta property="og:description" content="{{ description }}" />
+  <meta property="og:url" content="{{ url }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="{{ site.url }}{{ socialPromo }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ socialPromo }}" />
+  <meta property="og:image:alt" content="{{ alt }}" />
+  <meta name="twitter:image:alt" content="{{ alt }}" />
+  <meta name="generator" content="{{ eleventy.generator }}" />
+</head>

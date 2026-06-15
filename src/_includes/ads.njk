@@ -1,4 +1,8 @@
-<aside class="ads" aria-labelledby="ads-title">
+<aside
+    class="ads"
+    aria-labelledby="ads-title"
+    {% if ads.plain %}data-ads-type="plain"{% endif %}
+  >
   <div class="ads__box box flow">
     <h2
       class="margin-block-start-0-important font-family-monospace-important font-size-size-step-0-important"
@@ -22,7 +26,7 @@
     {% if ads.link and ads.button %}
     <a href="{{ ads.link }}"
        class="button"
-       data-button-border="none"
+       {% if ads.plain %}{% else %}data-button-border="none"{% endif %}
       >
       {{ ads.button }}
       <svg
