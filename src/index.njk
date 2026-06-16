@@ -19,42 +19,13 @@ copyright:
             going through tutorial hell and experiencing the blank page
             syndrome.
           </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="magic">
-    <div class="wrapper">
-      <div class="wrapper" data-wrapper-type="inner">
-        <p><span>One birth, one life, one death</span></p>
-      </div>
-    </div>
-  </div>
-  <div
-    class="prose"
-    data-prose-heading-two-size="bigger"
-  >
-    <div class="wrapper">
-      <div class="wrapper" data-wrapper-type="inner">
-        <div class="prose__article flow">
-          <h2>Hi, I am Vanza.</h2>
-          <p>
-            I teach how to build beautiful and well-functioning UIs using HTML,
-            CSS, and JavaScript with AI assistance. I use AI
-            <strong>only</strong> when it makes my job easier.
-          </p>
-          <p>
-            I simplify complex ideas into clear messaging and has comfort using
-            generative AI tools to support—and only to support—creative
-            workflows.
-          </p>
           <div class="cluster">
             <a
               href="/smart-website/"
               class="button"
               data-button-variant="light"
             >
-              Smart website course
+              Smart Website
               <svg
                 width="24"
                 height="24"
@@ -68,7 +39,7 @@ copyright:
               </svg>
             </a>
             <a href="/blog/" class="button">
-              Latest articles
+              View all articles
               <svg
                 width="24"
                 height="24"
@@ -86,22 +57,106 @@ copyright:
       </div>
     </div>
   </div>
-  <div class="articles" data-articles-page="home">
+  <div class="magic">
     <div class="wrapper">
       <div class="wrapper" data-wrapper-type="inner">
-        <div class="sidebar">
-          <div class="flow box">
-            <h2 class="articles__headline">Best articles</h2>
-            <p class="articles__lede">
-              All articles are great but these are the best of the best from me.
-            </p>
-          </div>
-          {% set blogList = collections.best | blogSliceFilter(-1 *
-          numberOfBestBlogsToShow) %}
-          <ul class="articles__list grid" role="list">
-            {% include "blog/list.njk" %}
+        <p><span>One birth, one life, one death</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div class="wrapper">
+      <div class="wrapper" data-wrapper-type="inner">
+        <div class="flow flow-space-m-l">
+          <h2>Who I am</h2>
+          <ul role="list" class="grid">
+            <li class="box">
+              <h3>Speak my mind without being politically correct</h3>
+              <p>
+                I am not afraid of being hated by so many people. In fact, if I
+                hurt your feelings, that is my pleasure. I want to be
+                honest, and I need to pay the price. Think of my writings like
+                this: "Why does this guy write like this?" Wrong is wrong. Let's
+                learn to say things as is!
+              </p>
+            </li>
+            <li class="box">
+              <h3>Accessibility is more important than beauty</h3>
+              <p>
+                Doing better job does not always mean developing spectacular
+                design. I prefer
+                <a href="/blog/redesigning-proving/">simple interfaces</a> over
+                complicated ones. If a website is elegant but people are
+                struggling to use it, it is just garbage.
+              </p>
+            </li>
+            <li class="box">
+              <h3>Write about real problems with real solutions</h3>
+              <p>
+                We want to live in a better world. But the current world is bad.
+                <a href="/blog/personal-websites-suicide-transgender/"
+                  >It has lots of problems</a
+                >. I write about them. I ensure that my articles give solutions.
+              </p>
+            </li>
+            <li class="box">
+              <h3>Christianity is what I believe and what I preach</h3>
+              <p>
+                The content on this website is influenced by Christ's teachings,
+                for sure. I am a <a href="/beliefs/">Christian</a>. While I am
+                still alive, I want to help people with my skills at the maximum
+                level.
+              </p>
+            </li>
           </ul>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="articles" data-articles-page="home" data-articles-type="best">
+    <div class="wrapper">
+      <div class="wrapper" data-wrapper-type="inner">
+        <div class="flow box">
+          <h2 class="articles__headline">Best articles</h2>
+          <p class="articles__lede">
+            Why do you think I am going to be what others want? Or why do you
+            think I am the same as others?
+          </p>
+        </div>
+        {% set blogList = collections.best | blogSliceFilter(-1 *
+        numberOfBestBlogsToShow) %}
+        <ul class="articles__list grid" role="list">
+          {% for blog in blogList | reverse %}
+          <li class="articles__item box cluster">
+            <div class="flow flow-space-2xs">
+              <p>
+                <span class="articles__author"
+                  >{{ blog.data.author.name }}</span
+                >
+                <em>wrote</em>
+              </p>
+              <h3 class="articles__title">
+                <a href="{{ blog.url }}"
+                  >{{ blog.data.title | titleCaseFilter }}</a
+                >
+              </h3>
+              {% set publishedDate = blog.date %}
+              <p>
+                <time datetime="{{ publishedDate | htmlDateFilter }}"
+                  >{{ publishedDate | blogDateFilter }}</time
+                >
+              </p>
+              {% if blog.data.description %} {% markdown %}{{
+              blog.data.description }}{% endmarkdown %} {% endif %}
+            </div>
+            <p>
+              {% set category = blog.data.tags[1] %} {% set tagUrl
+              %}/category/{{ category | slugify }}/{% endset %}
+              <a href="{{ tagUrl }}" class="badge">{{ category }}</a>
+            </p>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
@@ -111,13 +166,24 @@ copyright:
         <div class="flow box">
           <h2 class="articles__headline">Latest articles</h2>
           <p class="articles__lede">
-            I am now interested in teaching normal web development and writing
-            in plain language.
+            I am now interested in web accessibility, writing in plain language,
+            understanding the mind, and static site generators.
           </p>
           <p>
-            <a href="/blog/" class="button" data-button-variant="light"
-              >View all articles</a
-            >
+            <a href="/blog/" class="button" data-button-variant="light">
+              View all articles
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <g fill="currentColor">
+                  <use href="#arrow-up-right"></use>
+                </g>
+              </svg>
+            </a>
           </p>
         </div>
         {% set blogList = collections.latest | blogSliceFilter(-1 *
@@ -138,10 +204,10 @@ copyright:
       </div>
     </div>
   </div>
-  <div class="motivation prose">
+  <div class="motivation">
     <div class="wrapper">
       <div class="wrapper" data-wrapper-type="inner">
-        <div class="prose__article flow">
+        <div class="flow">
           <h2 class="badge" data-badge-variant="transparent">Motivation</h2>
           <p>
             <strong>My people are destroyed for lack of knowledge…</strong>

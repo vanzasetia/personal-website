@@ -1311,7 +1311,7 @@ a.badge:hover {
 
 /* Hero is only for the site's homepage and course's homepage */
 
-.hero {
+.hero[data-hero-page="smart-website"] {
   /* Hero with badge on top of the h1 */
   --cluster-flex-direction: column-reverse;
   --cluster-column-gap: var(--space-3xs-2xs);
@@ -1394,6 +1394,18 @@ a.badge:hover {
   color: var(--color-dark);
 }
 
+.promo h2 {
+  font-size: var(--size-step-6);
+}
+
+.promo h3 {
+  font-size: var(--size-step-2);
+}
+
+.promo h3 + p {
+  max-width: var(--measure-l);
+}
+
 .articles__list :is(h2, h3) + p {
   margin-block-start: var(--space-xs);
 }
@@ -1411,6 +1423,16 @@ a.badge:hover {
 .articles p {
   max-width: var(--measure-l);
   text-wrap: pretty;
+}
+
+.articles[data-articles-type="best"] .wrapper[data-wrapper-type="inner"] {
+  background-color: var(--color-body-background-highlight);
+  color: var(--color-body-text);
+}
+
+.articles[data-articles-type="best"] .articles__author {
+  font-weight: 700;
+  color: var(--color-accent);
 }
 
 .articles[data-articles-page="home"] {
@@ -1453,7 +1475,7 @@ a.badge:hover {
 .motivation strong {
   max-width: var(--measure-m);
   color: var(--color-primary);
-  font-size: var(--size-step-5);
+  font-size: var(--size-step-7);
   font-weight: 700;
   line-height: 1.1;
   text-wrap: balance;
@@ -1693,5 +1715,9 @@ section[aria-labelledby="footnotes"] h2 {
 }
 
 .flow-space-m-l {
+  --flow-space: var(--space-m-l);
+}
+
+.flow-space-xl-2xl {
   --flow-space: var(--space-xl-2xl);
 }
