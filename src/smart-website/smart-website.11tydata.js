@@ -7,5 +7,5 @@ export default {
     year: 2026
   },
   socialPromo: "/images/smart-website.png",
-  alt: "Free course. Smart Website. Play with your website smartly. A course by Vanza Setia."
+  alt: "Free course. Smart Website. Play with your website smartly. A course by Vanza Setia. No boring topic. No coding required. Only real solutions."
 };
