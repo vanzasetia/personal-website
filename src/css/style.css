@@ -146,7 +146,10 @@
   /* Typography */
   --kerning: -0.015em;
   --leading-normal: 1.5;
+  --leading-slim: 1.2;
   --leading-soft: 1.1;
+  --leading-flat: 1;
+  --leading-mini: 0.8;
   --font-serif:
     "Georgia Pro", Georgia, Superclarendon, "Bookman Old Style", "URW Bookman",
     "URW Bookman L", serif;
@@ -289,7 +292,7 @@ h3,
 h4,
 input,
 label {
-  line-height: 1.2;
+  line-height: var(--leading-slim);
 }
 
 html:focus-within {
@@ -311,7 +314,7 @@ body {
   font-family: var(--font-base);
   font-size: var(--size-step-0);
   font-size-adjust: from-font;
-  line-height: 1.5;
+  line-height: var(--leading-normal);
   text-rendering: optimizeSpeed;
 }
 
@@ -322,7 +325,7 @@ h3,
 h4,
 input,
 label {
-  line-height: 1.2;
+  line-height: var(--leading-slim);
 }
 
 button,
@@ -565,7 +568,7 @@ blockquote:not([class]):before {
   opacity: 1;
   font-family: var(--font-serif);
   font-size: var(--size-step-5);
-  line-height: 0.8;
+  line-height: var(--leading-mini);
 }
 
 blockquote:not([class]) > * + * {
@@ -600,7 +603,7 @@ ol {
 
 ul ::marker {
   font-size: 2.2ex;
-  line-height: 1;
+  line-height: var(--leading-flat);
 }
 
 ol ::marker {
@@ -642,7 +645,7 @@ thead th {
   background-color: var(--color-body-background-highlight);
   font-size: var(--step-0);
   font-weight: 700;
-  line-height: 1.5;
+  line-height: var(--leading-normal);
   text-align: left;
   letter-spacing: normal;
 }
@@ -749,7 +752,7 @@ form > * + * {
 label {
   font-size: var(--step-1);
   font-weight: 400;
-  line-height: 1.5;
+  line-height: var(--leading-normal);
   letter-spacing: var(--kerning);
 }
 
@@ -1328,7 +1331,7 @@ a.badge:hover {
 
 .hero h1 {
   font-size: var(--hero-h1-font-size, calc(var(--size-step-10) * 1.25));
-  line-height: var(--hero-h1-line-height, 1);
+  line-height: var(--hero-h1-line-height, var(--leading-flat));
   word-spacing: var(--hero-h1-word-spacing, -0.015ch);
   letter-spacing: var(--hero-h1-letter-spacing, -0.035ch);
 }
@@ -1477,7 +1480,7 @@ a.badge:hover {
   color: var(--color-primary);
   font-size: var(--size-step-7);
   font-weight: 700;
-  line-height: 1.1;
+  line-height: var(--leading-soft);
   text-wrap: balance;
 }
 
