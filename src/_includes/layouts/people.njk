@@ -33,13 +33,15 @@ SOFTWARE.
         <h1>{{ title | titleCaseFilter }}</h1>
         <div class="title__meta cluster">
           <p>
-            Original author: {{ author.name }},
+            Original author: {{ author.name }}
+          </p>
+          <p>
+            <strong>Commentator:</strong> {{ commentary.name }},
             {% set publishedDate = page.date %}
             <time datetime="{{ publishedDate | htmlDateFilter }}"
               >{{ publishedDate | blogDateFilter }}</time
             >
           </p>
-          <p><strong>Commentator:</strong> {{ commentary.name }}</p>
         </div>
       </div>
     </div>
