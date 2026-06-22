@@ -26,7 +26,7 @@ import titleCase from "title";
 
 export default function (title) {
   const exceptions = {
-    special: ["AI", "LLMS"]
+    special: ["AI", "LLMS", "StackOverflow"]
   };
   return titleCase(title, exceptions);
 }
