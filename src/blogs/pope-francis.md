@@ -4,9 +4,7 @@
 title: Pope Francis is not a Christian
 description: Pope Francis is not a holy person. In fact, he has done many evil works. Let us see his fruits together.
 date: 2025-04-12
-tags:
-  - christianity
-  - best
+tags: christianity
 copyright:
   year: 2025, 2026
 ---

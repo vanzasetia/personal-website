@@ -4,9 +4,7 @@
 title: A satanic and gay pastor is a wolf in sheep's clothing
 description: Is LGBTQIA+ biblical?
 date: 2025-04-03
-tags:
-  - christianity
-  - best
+tags: christianity
 copyright:
   year: 2025
 ---

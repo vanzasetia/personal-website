@@ -7,6 +7,7 @@ date: 2026-06-23
 tags:
  - motivation
  - mind
+ - best
 copyright:
   year: 2026
 ---
