@@ -11,4 +11,10 @@ There must be one `<h1>` element on every page of your website. You must not hav
 
 The HTML heading one element (`<h1>`) must exist on every page because it is the most visible title on your page. The `<title>` markup is less visible to users because it is available on the tab of a browser. Also, the text within it is for search engine bots. But the `<h1>`'s text is for your users.
 
-The heading one should act as a title of your page. This means it should not be used for your logo. It should not be used to make the biggest text on a page. If you want to make text big, use CSS instead of the heading elements. It should not be used for anything other than a title.
+The `h1` element should act as the title of your page. This means
+
+- it should not be used for your logo; and
+- it should not be used to make the biggest text on a page; and
+- it should not be used for anything other than a title.
+
+If you want to make text big, use CSS instead of the heading elements.
