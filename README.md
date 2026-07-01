@@ -41,13 +41,13 @@ npm install
 Third, setup Husky to [lint](https://en.wikipedia.org/wiki/Lint_(software)) the code before making a Git commit.
 
 ```bash
-npm prepare
+npm run prepare
 ```
 
 Fourth, run a local host on your machine.
 
 ```bash
-npm start
+npm run start
 ```
 
 ## Deployment
