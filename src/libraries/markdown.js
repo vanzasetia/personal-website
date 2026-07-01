@@ -86,6 +86,12 @@ const rules = {
     if (tokens[idx].meta.subId > 0) refid += `:${tokens[idx].meta.subId}`;
 
     return `<li id="fn${id}" tabindex="-1">`;
+  },
+  table_open: () => {
+    return '<div class="table-wrapper">\n' + "<table>\n";
+  },
+  table_close: () => {
+    return "</div></table>";
   }
 };
 
