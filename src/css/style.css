@@ -379,7 +379,6 @@ h6 {
 a {
   color: currentColor;
   text-decoration-color: var(--color-accent);
-  text-decoration-thickness: 0.3ex;
   text-decoration-skip-ink: auto;
   text-decoration-skip-ink: auto;
   text-underline-offset: 0.2ex;
