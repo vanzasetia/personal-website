@@ -1412,6 +1412,33 @@ a.badge:hover {
   max-width: var(--measure-l);
 }
 
+.tiny-project h2 {
+  font-size: var(--size-step-6);
+}
+
+.tiny-project p {
+  max-width: var(--measure-l);
+}
+
+.tiny-project__lede {
+  font-size: var(--size-step-2);
+  font-style: italic;
+}
+
+.tiny-project__project h3 {
+  font-size: var(--size-step-5);
+}
+
+.tiny-project__project {
+  --box-padding-block: var(--space-l-xl);
+  border: 0;
+  border-block: var(--stroke);
+}
+
+.tiny-project__project + .tiny-project__project {
+  border-block-start: 0;
+}
+
 .articles__list :is(h2, h3) + p {
   margin-block-start: var(--space-xs);
 }
