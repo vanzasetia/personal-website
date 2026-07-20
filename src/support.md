@@ -14,7 +14,7 @@ copyright:
 If you care and find the existence of this website helpful, I ask you to donate.
 
 - [Ko-fi](https://ko-fi.com/vanzasetia)
-- [PayPal](https://www.paypal.com/paypalme/vanzasetia)
+- [PayPal](https://www.paypal.com/paypalme/vanzasetia/5)
 
 We all have time. If you think others need your money more than I do, support me in meaningful ways without donating:
 

@@ -36,7 +36,7 @@ How can those changes help you, a great web developer, to learn web development?
 - I am passionate about web accessibility and writing to make an accessible website with great content. An accessible website makes it easy for people to use your website. It also helps you make money if you monetize your website. Great articles will help people to find a reason (or more) to keep visiting your website. By the way, great content is also a part of making an accessible website. The reason is that we all can make an accessible website, but if people can find a reason to care, nobody will visit your website, which makes your website inaccessible.
 - I hope the variety of colors on this website helps you to keep engaged. If you are not a color blind person, I hope this helps you find what you need on this website more easily. If you are a person with color blindness, don't worry.
 
-I hope, soon, I can monetize this website. I need money just like everybody who lives in reality—it's normal. I am still a college student. I am nobody—no shame at all. If you can [donate](https://www.paypal.com/paypalme/vanzasetia) to me, that would be greatly appreciated.
+I hope, soon, I can monetize this website. I need money just like everybody who lives in reality—it's normal. I am still a college student. I am nobody—no shame at all. If you can [donate](https://www.paypal.com/paypalme/vanzasetia/5) to me, that would be greatly appreciated.
 
 One more thing: if you fail, **go again**. Don't give up.
 

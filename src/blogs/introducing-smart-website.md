@@ -19,7 +19,7 @@ By the way, since this is new to me, you can give me feedback or suggestions. Yo
 
 This course requires a lot of time and effort. But do not worry. **You do not need to pay to access the course**. You do not even need an email address—if you do not have one. As long as you have an internet connection, you can access the course.
 
-You can share the course and tell your friends about this. You can also [donate](https://www.paypal.com/paypalme/vanzasetia) if you want. Your support helps me to keep making great content for you.
+You can share the course and tell your friends about this. You can also [donate](https://www.paypal.com/paypalme/vanzasetia/5) if you want. Your support helps me to keep making great content for you.
 
 I plan to make the course available in **August 2025**. I am working alone. But I try to finish it faster if possible.
 
