@@ -1723,6 +1723,16 @@ section[aria-labelledby="footnotes"] h2 {
   font-weight: 400;
 }
 
+.announcement .wrapper[data-wrapper-type="inner"] {
+  --color-focus-ring: var(--color-dark);
+  --color-accent: var(--color-secondary);
+  --wrapper-inner-padding-block: var(--space-2xs);
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+  text-align: center;
+  font-size: var(--size-step--1);
+}
+
 .margin-block-start-0-important {
   margin-block-start: 0 !important;
 }
