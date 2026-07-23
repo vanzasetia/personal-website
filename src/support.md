@@ -11,7 +11,7 @@ copyright:
   year: 2026
 ---
 
-If you care and find the existence of this website helpful, I ask you to donate.
+If you care and find the existence of this website is helpful, I ask you to donate.
 
 - [Ko-fi](https://ko-fi.com/vanzasetia)
 - [PayPal](https://www.paypal.com/paypalme/vanzasetia/5)
