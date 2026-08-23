@@ -1400,18 +1400,6 @@ a.badge:hover {
   color: var(--color-dark);
 }
 
-.promo h2 {
-  font-size: var(--size-step-6);
-}
-
-.promo h3 {
-  font-size: var(--size-step-2);
-}
-
-.promo h3 + p {
-  max-width: var(--measure-l);
-}
-
 .tiny-project h2 {
   font-size: var(--size-step-6);
 }
