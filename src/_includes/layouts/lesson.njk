@@ -26,10 +26,11 @@ layout: layouts/base.njk
         <div class="prose__article flow">
           {{ content | safe }}
           {% set nextLesson = collections["smart-website"] | getNextCollectionItem(page) %}
-          {% if nextLesson %}<a
+          {% if nextLesson %}
+            <a
               href="{{ nextLesson.url }}"
               class="button"
-              data-button-variant="navigation"
+              data-button-layout-variant="navigation"
             >
               <span><span class="badge">Next lesson</span></span>
               <span class="cluster">
@@ -43,13 +44,11 @@ layout: layouts/base.njk
                   aria-hidden="true"
                   focusable="false"
                 >
-                  <g fill="currentColor">
-                    <use href="#arrow-up-right"></use>
-                  </g>
+                  <use href="#arrow-up-right"></use>
                 </svg>
               </span>
             </a>
-            {% endif %}
+          {% endif %}
         </div>
       </div>
     </div>
