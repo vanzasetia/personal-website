@@ -1847,3 +1847,9 @@ section[aria-labelledby="footnotes"] h2 {
 .flow-space-xl-2xl {
   --flow-space: var(--space-xl-2xl);
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
