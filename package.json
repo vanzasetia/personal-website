@@ -12,7 +12,9 @@
     "validate-html": "html-validate ./_site/**/*.html",
     "format": "prettier --write .",
     "prepare": "husky",
-    "lint-markdown": "markdownlint-cli2 \"**/*.md\""
+    "lint-markdown": "markdownlint-cli2 \"**/*.md\"",
+    "lint-css": "stylelint \"./src/css/style.css\"",
+    "fix-css": "stylelint \"./src/css/style.css\" --fix"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
@@ -36,6 +38,8 @@
     "prettier": "^3.8.4",
     "reading-time": "^1.5.0",
     "rimraf": "^6.0.1",
+    "stylelint": "^17.14.1",
+    "stylelint-config-standard": "^40.0.0",
     "title": "^4.0.1"
   }
 }

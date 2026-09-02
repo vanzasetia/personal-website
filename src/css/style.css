@@ -19,38 +19,54 @@
 
   /* Space 3xs: 4px → 5px */
   --space-3xs: clamp(0.25rem, 0.2292rem + 0.1042vi, 0.3125rem);
+
   /* Space 2xs: 8px → 11px */
   --space-2xs: clamp(0.5rem, 0.4375rem + 0.3125vi, 0.6875rem);
+
   /* Space xs: 12px → 16px */
   --space-xs: clamp(0.75rem, 0.6667rem + 0.4167vi, 1rem);
+
   /* Space s: 16px → 21px */
   --space-s: clamp(1rem, 0.8958rem + 0.5208vi, 1.3125rem);
+
   /* Space m: 24px → 32px */
   --space-m: clamp(1.5rem, 1.3333rem + 0.8333vi, 2rem);
+
   /* Space l: 32px → 42px */
   --space-l: clamp(2rem, 1.7917rem + 1.0417vi, 2.625rem);
+
   /* Space xl: 48px → 63px */
   --space-xl: clamp(3rem, 2.6875rem + 1.5625vi, 3.9375rem);
+
   /* Space 2xl: 64px → 84px */
   --space-2xl: clamp(4rem, 3.5833rem + 2.0833vi, 5.25rem);
+
   /* Space 3xl: 96px → 126px */
   --space-3xl: clamp(6rem, 5.375rem + 3.125vi, 7.875rem);
 
   /* One-up pairs */
+
   /* Space 3xs-2xs: 4px → 11px */
   --space-3xs-2xs: clamp(0.25rem, 0.1042rem + 0.7292vi, 0.6875rem);
+
   /* Space 2xs-xs: 8px → 16px */
   --space-2xs-xs: clamp(0.5rem, 0.3333rem + 0.8333vi, 1rem);
+
   /* Space xs-s: 12px → 21px */
   --space-xs-s: clamp(0.75rem, 0.5625rem + 0.9375vi, 1.3125rem);
+
   /* Space s-m: 16px → 32px */
   --space-s-m: clamp(1rem, 0.6667rem + 1.6667vi, 2rem);
+
   /* Space m-l: 24px → 42px */
   --space-m-l: clamp(1.5rem, 1.125rem + 1.875vi, 2.625rem);
+
   /* Space l-xl: 32px → 63px */
   --space-l-xl: clamp(2rem, 1.3542rem + 3.2292vi, 3.9375rem);
+
   /* Space xl-2xl: 48px → 84px */
   --space-xl-2xl: clamp(3rem, 2.25rem + 3.75vi, 5.25rem);
+
   /* Space 2xl-3xl: 64px → 126px */
   --space-2xl-3xl: clamp(4rem, 2.7083rem + 6.4583vi, 7.875rem);
 
@@ -58,32 +74,45 @@
 
   /* Step -2: 12.642px → 13.44px */
   --size-step--2: clamp(0.7901rem, 0.7735rem + 0.0831vi, 0.84rem);
+
   /* Step -1: 14.2222px → 16.8px */
   --size-step--1: clamp(0.8889rem, 0.8352rem + 0.2685vi, 1.05rem);
+
   /* Step 0: 16px → 21px */
   --size-step-0: clamp(1rem, 0.8958rem + 0.5208vi, 1.3125rem);
+
   /* Step 1: 18px → 26.25px */
   --size-step-1: clamp(1.125rem, 0.9531rem + 0.8594vi, 1.6406rem);
+
   /* Step 2: 20.25px → 32.8125px */
   --size-step-2: clamp(1.2656rem, 1.0039rem + 1.3086vi, 2.0508rem);
+
   /* Step 3: 22.7813px → 41.0156px */
   --size-step-3: clamp(1.4238rem, 1.0439rem + 1.8994vi, 2.5635rem);
+
   /* Step 4: 25.6289px → 51.2695px */
   --size-step-4: clamp(1.6018rem, 1.0676rem + 2.6709vi, 3.2043rem);
+
   /* Step 5: 28.8325px → 64.0869px */
   --size-step-5: clamp(1.802rem, 1.0676rem + 3.6723vi, 4.0054rem);
+
   /* Step 6: 32.4366px → 80.1086px */
   --size-step-6: clamp(2.0273rem, 1.0341rem + 4.9658vi, 5.0068rem);
+
   /* Step 7: 36.4912px → 100.1358px */
   --size-step-7: clamp(2.2807rem, 0.9548rem + 6.6297vi, 6.2585rem);
+
   /* Step 8: 41.0526px → 125.1698px */
   --size-step-8: clamp(2.5658rem, 0.8133rem + 8.7622vi, 7.8231rem);
+
   /* Step 9: 46.1841px → 156.4622px */
   --size-step-9: clamp(2.8865rem, 0.589rem + 11.4873vi, 9.7789rem);
+
   /* Step 10: 51.9571px → 195.5777px */
   --size-step-10: clamp(3.2473rem, 0.2552rem + 14.9605vi, 12.2236rem);
 
   /* Colors */
+
   /*
   NAMING CONVENTION FOR LOCAL COLORS
 
@@ -101,18 +130,18 @@
   --color-primary-dirty: #d9d900;
   --color-primary-gloom: #f2f200;
   --color-primary-shade: #ffff0d;
-  --color-primary: #ffff00;
+  --color-primary: #ff0;
   --color-primary-glare: #ffff4d;
   --color-secondary: #55185d;
   --color-secondary-glare: #8f269d;
   --color-secondary-bright: #ff42ff;
   --color-tertiary: #c80000;
-  --color-tertiary-glare: #ff0000;
+  --color-tertiary-glare: #f00;
   --color-dark-shade: #000;
   --color-dark: #121212;
   --color-dark-glare: #1f1f1f;
   --color-dark-bright: #212121;
-  --color-light: #ffffff;
+  --color-light: #fff;
   --color-light-shade: #565656;
   --color-accent: var(--color-primary);
   --color-body-background: var(--color-dark);
@@ -187,6 +216,7 @@
   --global-offset-focus-ring: 0.2lh;
   --global-style-focus-ring: solid;
   --global-width-focus-ring: 4px;
+
   /* Make sure blockquote's quote has consistent position and spacing */
   --global-blockquote-decor-left: var(--blockquote-decor-left, var(--gutter));
   --global-blockquote-padding: var(--blockquote-padding, var(--gutter));
@@ -195,9 +225,8 @@
   --global-figure-margin: var(--figure-margin, 0);
   --gutter: var(--space-xs);
   --wrapper-max-width: 1350px;
+
   font-variant-alternates: styleset(disambiguation);
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
   text-size-adjust: none;
 }
 
@@ -218,7 +247,7 @@
   }
 }
 
-@media (min-width: 37em) {
+@media (width >= 37em) {
   :root {
     --gutter: var(--space-s);
   }
@@ -257,6 +286,7 @@
   :focus {
     outline: none;
   }
+
   :focus-visible {
     outline-color: var(--color-focus-ring, var(--global-color-focus-ring));
     outline-style: var(--style-focus-ring, var(--global-style-focus-ring));
@@ -319,16 +349,6 @@ body {
 }
 
 button,
-h1,
-h2,
-h3,
-h4,
-input,
-label {
-  line-height: var(--leading-slim);
-}
-
-button,
 input,
 select,
 textarea {
@@ -379,7 +399,6 @@ h6 {
 a {
   color: currentColor;
   text-decoration-color: var(--color-accent);
-  text-decoration-skip-ink: auto;
   text-decoration-skip-ink: auto;
   text-underline-offset: 0.2ex;
 }
@@ -433,14 +452,6 @@ figcaption {
   font-size: var(--size-step--1);
 }
 
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-}
-
 small {
   font-size: 0.8em;
 }
@@ -458,7 +469,6 @@ strong {
 code,
 kbd,
 samp {
-  -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   border-radius: 0;
   background: transparent;
@@ -469,7 +479,7 @@ samp {
   word-spacing: normal;
   hyphens: none;
   tab-size: 2;
-  word-wrap: normal;
+  overflow-wrap: normal;
 }
 
 code {
@@ -489,12 +499,14 @@ kbd {
   padding-block: 0.01em;
   padding-inline: 0.5em;
   font-size: 0.85em;
-  text-box-trim: trim-start cap;
+  text-box-trim: trim-start;
+  text-box-edge: cap alphabetic;
 }
 
 pre {
   --color-selection-background: var(--color-pre-text);
   --color-selection-text: var(--color-pre-background);
+
   display: block;
   overflow-x: auto;
   border-block: 2px dashed var(--color-pre-border-block);
@@ -510,7 +522,7 @@ pre {
   tab-size: 2;
   scrollbar-color: var(--color-pre-scrollbar-background)
     var(--color-pre-scrollbar-scroll);
-  word-wrap: normal;
+  overflow-wrap: normal;
 }
 
 /* Make plain text easy to read */
@@ -560,7 +572,7 @@ blockquote:not([class]) {
   font-style: italic;
 }
 
-blockquote:not([class]):before {
+blockquote:not([class])::before {
   content: "“";
   position: absolute;
   top: 0;
@@ -577,11 +589,6 @@ blockquote:not([class]) > * + * {
 
 :is(ol, ul) {
   margin-block-end: 0;
-}
-
-ul[role="list"],
-ol[role="list"] {
-  list-style: none;
 }
 
 ul {
@@ -738,15 +745,12 @@ form > * + * {
   --color-selection-text: var(--color-input-background);
   --color-focus-ring: var(--color-input-text);
   --offset-focus-ring: -0.2lh;
+
   border: 2px solid var(--color-input-border, var(--global-color-input-border));
   width: 100%;
   padding: var(--space-2xs);
   background: var(--color-input-background);
   color: var(--color-input-text);
-}
-
-:is(input, select)[aria-describedby] + [id] {
-  margin-block-start: var(--space-2xs);
 }
 
 label {
@@ -928,6 +932,7 @@ mark {
   --button-text-color: var(--color-body-text);
   --button-hover-text-color: var(--button-background-color);
   --button-hover-background-color: var(--button-text-color);
+
   position: relative;
   display: var(--button-display, inline-block);
   border-color: var(--button-border-color, var(--color-body-text));
@@ -992,6 +997,7 @@ mark {
   --button-text-transform: normal;
   --button-border-block-end-width: var(--button-border-width);
   --button-font-size: var(--size-step-1);
+
   width: 100%;
 }
 
@@ -1023,6 +1029,7 @@ mark {
   --button-description-margin-block-start: 0;
   --button-hover-background-color: var(--color-dark-shade);
   --button-hover-text-color: var(--color-light);
+
   display: grid;
   row-gap: var(--space-m-l);
   width: 100%;
@@ -1050,6 +1057,7 @@ mark {
   --cluster-justify-content: space-between;
   --cluster-align-items: center;
   --wrapper-inner-padding-block: var(--space-xs);
+
   background-color: var(--banner-box-background-color, var(--color-primary));
   color: var(--banner-box-text-color, var(--color-dark));
 }
@@ -1065,6 +1073,7 @@ mark {
   --box-padding-inline: var(--space-l);
   --box-border-width: 0;
   --flow-space: var(--space-s);
+
   background-color: var(--color-primary-shade);
   background-image: linear-gradient(
     90deg,
@@ -1083,6 +1092,7 @@ mark {
   --color-selection-background: var(--color-body-background);
   --color-selection-text: var(--color-body-text);
   --button-border-color: var(--color-body-background);
+
   background-color: var(--color-body-text);
   background-image: none;
   color: var(--color-body-background);
@@ -1093,6 +1103,7 @@ mark {
   --badge-text-color: var(--color-body-text);
   --badge-hover-background-color: var(--badge-text-color);
   --badge-hover-text-color: var(--badge-background-color);
+
   display: var(--badge-display, inline-flex);
   align-items: var(--badge-align-items, center);
   justify-content: var(--badge-justify-content, center);
@@ -1231,8 +1242,8 @@ a.badge:hover {
 .prose[data-prose-type="blog"] {
   --strong-text-color: var(--color-accent);
   --em-text-color: var(--color-secondary-bright);
-  margin-block-start: var(--space-m);
-  margin-block-end: var(--space-m);
+
+  margin-block: var(--space-m);
 }
 
 .prose[data-prose-type="blog"] h2 {
@@ -1264,6 +1275,7 @@ a.badge:hover {
 
 .prose[data-prose-variant="primary"] .wrapper[data-wrapper-type="inner"] {
   --color-focus-ring: var(--color-dark);
+
   background-color: var(--color-primary-shade);
   background-image: linear-gradient(
     90deg,
@@ -1288,6 +1300,7 @@ a.badge:hover {
 .header ul {
   --cluster-justify-content: center;
   --cluster-align-items: center;
+
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1408,9 +1421,6 @@ a.badge:hover {
     var(--color-dark) 100%
   );
   color: var(--color-body-text);
-}
-
-.title[data-title-type="blog"] .wrapper[data-wrapper-type="inner"] {
   border-block-end: 0;
 }
 
@@ -1453,6 +1463,7 @@ a.badge:hover {
 
 .tiny-project__project {
   --box-padding-block: var(--space-l-xl);
+
   border: 0;
   border-block: var(--stroke);
 }
@@ -1539,6 +1550,7 @@ a.badge:hover {
 .quotes h2 {
   --color-selection-background: var(--color-body-background);
   --color-selection-text: var(--color-body-text);
+
   font-size: var(--size-step-6);
   text-transform: uppercase;
   background-color: var(--color-body-text);
@@ -1585,6 +1597,7 @@ a.badge:hover {
 
 .topics[data-topics-type="blog"] .wrapper[data-wrapper-type="inner"] {
   --wrapper-inner-padding-block: var(--gutter);
+
   border-block: var(--stroke-weight-light) dotted var(--color-light-shade);
 }
 
@@ -1599,6 +1612,7 @@ a.badge:hover {
 .course-contents__love {
   --cluster-align-items: center;
   --cluster-column-gap: var(--space-2xs);
+
   color: var(--color-primary);
   font-size: var(--size-step-0);
 }
@@ -1626,6 +1640,7 @@ a.badge:hover {
   --cluster-justify-content: center;
   --cluster-align-items: center;
   --cluster-row-gap: var(--space-3xl);
+
   text-align: center;
 }
 
@@ -1661,6 +1676,7 @@ a.badge:hover {
   --cluster-flex-direction: column;
   --cluster-column-gap: 0;
   --cluster-row-gap: 0;
+
   text-align: center;
 }
 
@@ -1688,15 +1704,9 @@ a.badge:hover {
   font-size: var(--size-step-2);
 }
 
-.vl3-home .grid {
-  gap: 0;
-  grid-template-columns: max-content 1fr;
-  align-items: stretch;
-}
-
 .vl3-home dd,
 .vl3-home dt {
-  margin-block-start: 0;
+  margin-block: 0;
   padding-block: var(--space-xs);
 }
 
@@ -1705,13 +1715,7 @@ a.badge:hover {
 }
 
 .vl3-home dd {
-  text-align: end;
-  align-content: center;
   font-size: var(--size-step-0);
-}
-
-.vl3-home :is(dd + dt, dd + dt + dd) {
-  border-block-start: var(--stroke);
 }
 
 .vl3-home a strong {
@@ -1766,6 +1770,7 @@ a.badge:hover {
 
 .footer .wrapper[data-wrapper-type="inner"] {
   --flow-space: var(--space-m-l);
+
   background-color: var(--color-body-background-highlight);
 }
 
@@ -1807,6 +1812,7 @@ section[aria-labelledby="footnotes"] h2 {
   --color-focus-ring: var(--color-dark);
   --color-accent: var(--color-secondary);
   --wrapper-inner-padding-block: var(--space-2xs);
+
   background-color: var(--color-primary);
   color: var(--color-dark);
   text-align: center;
