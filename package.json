@@ -14,13 +14,15 @@
     "prepare": "husky",
     "lint-markdown": "markdownlint-cli2 \"**/*.md\"",
     "lint-css": "stylelint \"./src/css/style.css\"",
-    "fix-css": "stylelint \"./src/css/style.css\" --fix"
+    "fix-css": "stylelint \"./src/css/style.css\" --fix",
+    "sort-css": "postcss ./src/css/style.css --use css-declaration-sorter --replace --no-map"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-navigation": "^1.0.4",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
     "check-html-links": "^0.2.4",
+    "css-declaration-sorter": "^7.4.0",
     "eleventy-auto-cache-buster": "^0.9.2",
     "html-minifier": "^4.0.0",
     "html-validate": "^11.5.3",
@@ -35,6 +37,8 @@
     "markdown-it-sup": "^2.0.0",
     "markdownlint": "^0.41.0",
     "markdownlint-cli2": "^0.22.1",
+    "postcss": "^8.5.26",
+    "postcss-cli": "^11.0.1",
     "prettier": "^3.8.4",
     "reading-time": "^1.5.0",
     "rimraf": "^6.0.1",
