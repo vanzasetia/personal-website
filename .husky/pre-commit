@@ -1,7 +1,6 @@
 npm run clean
 npm run format
 npm run lint-markdown
-npm run sort-css
 npm run lint-css
 npm run build
 npm run check-links
