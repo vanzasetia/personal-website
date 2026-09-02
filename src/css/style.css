@@ -1177,7 +1177,7 @@ a.badge:hover {
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
-    minmax(min(var(--grid-columns-min-size, 30rem, 100%)), 1fr)
+    minmax(min(var(--grid-columns-min-size, 30rem), 100%), 1fr)
   );
   row-gap: var(--grid-row-gap, var(--space-s-m));
   column-gap: var(--grid-column-gap, var(--space-s-m));
