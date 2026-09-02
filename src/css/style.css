@@ -1174,6 +1174,39 @@ a.badge:hover {
   justify-content: var(--grid-justify-content, flex-start);
 }
 
+.grid[data-grid-layout="tic-tac-toe"] {
+  --grid-align-items: start;
+  --grid-justify-content: start;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  grid-auto-flow: dense;
+}
+
+.grid[data-grid-layout="tic-tac-toe"] :nth-child(4n + 1) {
+  grid-column: 1;
+}
+
+.grid[data-grid-layout="tic-tac-toe"] :nth-child(4n + 2) {
+  grid-column: 1;
+}
+
+.grid[data-grid-layout="tic-tac-toe"] :nth-child(4n + 3) {
+  grid-column: 2;
+  border-inline-start: var(--stroke);
+  padding-inline-start: var(--gutter);
+}
+
+.grid[data-grid-layout="tic-tac-toe"] :nth-child(4n + 4) {
+  grid-column: 2;
+  border-inline-start: var(--stroke);
+  padding-inline-start: var(--gutter);
+}
+
+.grid[data-grid-layout="tic-tac-toe"] :nth-child(2n + 5) {
+  border-block-start: var(--stroke);
+}
+
 .prose {
   --flow-space: var(--space-m-l);
 }
