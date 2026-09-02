@@ -37,7 +37,7 @@ Delete all code that your website does not use. If you use a CSS framework, do n
 
 Do not use JavaScript. If your website needs JavaScript, make sure it is not completely broken without it.
 
-Write as little CSS as possible. Keep your design as simple as possible. For a personal website, aim for a stylesheet under 20 Kilobytes (KB) uncompressed and non-minified size.
+Write as little CSS as possible. Keep your design as simple as possible. For a personal website, aim for a stylesheet under 50 Kilobytes (KB) compressed and minified size. By the way, this website's stylesheet is [less than 20KB](https://cssstats.com/stats/19d38ecf-5b08-45e3-a106-1165e25b8b42) when minified plus gzipped.
 
 Do not use decorative images. They are the reasons why a website can have a heavy page weight. They are also practically useless.
 
