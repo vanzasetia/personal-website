@@ -301,6 +301,12 @@
   }
 }
 
+[aria-disabled],
+[disabled] {
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
 :is([tabindex="-1"]):focus,
 :is([tabindex="-1"]):focus-visible {
   outline: none;
