@@ -43,7 +43,7 @@ SOFTWARE.
 <html lang="en">
   {% include "head.njk" %}
   <body>
-    <div class="announcement">
+    <aside class="announcement" aria-label="Bookmark permanent URL">
       <div class="wrapper">
         <div class="wrapper" data-wrapper-type="inner">
           <p>
@@ -55,12 +55,12 @@ SOFTWARE.
             >.
           </p>
           <p>
-            This domain, <strong>vanzasetia.xyz</strong>, will expire on 27
-            April 2027.
+            This domain, <strong>vanzasetia.xyz</strong>, will expire on
+            <time datetime="2027-04-27"> 27 April 2027 </time>.
           </p>
         </div>
       </div>
-    </div>
+    </aside>
     {{ content | safe }}
     {% include "svg.njk" %}
   </body>
