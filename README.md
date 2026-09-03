@@ -1,7 +1,7 @@
 <!--
 MIT License
 
-Copyright (c) 2024 Vanza Setia
+Copyright (c) 2024, 2026 Vanza Setia
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,6 +21,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
+
+![Go again. Help new web developers never surrender without drama. I am showing you how I think and do things. By Vanza Setia.](./src/images/social-share.png)
 
 # Vanza Setia's Website
 
