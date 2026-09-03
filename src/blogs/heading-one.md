@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: The HTML heading one is essential
 description: I have a few words about it so that you can be a good front-end web developer at using the element without any confusion.
 date: 2026-02-15

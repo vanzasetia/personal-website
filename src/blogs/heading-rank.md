@@ -1,4 +1,6 @@
 ---
+# Copyright (c) Vanza Setia
+# SPDX-License-Identifier: CC-BY-ND-4.0
 title: Heading rank is not about the level of importance of your content
 description: Heading rank refers to a hierarchy of headings, starting with heading one as the most important and heading six as the least important. But the concept of heading ranks is wrong and stupid.
 date: 2026-02-14
