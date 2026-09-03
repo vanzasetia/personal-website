@@ -28,7 +28,11 @@ SOFTWARE.
 
 I help new web developers build great websites on their own without going through tutorial hell and experiencing the blank page
 
-I use Windows Terminal with Command Prompt in Windows 10 to develop the website. The source code works well on that setup. Different setup means you may need to adjust something. (I am neither endorsing Windows Terminal nor Command Prompt nor Windows 10.)
+In the past, I used Windows Terminal with Command Prompt in Windows 10 to develop the website. The source code worked well with this setup. (I am neither endorsing Windows Terminal nor Command Prompt nor Windows 10.)
+
+Now, I use GNOME Terminal with Bash in Linux Mint 22.3. The source code work well with this setup. (I am neither endorsing GNOME Terminal nor Bash nor Linux Mint.)
+
+Different setup means you may need to adjust something.
 
 ## Setup
 
