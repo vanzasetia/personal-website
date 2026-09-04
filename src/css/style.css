@@ -1642,32 +1642,18 @@ a.badge:hover {
   text-align: center;
 }
 
-.course-sponsor {
-  --cluster-flex-direction: column;
-  --cluster-justify-content: center;
-  --cluster-align-items: center;
-  --cluster-row-gap: var(--space-3xl);
-
-  text-align: center;
+.course-motive h2 {
+  font-size: var(--size-step-1);
+  font-weight: 400;
+  line-height: var(--leading-normal);
 }
 
-.course-sponsor__logo {
-  align-items: center;
-  background-color: var(--color-primary);
-  border-radius: 50%;
-  color: var(--color-dark);
-  display: flex;
-  height: var(--size-step-9);
-  justify-content: center;
-  width: var(--size-step-9);
-}
-
-.course-sponsor__logo svg {
-  height: var(--size-step-6);
-}
-
-.course-sponsor__logo:hover {
-  transform: scale(1.015);
+.course-motive p {
+  font-size: var(--size-step-7);
+  font-weight: 700;
+  line-height: var(--leading-flat);
+  text-transform: capitalize;
+  text-wrap: balance;
 }
 
 .statistics__number {
