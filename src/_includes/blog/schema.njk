@@ -50,7 +50,7 @@ SOFTWARE.
       },
       "headline": "{{ title }}",
       "url": "{{ page.url }}",
-      "datePublished": "{{ page.date | htmlDateFilter }}",
+      "datePublished": "{{ page.date | schemaDateFilter }}",
       "image": {
         "@type": "ImageObject",
         "url": "{{ site.url }}/images/social-share.png",

@@ -33,6 +33,7 @@ import markdownLibrary from "./src/libraries/markdown.js";
 import titleCaseFilter from "./src/filters/title-case.js";
 import blogDateFilter from "./src/filters/blog-date.js";
 import htmlDateFilter from "./src/filters/html-date.js";
+import schemaDateFilter from "./src/filters/schema-date.js";
 import blogSliceFilter from "./src/filters/blog-slice.js";
 import filteredTagFilter from "./src/filters/filtered-tag.js";
 import getKeysFilter from "./src/filters/get-keys.js";
@@ -70,6 +71,7 @@ export default async function (config) {
   config.addFilter("titleCaseFilter", titleCaseFilter);
   config.addFilter("blogDateFilter", blogDateFilter);
   config.addFilter("htmlDateFilter", htmlDateFilter);
+  config.addFilter("schemaDateFilter", schemaDateFilter);
   config.addFilter("blogSliceFilter", blogSliceFilter);
   config.addFilter("filteredTagFilter", filteredTagFilter);
   config.addFilter("getKeysFilter", getKeysFilter);
