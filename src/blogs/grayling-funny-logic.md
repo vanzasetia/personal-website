@@ -25,7 +25,7 @@ I randomly opened a page and found the following:
 
 > For contrary to Augustine's claims, this latter makes God the cause of the evils that people commit.
 >
-> Chapter *Medieval and Renaissance Philosophy*, *The History of Philosophy*, by A. C. Grayling
+> —Chapter *Medieval and Renaissance Philosophy*, *The History of Philosophy*, by A. C. Grayling
 
 I had taken a picture of the page, and I could not write everything here because of copyright. I did not want to get this website taken down because of copyright violation. But I can summarize what he wrote in my own words.
 
@@ -46,6 +46,8 @@ Furthermore, if free will does not exist and God controls everything, including 
 After that, the serpent did not force Adam and Eve to eat the forbidden fruit. The serpent did not force Eve to put that forbidden fruit in her mouth. She had complete control over whether she ate it or rejected the serpent's temptation. In fact, in Grayling's own words, he wrote the following:
 
 > But this view is inconsistent with what Augustine has otherwise to accept: that the serpent persuaded Eve and Eve persuaded Adam to eat the forbidden fruit – which means the cause of their sin lay outside them.
+>
+> —Chapter *Medieval and Renaissance Philosophy*, *The History of Philosophy*, by A. C. Grayling
 
 He clearly wrote the word "persuaded." But he claimed that the cause of their sin was the serpent. He contradicted himself in one sentence. It looks like Grayling has a different definition of the word "persuade" because he may come from a different galaxy. He did not write "force" or "intimidate." He did not use the word "threaten." No. He wrote the word "persuade," and as far as I know, "persuade" means to influence through suggestion or advice.
 
