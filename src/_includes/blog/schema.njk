@@ -49,7 +49,7 @@ SOFTWARE.
         "sameAs": ["https://x.com/VanzaSetia"]
       },
       "headline": "{{ title }}",
-      "url": "{{ page.url }}",
+      "url": "{{ site.url }}{{ page.url }}",
       "datePublished": "{{ page.date | schemaDateFilter }}",
       "image": {
         "@type": "ImageObject",
