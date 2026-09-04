@@ -25,16 +25,41 @@ SOFTWARE.
 {% if blogSchema %}
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
-      "@type": "BlogPosting",
-      "headline": "{{ title }}",
-      "datePublished": "{{ page.date | htmlDateFilter }}",
-      "url": "{{ page.url }}",
-      "description": "{{ description }}",
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "publisher": {
+        "@type": "Person",
+        "name": "{{ author.name }}",
+        "url": "{{ site.url }}/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/favicons/icon-large.jpg/"
+        }
+      },
       "author": {
         "@type": "Person",
-        "name": " {{ author.name }}"
-      }
+        "name": "{{ author.name }}",
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/favicons/icon-144x144.jpg",
+          "width": 144,
+          "height": 144
+        },
+        "url": "{{ site.url }}/author/",
+        "sameAs": ["https://x.com/VanzaSetia"]
+      },
+      "headline": "{{ title }}",
+      "url": "{{ page.url }}",
+      "datePublished": "{{ page.date | htmlDateFilter }}",
+      "image": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/images/social-share.png",
+        "width": 2800,
+        "height": 1466
+      },
+      "keywords": "{{ author.name }}",
+      "description": "{{ description }} \n",
+      "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
     }
   </script>
 {% endif %}
