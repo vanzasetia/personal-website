@@ -26,7 +26,7 @@ import titleCase from "title";
 
 export default function (title) {
   const exceptions = {
-    special: ["AI", "LLMS", "StackOverflow", "SSH", "UEFI"]
+    special: ["AI", "LLMS", "StackOverflow", "SSH", "UEFI", "USB"]
   };
   return titleCase(title, exceptions);
 }
