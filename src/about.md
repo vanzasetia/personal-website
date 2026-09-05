@@ -27,7 +27,8 @@ This website can be beneficial for you if you are interested in the following to
 - web accessibility without gender confusion and racism, such as Black Lives Matter;
 - jokes in web development;
 - programming and computers in general;
-- comments on others' work—I do not care much about the people;
+- artificial intelligence (AI) and large language models (LLMs);
+- [comments](/people/) on others' work—I do not care much about the people;
 - psychology;
 - modern stupidity;
 - politics in general;
