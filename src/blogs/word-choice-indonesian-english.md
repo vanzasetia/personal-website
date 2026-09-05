@@ -6,7 +6,7 @@ description: English and Indonesian have some unique connections. Some Indonesia
 date: 2024-06-16
 tags: language
 copyright:
-  year: 2024
+  year: 2024, 2026
 ---
 
 {{ description }}
@@ -34,30 +34,6 @@ Indonesian government only recognizes two Christianities: Catholicism and Protes
 I heard that some people in the United States also think that "Christian" means a Protestant Christian. Of course, they are wrong.
 
 So, the word "Kristen" is used to mention both a Catholic Christian and a Protestant Christian in Indonesia. In the US, the term "Christian" refers to all people who believe in Jesus.
-
-## "Pemanasan global" and "global warming"
-
-Indonesian people agree that the world is not warmer. It is heating. But, some people who use English do not agree with that. They use the term "global warming" which is telling people that the world is getting warmer as if it is not a big deal.
-
-Unfortunately, that misleading term is also the popular term for Indonesian people when talking about global heating in English. I never heard Indonesian people use the term "global heating." They always use "global warming."
-
-The Indonesian word for "warming" is "penghangatan." The base word for "penghangatan" is "hangat," which is the same as "warm" in English. According to the dictionary, "warm" means that something is a bit hot. Just a bit.
-
-The world is not getting a bit warmer. It is getting really hot. That is why I use "pemanasan global" in the Indonesian language and "global heating" in English. Both terms tell the world is heating, and it is dangerous.
-
-As a side note, in this case, the Indonesian language coins the correct term when referring to the global heating phenomenon. One point for the Indonesian language!
-
-## "Perubahan iklim" and "climate change"
-
-The term "perubahan iklim" has the same meaning as the term "climate change." Both refer to the global heating phenomenon. But they do not recognize the phenomenon as a bad thing.
-
-> The only constant is change.
-
-That quote can justify that climate change is normal. Everything keeps changing.
-
-I agree that the climate change itself is normal. But, when it refers to global heating, the effect is not normal. The effect is really bad.
-
-As a result, I do not use "perubahan iklim" in Indonesian and "climate change" in English when referring to global heating. I use the term "climate crisis" in English and "krisis iklim" in Indonesian.
 
 ## "Hak cipta" and "copyright"
 
