@@ -11,7 +11,7 @@ copyright:
   year: 2024, 2025, 2026
 ---
 
-I am a Christian. I am a web developer, writer, and privacy supporter.
+{{ description }}
 
 ## Web developer
 
@@ -43,19 +43,9 @@ In January 2026, I decided to continue running this website and to make it bette
 
 Here I am now. I am developing this website and writing articles about many exciting topics, including modern web development.
 
-## Volunteer
-
-In December 2023, I became a volunteer to fix accessibility issues on a diocese’s website. I managed to fix minor issues on that website. (By the way, the website uses WordPress, and WordPress was something new to me.)
-
-I could not fix the major issues, such as removing the carousel on that website. I asked the admin of that website to switch to a better alternative. I proposed the idea of using a three-column grid layout. But, the admin replied that if the admin could not inject the data as conveniently as using a carousel, then the admin would not accept it. At last, I could not remove the carousel because I could not convince the admin to care about web accessibility.
-
-Then, the admin added a nasty feature to prevent people from copying the text. I complained to the admin to remove it. It increases the size of the website. It also removes one of the default features that all browsers have. But the admin said that the feature was added because a nun asked the admin to prevent plagiarism. But that reason was not a good reason to justify the feature. It restricts people from exercising one of the basic features that all browsers offer, so it is bad.
-
-In the end, I decided to stop being a volunteer because the admin does not make accessibility a priority. Also, I do not want to become a part of the people who develop a website that restricts copying text.
-
 ## Copywriter
 
-I started writing articles in August 2021. I tried writing in Code Newbie. My first ever publication was about [absolute and relative file paths](https://web.archive.org/web/20211022004113/https://community.codenewbie.org/vanzasetia/relative-vs-absolute-file-paths-4j1n). I also wrote a `README` every time I made [a project from Frontend Mentor](https://github.com/vanzasetia/designo-multi-page-website).
+I started writing articles in August 2021 in Code Newbie. I also wrote a `README` every time I made [a project from Frontend Mentor](https://github.com/vanzasetia/designo-multi-page-website).
 
 Although I did not get any comments, I found writing to be fun and interesting. I could help others through my articles. I realized that my writing and reading abilities are valuable.
 
