@@ -11,13 +11,9 @@ copyright:
   year: 2026
 ---
 
-## Knowing how to respond to people
-
-In religious discussion or even debate, we need to understand what the other group of people believes in. For example, if you talk to Hindus and you are a Christian, you do not convince Hindu people that Christianity is right. Instead, you prove to them that Hinduism is bad or evil because people do not move or change if their current position is right. If a Christian says that Christianity is right, well, Hindus may think like this: "Okay. You believe that what you believe is right. So do we." Nobody is wrong. But if a Christian says that Hinduism is evil to women because [its teachings tell them to burn a woman alive when her husband dies](https://www.bbc.com/news/articles/cn8ykmn2p1go), the kind and smart people who claim to be Hindu will start feeling uncomfortable. They believe that Hinduism is good. But it turns out that Hinduism kills innocent women just because their husbands are dead.
-
 ## Understanding Grayling's logic
 
-Now, I do not know the religion of A. C. Grayling. But I assume that he is an [atheist](/blog/confused-people/).
+In religious discussion or even debate, we need to understand what the other group of people believes in. I do not know the religion of A. C. Grayling. But I assume that he is an [atheist](/blog/confused-people/).
 
 I do not know him at all. I never met him. I just found his book in a public library several days ago. It is *The History of Philosophy*. The book is very thick. "This guy must be smart," I thought.
 
