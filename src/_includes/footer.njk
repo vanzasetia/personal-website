@@ -28,14 +28,10 @@ SOFTWARE.
       <div class="flow">
         <ul class="cluster" role="list">
           <li>
-            <a href="/stats/">
-              Statistics
-            </a>
+            <a href="/stats/"> Statistics </a>
           </li>
           <li>
-            <a href="/ai-policy/">
-              AI policy
-            </a>
+            <a href="/ai-policy/"> AI policy </a>
           </li>
           <li>
             <a href="https://github.com/vanzasetia">
@@ -51,7 +47,9 @@ SOFTWARE.
             <a href="https://x.com/VanzaSetia">Follow me on X</a>
           </li>
           <li>
-            <a href="https://linkedin.com/in/vanzasetia">Connect with me on LinkedIn</a>
+            <a href="https://linkedin.com/in/vanzasetia"
+              >Connect with me on LinkedIn</a
+            >
           </li>
           <li>
             <a href="mailto:{{ site.email }}">Send your comments to my email</a>
@@ -88,10 +86,11 @@ SOFTWARE.
           site.copyright.holder }}.
         </p>
         <p class="footer__meta margin-block-start-0-important">
-          This page is licensed under <a href="{{ license.url or site.license.url }}"
+          This page is licensed under
+          <a href="{{ license.url or site.license.url }}" rel="license"
             >{{ license.name or site.license.name }}</a
-          >. All code samples are
-          licensed under the <a href="{{ site.repository }}blob/main/LICENSE-SAMPLECODE"
+          >. All code samples are licensed under the
+          <a href="{{ site.repository }}blob/main/LICENSE-SAMPLECODE"
             >MIT No Attribution License (MIT-0)</a
           >.
         </p>
