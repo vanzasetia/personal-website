@@ -140,7 +140,7 @@ SOFTWARE.
   <div class="wrapper">
     <div class="wrapper flow" data-wrapper-type="inner">
       <h2>For you</h2>
-      {% set blogList = collections.blog | shuffleFilter(numberOfRecommendation) %}
+      {% set blogList = collections.blog | shuffleFilter(page, numberOfRecommendation) %}
       {% set useHeadingThree = true %}
       <ul class="articles__list grid" role="list">
         {% include "blog/list.njk" %}

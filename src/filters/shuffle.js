@@ -3,6 +3,7 @@
  * MIT License
  *
  * Copyright (c) 2019–2025 Zach Leatherman
+ * Copyright (c) 2026 Vanza Setia
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -33,22 +34,18 @@ const randomizeArray = (arr) => {
 };
 
 // Thanks to https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
-export default function (arr, sliceNum) {
-  if (Array.isArray(arr)) {
-    if (!sliceNum) {
-      return randomizeArray(arr);
+export default function (collection, currentArticle, limitation) {
+  if (Array.isArray(collection)) {
+    // Prevent recommending the article that readers
+    // are currently on.
+    const filteredCollection = collection.filter(
+      (article) => article.url !== currentArticle.url
+    );
+
+    if (!limitation) {
+      return randomizeArray(filteredCollection);
     }
-    return randomizeArray(arr).slice(0, sliceNum);
-  }
 
-  let keys = randomizeArray(Object.keys(arr));
-  if (sliceNum) {
-    keys = keys.slice(0, sliceNum);
+    return randomizeArray(filteredCollection).slice(0, limitation);
   }
-
-  let a = {};
-  for (let key of keys) {
-    a[key] = arr[key];
-  }
-  return a;
 }
