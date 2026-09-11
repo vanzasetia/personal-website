@@ -39,4 +39,3 @@ This website has some invisible features that you can not find on your favorite 
 
 - This website does not track you.
 - This website does not waste your cellular data.
-- This website does not use JavaScript.
