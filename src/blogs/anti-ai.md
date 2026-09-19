@@ -23,7 +23,7 @@ Should we say that a knife is evil because people can kill others with it? Shoul
 
 Imagine Chinese people saying that artificial intelligence's development must be stopped or slowed down. Imagine Russians going on the street and protesting about AI. We can only find those people in Europe and in America. For sure, not all Europeans and Americans oppose AI. But why do *some* Europeans or Americans hate AI?
 
-In the past, we imagined tools that could help us write code. Now those tools exist. Artificial intelligence helps us write code. At least, for now, it can help us do something redundant, such as setting up boilerplate, converting HTML to Markdown, writing and formatting Markdown table syntax, and other repetitive work.
+In the past, we imagined tools that could help us write code. Now those tools exist. Artificial intelligence helps us write code. At least, for now, it can help us do something boring, such as setting up boilerplate, converting HTML to Markdown, writing and formatting Markdown table syntax, and other repetitive work.
 
 More importantly, we should not only see the negative effects of artificial intelligence. There are great things too. Artificial intelligence helps a lot in the military. In the future, we will not have humans fight on the battlefield. Instead, we will have robots controlled by humans. Already, we have drones. Any country that refuses to use AI in the military will lose against those who use AI. If the Western countries do not develop AI, they will lose against China. They will lose against Russia.
 
@@ -31,7 +31,7 @@ I am not saying that we should go to war with AI. I am arguing that the safety o
 
 Anyway, just like any other technology, they always come with pros and cons. They can also be useful if we use them wisely and can be dangerous if we use them to harm others.
 
-Now, stupid people believe that AI will kill us all. This is harmful and stupid because it potentially causes AI development to slow down. If you think critically, who is going to lose if AI development slows down? The answer is any stupid leaders who believe such garbage.
+Now, stupid people believe that [AI will kill us all](https://www.youtube.com/watch?v=cFOgef5x_ag). This is harmful and stupid because it potentially causes AI development to slow down. If you think critically, who is going to lose if AI development slows down? The answer is any stupid leaders who believe such garbage.
 
 Before, people wanted to have intelligent tools, and now that they exist, people argue that their existence is evil. Silly!
 
