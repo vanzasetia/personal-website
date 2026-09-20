@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC-BY-ND-4.0
 layout: layouts/sub.njk
 title: Beliefs
-description: I want good people to be my friends. I do not want stupid people. Thus, I need to make my stance clear on the issues available on this earth.
+description: I have seen so many people promoting silly statements, such as "trans rights are human rights." They proudly announce their strange pronouns. Why don't I find Christians fighting against those madness? Rebuke them!
 eleventyNavigation:
   key: Beliefs
   order: 5
@@ -39,5 +39,3 @@ Here are some key points that I believe and do:
 You do not need to agree on everything. You can disagree.
 
 Sharing my beliefs here means that you know what kind of person I am in general, and I filter billions of people on the internet to be friends with me.
-
-(If your beliefs are exactly the same as mine, wait, wait! Does that mean you are me?)
